@@ -1,1 +1,9 @@
 cache
+error_log
+config.php
+config_override.php
+install.log
+install/
+suitecrm.log
+.htaccess
+.gitignore
