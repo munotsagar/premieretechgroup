@@ -72,6 +72,11 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL6' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
       ),
       'syncDetailEditViews' => true,
     ),
@@ -472,6 +477,19 @@ array (
           array (
             'name' => 'ccid5_c',
             'label' => 'LBL_CCID5',
+          ),
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel6' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'rating',
+            'comment' => 'An arbitrary rating for this company for use in comparisons with others',
+            'label' => 'LBL_RATING',
           ),
           1 => '',
         ),

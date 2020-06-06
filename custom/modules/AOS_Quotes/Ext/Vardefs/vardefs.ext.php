@@ -20,6 +20,12 @@ $dictionary['AOS_Quotes']['fields']['other_services_c']['labelValue']='Other Ser
 
  
 
+ // created: 2020-06-06 15:50:40
+$dictionary['AOS_Quotes']['fields']['manager_status_c']['inline_edit']='1';
+$dictionary['AOS_Quotes']['fields']['manager_status_c']['labelValue']='Manager Status';
+
+ 
+
  // created: 2020-05-25 19:32:23
 $dictionary['AOS_Quotes']['fields']['international_c']['inline_edit']='1';
 $dictionary['AOS_Quotes']['fields']['international_c']['labelValue']='International';
@@ -38,11 +44,23 @@ $dictionary['AOS_Quotes']['fields']['services_products_c']['labelValue']='Servic
 
  
 
+ // created: 2020-06-06 15:48:06
+$dictionary['AOS_Quotes']['fields']['vendor_status_c']['inline_edit']='1';
+$dictionary['AOS_Quotes']['fields']['vendor_status_c']['labelValue']='Vendor Status';
+
+ 
+
  // created: 2020-06-05 05:59:03
 $dictionary['AOS_Quotes']['fields']['expiration']['display_default']='';
 $dictionary['AOS_Quotes']['fields']['expiration']['required']=false;
 $dictionary['AOS_Quotes']['fields']['expiration']['inline_edit']=true;
 $dictionary['AOS_Quotes']['fields']['expiration']['merge_filter']='disabled';
+
+ 
+
+ // created: 2020-06-06 13:30:32
+$dictionary['AOS_Quotes']['fields']['employee_status_c']['inline_edit']='1';
+$dictionary['AOS_Quotes']['fields']['employee_status_c']['labelValue']='Employee Status';
 
  
 
@@ -109,6 +127,12 @@ $dictionary['AOS_Quotes']['fields']['name']['duplicate_merge']='disabled';
 $dictionary['AOS_Quotes']['fields']['name']['duplicate_merge_dom_value']='0';
 $dictionary['AOS_Quotes']['fields']['name']['merge_filter']='disabled';
 $dictionary['AOS_Quotes']['fields']['name']['unified_search']=false;
+
+ 
+
+ // created: 2020-06-06 16:07:55
+$dictionary['AOS_Quotes']['fields']['attachment_c']['inline_edit']='1';
+$dictionary['AOS_Quotes']['fields']['attachment_c']['labelValue']='Attachment';
 
  
 

@@ -1,5 +1,6 @@
-<?php 
-$GLOBALS["tabStructure"] =array (
+<?php
+// created: 2020-06-06 18:23:59
+$GLOBALS['tabStructure'] = array (
   'LBL_TABGROUP_SALES' => 
   array (
     'label' => 'LBL_TABGROUP_SALES',
@@ -8,11 +9,9 @@ $GLOBALS["tabStructure"] =array (
       0 => 'Home',
       1 => 'Accounts',
       2 => 'Contacts',
-      3 => 'Opportunities',
-      4 => 'Leads',
-      5 => 'Contracts',
-      6 => 'Quotes',
-      7 => 'Forecasts',
+      3 => 'AOS_Quotes',
+      4 => 'Opportunities',
+      5 => 'Leads',
     ),
   ),
   'LBL_TABGROUP_MARKETING' => 

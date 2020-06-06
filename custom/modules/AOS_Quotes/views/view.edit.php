@@ -64,19 +64,95 @@ class AOS_QuotesViewEdit extends ViewEdit
         //print_r($services_products_c);
         if($serviceCnt > 0) {
             $i = 0;
+            $checkboxes.= '<div style="display:none;" id = "serviceCheckboxes">';
             foreach ($servicesDropDown as $key => $value) {
+                $serviceId = str_replace(" ", "_", $value);
                 $checked = ($services_products_c[$i] == $key)?'checked="cheched"':'';
-               $checkboxes.= '<label><input '.$checked.' type="checkbox" name="services_products_c[]" id = "services_products_c" value="'.$key.'"> '.$value.'</label><br><br>';
+               $checkboxes.= '<input '.$checked.' type="checkbox" name="services_products_c[]" id = "'.$serviceId.'" value="'.$key.'"> '.$value.'<br><br>';
 
                $i++;
             }
+            $checkboxes.= '</div>';
         }
+        echo $checkboxes;
 ?>
 
 <script type="text/javascript">
 	$(document).ready(function(){
+        $("#voice_services_c").parent().parent().next().hide();
+        $("#voice_services_c").parent().parent().hide();
+
+        $("#local_services_c").parent().parent().next().hide();
+        $("#local_services_c").parent().parent().hide();
+
+        $("#data_services_c").parent().parent().next().hide();
+        $("#data_services_c").parent().parent().hide();
+        
+        $("#cloud_services_c").parent().parent().next().hide();
+        $("#cloud_services_c").parent().parent().hide();
+        
+        $("#other_services_c").parent().parent().next().hide();
+        $("#other_services_c").parent().parent().hide();
+
         $("div[field='services_products_c'] > #services_products_c").remove();
-		$("div[field='services_products_c']").append('<?php echo $checkboxes;?>');
+		$("div[field='services_products_c']").append($("#serviceCheckboxes").html());
+
+        $( document ).on("click", "#Voice_Services", function(){
+            $("#voice_services_c").parent().parent().next().hide();
+            $("#voice_services_c").parent().parent().hide();
+            if($(this).prop('checked'))
+            {
+                $("#voice_services_c").parent().parent().next().show();
+                $("#voice_services_c").parent().parent().show();
+            }
+
+        });
+
+        $( document ).on("click", "#Local_Services", function(){
+            $("#local_services_c").parent().parent().next().hide();
+            $("#local_services_c").parent().parent().hide();
+            if($(this).prop('checked'))
+            {
+                $("#local_services_c").parent().parent().next().show();
+                $("#local_services_c").parent().parent().show();
+            }
+
+        });
+
+        $( document ).on("click", "#Data_Services", function(){
+            $("#data_services_c").parent().parent().next().hide();
+            $("#data_services_c").parent().parent().hide();
+            if($(this).prop('checked'))
+            {
+                $("#data_services_c").parent().parent().next().show();
+                $("#data_services_c").parent().parent().show();
+            }
+
+        });
+
+        $( document ).on("click", "#Cloud_Services", function(){
+            $("#cloud_services_c").parent().parent().next().hide();
+            $("#cloud_services_c").parent().parent().hide();
+            if($(this).prop('checked'))
+            {
+                $("#cloud_services_c").parent().parent().next().show();
+                $("#cloud_services_c").parent().parent().show();
+            }
+
+        });
+
+        $( document ).on("click", "#Other_Services", function(){
+            $("#other_services_c").parent().parent().next().hide();
+            $("#other_services_c").parent().parent().hide();
+            if($(this).prop('checked'))
+            {
+                $("#other_services_c").parent().parent().next().show();
+                $("#other_services_c").parent().parent().show();
+            }
+
+        });
+
+
 	});
 </script>
 

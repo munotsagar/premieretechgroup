@@ -1,5 +1,5 @@
 <?php
-// created: 2020-06-05 05:59:03
+// created: 2020-06-06 16:07:55
 $mod_strings = array (
   'LBL_QUICK_QUOTING' => 'Quick Quoting',
   'LBL_INTERNATIONAL' => 'International',
@@ -25,4 +25,9 @@ $mod_strings = array (
   'LBL_OTHER_SERVICES' => 'Other Services',
   'LBL_STAGE' => 'Quote Stage',
   'LBL_EXPIRATION' => 'Valid Until',
+  'LBL_VENDOR_STATUS' => 'Vendor Status',
+  'LBL_EMPLOYEE_STATUS' => 'Employee Status',
+  'LBL_MANAGER_STATUS' => 'Manager Status',
+  'LBL_EDITVIEW_PANEL4' => 'Status',
+  'LBL_ATTACHMENT' => 'Attachment',
 );

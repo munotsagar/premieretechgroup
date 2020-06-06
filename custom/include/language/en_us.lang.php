@@ -312,3 +312,19 @@ $GLOBALS['app_list_strings']['requires_approval_list']=array (
   'WinSCP' => 'WinSCP',
   'WinZip' => 'WinZip',
 );
+$GLOBALS['app_list_strings']['vendor_status_list']=array (
+  'Processing' => 'Processing',
+  'Submitted' => 'Submitted',
+  'Rejected' => 'Rejected',
+  'Accepted' => 'Accepted',
+);
+$GLOBALS['app_list_strings']['employee_status_list']=array (
+  'Accepted' => 'Accepted',
+  'Rejected' => 'Rejected',
+  'Processing' => 'Processing',
+);
+$GLOBALS['app_list_strings']['manager_status_list']=array (
+  'Accepted' => 'Accepted',
+  'Rejected' => 'Rejected',
+  'Processing' => 'Processing',
+);

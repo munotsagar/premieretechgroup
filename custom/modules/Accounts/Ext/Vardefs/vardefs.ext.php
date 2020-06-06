@@ -2,6 +2,370 @@
  //WARNING: The contents of this file are auto-generated
 
 
+// created: 2020-06-06 11:36:48
+$dictionary["Account"]["fields"]["accounts_ptg_thirdpartycontactinformation_1"] = array (
+  'name' => 'accounts_ptg_thirdpartycontactinformation_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_thirdpartycontactinformation_1',
+  'source' => 'non-db',
+  'module' => 'ptg_ThirdPartyContactInformation',
+  'bean_name' => 'ptg_ThirdPartyContactInformation',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_THIRDPARTYCONTACTINFORMATION_1_FROM_PTG_THIRDPARTYCONTACTINFORMATION_TITLE',
+);
+
+
+// created: 2020-06-06 11:25:16
+$dictionary["Account"]["fields"]["accounts_ptg_routerinformation_1"] = array (
+  'name' => 'accounts_ptg_routerinformation_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_routerinformation_1',
+  'source' => 'non-db',
+  'module' => 'ptg_RouterInformation',
+  'bean_name' => 'ptg_RouterInformation',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_ROUTERINFORMATION_1_FROM_PTG_ROUTERINFORMATION_TITLE',
+);
+
+
+// created: 2020-06-06 11:28:19
+$dictionary["Account"]["fields"]["accounts_ptg_webserverintranet_1"] = array (
+  'name' => 'accounts_ptg_webserverintranet_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_webserverintranet_1',
+  'source' => 'non-db',
+  'module' => 'ptg_WebServerIntranet',
+  'bean_name' => 'ptg_WebServerIntranet',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_WEBSERVERINTRANET_1_FROM_PTG_WEBSERVERINTRANET_TITLE',
+);
+
+
+// created: 2020-06-06 11:25:57
+$dictionary["Account"]["fields"]["accounts_ptg_switches_1"] = array (
+  'name' => 'accounts_ptg_switches_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_switches_1',
+  'source' => 'non-db',
+  'module' => 'ptg_Switches',
+  'bean_name' => 'ptg_Switches',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_SWITCHES_1_FROM_PTG_SWITCHES_TITLE',
+);
+
+
+// created: 2020-06-06 11:29:55
+$dictionary["Account"]["fields"]["accounts_ptg_remoteaccessinformation_1"] = array (
+  'name' => 'accounts_ptg_remoteaccessinformation_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_remoteaccessinformation_1',
+  'source' => 'non-db',
+  'module' => 'ptg_RemoteAccessInformation',
+  'bean_name' => 'ptg_RemoteAccessInformation',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_REMOTEACCESSINFORMATION_1_FROM_PTG_REMOTEACCESSINFORMATION_TITLE',
+);
+
+
+// created: 2020-06-06 11:27:30
+$dictionary["Account"]["fields"]["accounts_ptg_wirelessinformation_1"] = array (
+  'name' => 'accounts_ptg_wirelessinformation_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_wirelessinformation_1',
+  'source' => 'non-db',
+  'module' => 'ptg_WirelessInformation',
+  'bean_name' => 'ptg_WirelessInformation',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_WIRELESSINFORMATION_1_FROM_PTG_WIRELESSINFORMATION_TITLE',
+);
+
+
+// created: 2020-06-06 11:35:45
+$dictionary["Account"]["fields"]["accounts_ptg_sharepoint_1"] = array (
+  'name' => 'accounts_ptg_sharepoint_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_sharepoint_1',
+  'source' => 'non-db',
+  'module' => 'ptg_SharePoint',
+  'bean_name' => 'ptg_SharePoint',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_SHAREPOINT_1_FROM_PTG_SHAREPOINT_TITLE',
+);
+
+
+// created: 2020-06-06 11:22:17
+$dictionary["Account"]["fields"]["accounts_ptg_isp_information_1"] = array (
+  'name' => 'accounts_ptg_isp_information_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_isp_information_1',
+  'source' => 'non-db',
+  'module' => 'ptg_ISP_Information',
+  'bean_name' => 'ptg_ISP_Information',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_ISP_INFORMATION_1_FROM_PTG_ISP_INFORMATION_TITLE',
+);
+
+
+// created: 2020-06-06 11:17:14
+$dictionary["Account"]["fields"]["accounts_ptg_backup_software_1"] = array (
+  'name' => 'accounts_ptg_backup_software_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_backup_software_1',
+  'source' => 'non-db',
+  'module' => 'ptg_Backup_Software',
+  'bean_name' => 'ptg_Backup_Software',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_BACKUP_SOFTWARE_1_FROM_PTG_BACKUP_SOFTWARE_TITLE',
+);
+
+
+// created: 2020-06-06 10:03:04
+$dictionary["Account"]["fields"]["accounts_ptg_antivirus_server_information_1"] = array (
+  'name' => 'accounts_ptg_antivirus_server_information_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_antivirus_server_information_1',
+  'source' => 'non-db',
+  'module' => 'ptg_Antivirus_Server_Information',
+  'bean_name' => 'ptg_Antivirus_Server_Information',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_ANTIVIRUS_SERVER_INFORMATION_1_FROM_PTG_ANTIVIRUS_SERVER_INFORMATION_TITLE',
+);
+
+
+// created: 2020-06-06 11:24:13
+$dictionary["Account"]["fields"]["accounts_ptg_localareanetworkinformation_1"] = array (
+  'name' => 'accounts_ptg_localareanetworkinformation_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_localareanetworkinformation_1',
+  'source' => 'non-db',
+  'module' => 'ptg_LocalAreaNetworkInformation',
+  'bean_name' => 'ptg_LocalAreaNetworkInformation',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_LOCALAREANETWORKINFORMATION_1_FROM_PTG_LOCALAREANETWORKINFORMATION_TITLE',
+);
+
+
+// created: 2020-06-06 10:07:08
+$dictionary["Account"]["fields"]["accounts_ptg_firewall_1"] = array (
+  'name' => 'accounts_ptg_firewall_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_firewall_1',
+  'source' => 'non-db',
+  'module' => 'ptg_Firewall',
+  'bean_name' => 'ptg_Firewall',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_FIREWALL_1_FROM_PTG_FIREWALL_TITLE',
+);
+
+
+// created: 2020-06-06 11:21:02
+$dictionary["Account"]["fields"]["accounts_ptg_hosted_email_services_1"] = array (
+  'name' => 'accounts_ptg_hosted_email_services_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_hosted_email_services_1',
+  'source' => 'non-db',
+  'module' => 'ptg_Hosted_Email_Services',
+  'bean_name' => 'ptg_Hosted_Email_Services',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_HOSTED_EMAIL_SERVICES_1_FROM_PTG_HOSTED_EMAIL_SERVICES_TITLE',
+);
+
+
+// created: 2020-06-06 11:34:11
+$dictionary["Account"]["fields"]["accounts_ptg_otherlicensedsoftware_1"] = array (
+  'name' => 'accounts_ptg_otherlicensedsoftware_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_otherlicensedsoftware_1',
+  'source' => 'non-db',
+  'module' => 'ptg_OtherLicensedSoftware',
+  'bean_name' => 'ptg_OtherLicensedSoftware',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_OTHERLICENSEDSOFTWARE_1_FROM_PTG_OTHERLICENSEDSOFTWARE_TITLE',
+);
+
+
+// created: 2020-06-06 11:17:58
+$dictionary["Account"]["fields"]["accounts_ptg_printers_1"] = array (
+  'name' => 'accounts_ptg_printers_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_printers_1',
+  'source' => 'non-db',
+  'module' => 'ptg_Printers',
+  'bean_name' => 'ptg_Printers',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_PRINTERS_1_FROM_PTG_PRINTERS_TITLE',
+);
+
+
+// created: 2020-06-06 11:29:12
+$dictionary["Account"]["fields"]["accounts_ptg_citrixservers_1"] = array (
+  'name' => 'accounts_ptg_citrixservers_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_citrixservers_1',
+  'source' => 'non-db',
+  'module' => 'ptg_CitrixServers',
+  'bean_name' => 'ptg_CitrixServers',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_CITRIXSERVERS_1_FROM_PTG_CITRIXSERVERS_TITLE',
+);
+
+
+// created: 2020-06-06 11:33:37
+$dictionary["Account"]["fields"]["accounts_ptg_quickbooks_1"] = array (
+  'name' => 'accounts_ptg_quickbooks_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_quickbooks_1',
+  'source' => 'non-db',
+  'module' => 'ptg_QuickBooks',
+  'bean_name' => 'ptg_QuickBooks',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_QUICKBOOKS_1_FROM_PTG_QUICKBOOKS_TITLE',
+);
+
+
+// created: 2020-06-06 11:34:49
+$dictionary["Account"]["fields"]["accounts_ptg_otherunlicensedsoftware_1"] = array (
+  'name' => 'accounts_ptg_otherunlicensedsoftware_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_otherunlicensedsoftware_1',
+  'source' => 'non-db',
+  'module' => 'ptg_OtherUnlicensedSoftware',
+  'bean_name' => 'ptg_OtherUnlicensedSoftware',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_OTHERUNLICENSEDSOFTWARE_1_FROM_PTG_OTHERUNLICENSEDSOFTWARE_TITLE',
+);
+
+
+// created: 2020-06-06 11:20:16
+$dictionary["Account"]["fields"]["accounts_ptg_onpremise_email_services_1"] = array (
+  'name' => 'accounts_ptg_onpremise_email_services_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_onpremise_email_services_1',
+  'source' => 'non-db',
+  'module' => 'ptg_OnPremise_Email_Services',
+  'bean_name' => 'ptg_OnPremise_Email_Services',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_ONPREMISE_EMAIL_SERVICES_1_FROM_PTG_ONPREMISE_EMAIL_SERVICES_TITLE',
+);
+
+
+// created: 2020-06-06 11:22:52
+$dictionary["Account"]["fields"]["accounts_ptg_hosting_and_registrar_1"] = array (
+  'name' => 'accounts_ptg_hosting_and_registrar_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_hosting_and_registrar_1',
+  'source' => 'non-db',
+  'module' => 'ptg_Hosting_And_Registrar',
+  'bean_name' => 'ptg_Hosting_And_Registrar',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_HOSTING_AND_REGISTRAR_1_FROM_PTG_HOSTING_AND_REGISTRAR_TITLE',
+);
+
+
+// created: 2020-06-06 11:30:28
+$dictionary["Account"]["fields"]["accounts_ptg_odbc_1"] = array (
+  'name' => 'accounts_ptg_odbc_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_odbc_1',
+  'source' => 'non-db',
+  'module' => 'ptg_ODBC',
+  'bean_name' => 'ptg_ODBC',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_ODBC_1_FROM_PTG_ODBC_TITLE',
+);
+
+
+// created: 2020-06-06 11:23:22
+$dictionary["Account"]["fields"]["accounts_ptg_activedirectory_1"] = array (
+  'name' => 'accounts_ptg_activedirectory_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_activedirectory_1',
+  'source' => 'non-db',
+  'module' => 'ptg_ActiveDirectory',
+  'bean_name' => 'ptg_ActiveDirectory',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_ACTIVEDIRECTORY_1_FROM_PTG_ACTIVEDIRECTORY_TITLE',
+);
+
+
+// created: 2020-06-06 11:32:18
+$dictionary["Account"]["fields"]["accounts_ptg_sql_server_1"] = array (
+  'name' => 'accounts_ptg_sql_server_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_sql_server_1',
+  'source' => 'non-db',
+  'module' => 'ptg_SQL_Server',
+  'bean_name' => 'ptg_SQL_Server',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_SQL_SERVER_1_FROM_PTG_SQL_SERVER_TITLE',
+);
+
+
+// created: 2020-06-06 11:33:00
+$dictionary["Account"]["fields"]["accounts_ptg_microsoftoffice_1"] = array (
+  'name' => 'accounts_ptg_microsoftoffice_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_microsoftoffice_1',
+  'source' => 'non-db',
+  'module' => 'ptg_MicrosoftOffice',
+  'bean_name' => 'ptg_MicrosoftOffice',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_MICROSOFTOFFICE_1_FROM_PTG_MICROSOFTOFFICE_TITLE',
+);
+
+
+// created: 2020-06-06 11:18:46
+$dictionary["Account"]["fields"]["accounts_ptg_network_drives_1"] = array (
+  'name' => 'accounts_ptg_network_drives_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_network_drives_1',
+  'source' => 'non-db',
+  'module' => 'ptg_Network_Drives',
+  'bean_name' => 'ptg_Network_Drives',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_NETWORK_DRIVES_1_FROM_PTG_NETWORK_DRIVES_TITLE',
+);
+
+
+// created: 2020-06-06 11:30:58
+$dictionary["Account"]["fields"]["accounts_ptg_resources_1"] = array (
+  'name' => 'accounts_ptg_resources_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_resources_1',
+  'source' => 'non-db',
+  'module' => 'ptg_Resources',
+  'bean_name' => 'ptg_Resources',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_RESOURCES_1_FROM_PTG_RESOURCES_TITLE',
+);
+
+
+// created: 2020-06-06 11:21:42
+$dictionary["Account"]["fields"]["accounts_ptg_client_connectivity_1"] = array (
+  'name' => 'accounts_ptg_client_connectivity_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_client_connectivity_1',
+  'source' => 'non-db',
+  'module' => 'ptg_Client_Connectivity',
+  'bean_name' => 'ptg_Client_Connectivity',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_CLIENT_CONNECTIVITY_1_FROM_PTG_CLIENT_CONNECTIVITY_TITLE',
+);
+
+
+// created: 2020-06-06 11:19:25
+$dictionary["Account"]["fields"]["accounts_ptg_local_admin_credentials_1"] = array (
+  'name' => 'accounts_ptg_local_admin_credentials_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_local_admin_credentials_1',
+  'source' => 'non-db',
+  'module' => 'ptg_Local_Admin_Credentials',
+  'bean_name' => 'ptg_Local_Admin_Credentials',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_LOCAL_ADMIN_CREDENTIALS_1_FROM_PTG_LOCAL_ADMIN_CREDENTIALS_TITLE',
+);
+
+
  // created: 2020-06-04 12:24:49
 $dictionary['Account']['fields']['ccid2_c']['inline_edit']='1';
 $dictionary['Account']['fields']['ccid2_c']['labelValue']='CCID 2';

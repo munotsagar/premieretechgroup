@@ -52,6 +52,11 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL4' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
       ),
       'syncDetailEditViews' => true,
     ),
@@ -216,6 +221,48 @@ array (
             'comment' => 'Full text of the note',
             'label' => 'LBL_DESCRIPTION',
           ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'attachment_c',
+            'label' => 'LBL_ATTACHMENT',
+          ),
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel4' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'employee_status_c',
+            'studio' => 'visible',
+            'label' => 'LBL_EMPLOYEE_STATUS',
+          ),
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'vendor_status_c',
+            'studio' => 'visible',
+            'label' => 'LBL_VENDOR_STATUS',
+          ),
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'manager_status_c',
+            'studio' => 'visible',
+            'label' => 'LBL_MANAGER_STATUS',
+          ),
+          1 => '',
         ),
       ),
     ),

@@ -1,6 +1,24 @@
 <?php
 $listViewDefs ['AOS_Quotes'] = 
 array (
+  'CUSTOMER_NAME_C' => 
+  array (
+    'type' => 'relate',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_CUSTOMER_NAME',
+    'id' => 'ACCOUNT_ID_C',
+    'link' => true,
+    'width' => '10%',
+  ),
+  'MANAGER_STATUS_C' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_MANAGER_STATUS',
+    'width' => '10%',
+  ),
   'DATE_ENTERED' => 
   array (
     'width' => '5%',
