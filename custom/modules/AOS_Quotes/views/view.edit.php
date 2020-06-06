@@ -79,6 +79,7 @@ class AOS_QuotesViewEdit extends ViewEdit
 
 <script type="text/javascript">
 	$(document).ready(function(){
+        
         $("#voice_services_c").parent().parent().next().hide();
         $("#voice_services_c").parent().parent().hide();
 
