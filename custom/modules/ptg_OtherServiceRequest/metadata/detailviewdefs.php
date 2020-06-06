@@ -1,0 +1,204 @@
+<?php
+$module_name = 'ptg_OtherServiceRequest';
+$_object_name = 'ptg_otherservicerequest';
+$viewdefs [$module_name] = 
+array (
+  'DetailView' => 
+  array (
+    'templateMeta' => 
+    array (
+      'maxColumns' => '2',
+      'form' => 
+      array (
+      ),
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'LBL_EDITVIEW_PANEL1' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL2' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL4' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL3' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+      'syncDetailEditViews' => true,
+    ),
+    'panels' => 
+    array (
+      'lbl_editview_panel1' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'customer_name_c',
+            'studio' => 'visible',
+            'label' => 'LBL_CUSTOMER_NAME',
+          ),
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'business_name_c',
+            'label' => 'LBL_BUSINESS_NAME',
+          ),
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'local_phone_number_c',
+            'label' => 'LBL_LOCAL_PHONE_NUMBER',
+          ),
+          1 => '',
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'main_address_c',
+            'label' => 'LBL_MAIN_ADDRESS',
+          ),
+          1 => '',
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'city_c',
+            'label' => 'LBL_CITY',
+          ),
+          1 => 
+          array (
+            'name' => 'state_c',
+            'label' => 'LBL_STATE',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'country_c',
+            'label' => 'LBL_COUNTRY',
+          ),
+          1 => 
+          array (
+            'name' => 'postal_code_c',
+            'label' => 'LBL_POSTAL_CODE',
+          ),
+        ),
+      ),
+      'lbl_editview_panel2' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'list_other_products_c',
+            'studio' => 'visible',
+            'label' => 'LBL_LIST_OTHER_PRODUCTS',
+          ),
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel4' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'terms_to_quote_c',
+            'studio' => 'visible',
+            'label' => 'LBL_TERMS_TO_QUOTE',
+          ),
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'international_c',
+            'studio' => 'visible',
+            'label' => 'LBL_INTERNATIONAL',
+          ),
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'choose_the_suppliers_c',
+            'studio' => 'visible',
+            'label' => 'LBL_CHOOSE_THE_SUPPLIERS',
+          ),
+          1 => '',
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'suppliers_to_quote_c',
+            'studio' => 'visible',
+            'label' => 'LBL_SUPPLIERS_TO_QUOTE',
+          ),
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel3' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'description',
+            'label' => 'LBL_DOC_DESCRIPTION',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'uploadfile',
+            'displayParams' => 
+            array (
+              'link' => 'uploadfile',
+              'id' => 'id',
+            ),
+          ),
+        ),
+      ),
+    ),
+  ),
+);
+;
+?>

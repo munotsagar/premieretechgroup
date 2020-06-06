@@ -1,0 +1,59 @@
+<?php
+$module_name = 'ptg_CloudServiceRequest';
+$OBJECT_NAME = 'PTG_CLOUDSERVICEREQUEST';
+$listViewDefs [$module_name] = 
+array (
+  'CUSTOMER_NAME_C' => 
+  array (
+    'type' => 'relate',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_CUSTOMER_NAME',
+    'id' => 'ACCOUNT_ID_C',
+    'link' => true,
+    'width' => '10%',
+  ),
+  'LOCAL_PHONE_NUMBER_C' => 
+  array (
+    'type' => 'phone',
+    'default' => true,
+    'label' => 'LBL_LOCAL_PHONE_NUMBER',
+    'width' => '10%',
+  ),
+  'DATE_ENTERED' => 
+  array (
+    'type' => 'datetime',
+    'label' => 'LBL_DATE_ENTERED',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'DATE_MODIFIED' => 
+  array (
+    'type' => 'datetime',
+    'label' => 'LBL_DATE_MODIFIED',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'DOCUMENT_NAME' => 
+  array (
+    'width' => '40%',
+    'label' => 'LBL_NAME',
+    'link' => true,
+    'default' => false,
+  ),
+  'MODIFIED_BY_NAME' => 
+  array (
+    'width' => '10%',
+    'label' => 'LBL_MODIFIED_USER',
+    'module' => 'Users',
+    'id' => 'USERS_ID',
+    'default' => false,
+    'sortable' => false,
+    'related_fields' => 
+    array (
+      0 => 'modified_user_id',
+    ),
+  ),
+);
+;
+?>

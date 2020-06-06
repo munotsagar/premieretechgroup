@@ -1,0 +1,160 @@
+<?php
+$module_name = 'ptg_ISP_Information';
+$viewdefs [$module_name] = 
+array (
+  'EditView' => 
+  array (
+    'templateMeta' => 
+    array (
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'DEFAULT' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+      'syncDetailEditViews' => true,
+    ),
+    'panels' => 
+    array (
+      'default' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'provider_c',
+            'label' => 'LBL_PROVIDER',
+          ),
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'type_c',
+            'label' => 'LBL_TYPE',
+          ),
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'public_ip_c',
+            'label' => 'LBL_PUBLIC_IP',
+          ),
+          1 => '',
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'gateway_c',
+            'label' => 'LBL_GATEWAY',
+          ),
+          1 => '',
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'subnet_mask_c',
+            'label' => 'LBL_SUBNET_MASK',
+          ),
+          1 => '',
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'dns_servers_c',
+            'label' => 'LBL_DNS_SERVERS',
+          ),
+          1 => '',
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'customer_name_c',
+            'label' => 'LBL_CUSTOMER_NAME',
+          ),
+          1 => '',
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'account_number_c',
+            'label' => 'LBL_ACCOUNT_NUMBER',
+          ),
+          1 => '',
+        ),
+        8 => 
+        array (
+          0 => 
+          array (
+            'name' => 'customer_access_code_c',
+            'label' => 'LBL_CUSTOMER_ACCESS_CODE',
+          ),
+          1 => '',
+        ),
+        9 => 
+        array (
+          0 => 
+          array (
+            'name' => 'name_of_account_c',
+            'label' => 'LBL_NAME_OF_ACCOUNT',
+          ),
+          1 => '',
+        ),
+        10 => 
+        array (
+          0 => 
+          array (
+            'name' => 'address_c',
+            'label' => 'LBL_ADDRESS',
+          ),
+          1 => '',
+        ),
+        11 => 
+        array (
+          0 => 
+          array (
+            'name' => 'pppoe_info_c',
+            'label' => 'LBL_PPPOE_INFO',
+          ),
+          1 => '',
+        ),
+        12 => 
+        array (
+          0 => 
+          array (
+            'name' => 'upload_one_recent_bill_c',
+            'label' => 'LBL_UPLOAD_ONE_RECENT_BILL',
+          ),
+          1 => '',
+        ),
+      ),
+    ),
+  ),
+);
+;
+?>

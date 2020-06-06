@@ -1,0 +1,36 @@
+<?php 
+$app_list_strings['choose_the_suppliers_list'] = array (
+  'no_preference' => 'I have no preference of suppliers',
+  '2to3suppliers' => 'I choose 2 to 3 suppliers for me',
+  'own_suppliers' => 'I will choose my own suppliers',
+);$app_list_strings['international_list'] = array (
+  'Yes' => 'Yes',
+  'No' => 'No',
+);$app_list_strings['suppliers_to_quote_list'] = array (
+  'Any_Supplier' => 'Any Supplier',
+  '8x8' => '8x8',
+  'Access_One' => 'Access One',
+  'AireSpring' => 'AireSpring',
+  'Altice_Business' => 'Altice Business',
+  'Only_Tier1Suppliers' => 'Only Tier 1 Suppliers',
+  'ACC_Businesss' => 'ACC Businesss',
+  'Advantix' => 'Advantix',
+  'Allstream' => 'Allstream',
+  'AppGate' => 'AppGate',
+  'Vigilant' => 'Vigilant',
+  'Vonage_Business' => 'Vonage Business',
+  'vMOX' => 'vMOX',
+  'Voyant' => 'Voyant',
+  'Windstream' => 'Windstream',
+  'WOW_Business' => 'WOW Business',
+  'YourSix' => 'YourSix',
+  'Zayo' => 'Zayo',
+  'Zoom' => 'Zoom',
+);$app_list_strings['terms_to_quote_list'] = array (
+  'Month_to_Month' => 'Month to Month ',
+  '1_Year' => '1 Year',
+  '2_Years' => '2 Years',
+  '3_Years' => '3 Years',
+  '4_Years' => '4 Years',
+  '5_Years' => '5 Years',
+);
