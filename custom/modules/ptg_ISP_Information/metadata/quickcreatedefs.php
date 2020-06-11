@@ -149,7 +149,15 @@ array (
             'name' => 'upload_one_recent_bill_c',
             'label' => 'LBL_UPLOAD_ONE_RECENT_BILL',
           ),
-          1 => '',
+        ),
+        13 => 
+        array (
+          0 => 
+          array (
+            'name' => 'description',
+            'comment' => 'Full text of the note',
+            'label' => 'LBL_DESCRIPTION',
+          ),
         ),
       ),
     ),

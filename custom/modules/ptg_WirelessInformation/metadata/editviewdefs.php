@@ -145,6 +145,13 @@ array (
           ),
           1 => '',
         ),
+        11 => 
+        array (
+          0 => 
+          array (
+            'name' => 'description',
+          ),
+        ),
       ),
     ),
   ),

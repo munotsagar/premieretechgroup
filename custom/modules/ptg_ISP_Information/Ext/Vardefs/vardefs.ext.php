@@ -2,6 +2,40 @@
  //WARNING: The contents of this file are auto-generated
 
 
+// created: 2020-06-07 10:14:05
+$dictionary["ptg_ISP_Information"]["fields"]["users_ptg_isp_information_1"] = array (
+  'name' => 'users_ptg_isp_information_1',
+  'type' => 'link',
+  'relationship' => 'users_ptg_isp_information_1',
+  'source' => 'non-db',
+  'module' => 'Users',
+  'bean_name' => 'User',
+  'vname' => 'LBL_USERS_PTG_ISP_INFORMATION_1_FROM_USERS_TITLE',
+  'id_name' => 'users_ptg_isp_information_1users_ida',
+);
+$dictionary["ptg_ISP_Information"]["fields"]["users_ptg_isp_information_1_name"] = array (
+  'name' => 'users_ptg_isp_information_1_name',
+  'type' => 'relate',
+  'source' => 'non-db',
+  'vname' => 'LBL_USERS_PTG_ISP_INFORMATION_1_FROM_USERS_TITLE',
+  'save' => true,
+  'id_name' => 'users_ptg_isp_information_1users_ida',
+  'link' => 'users_ptg_isp_information_1',
+  'table' => 'users',
+  'module' => 'Users',
+  'rname' => 'name',
+);
+$dictionary["ptg_ISP_Information"]["fields"]["users_ptg_isp_information_1users_ida"] = array (
+  'name' => 'users_ptg_isp_information_1users_ida',
+  'type' => 'link',
+  'relationship' => 'users_ptg_isp_information_1',
+  'source' => 'non-db',
+  'reportable' => false,
+  'side' => 'right',
+  'vname' => 'LBL_USERS_PTG_ISP_INFORMATION_1_FROM_PTG_ISP_INFORMATION_TITLE',
+);
+
+
 // created: 2020-06-06 11:22:17
 $dictionary["ptg_ISP_Information"]["fields"]["accounts_ptg_isp_information_1"] = array (
   'name' => 'accounts_ptg_isp_information_1',
@@ -102,9 +136,17 @@ $dictionary['ptg_ISP_Information']['fields']['address_c']['labelValue']='Address
 
  
 
- // created: 2020-06-05 11:27:02
+ // created: 2020-06-08 06:52:25
 $dictionary['ptg_ISP_Information']['fields']['upload_one_recent_bill_c']['inline_edit']='1';
 $dictionary['ptg_ISP_Information']['fields']['upload_one_recent_bill_c']['labelValue']='Upload one recent bill';
+
+ 
+
+ // created: 2020-06-08 06:49:51
+$dictionary['ptg_ISP_Information']['fields']['description']['inline_edit']=true;
+$dictionary['ptg_ISP_Information']['fields']['description']['help']='Additional Notes';
+$dictionary['ptg_ISP_Information']['fields']['description']['comments']='Additional Notes';
+$dictionary['ptg_ISP_Information']['fields']['description']['merge_filter']='disabled';
 
  
 

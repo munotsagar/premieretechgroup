@@ -1,5 +1,5 @@
 <?php
-// created: 2020-06-06 10:09:46
+// created: 2020-06-08 15:20:58
 $mod_strings = array (
   'LBL_NAME' => 'Comapny Legal Name',
   'LBL_PHONE_OFFICE' => 'Office Phone:',
@@ -70,4 +70,8 @@ $mod_strings = array (
   'LBL_EDITVIEW_PANEL6' => 'Customer Network Profile',
   'LBL_ACCOUNTS_PTG_ANTIVIRUS_SERVER_INFORMATION_1_FROM_PTG_ANTIVIRUS_SERVER_INFORMATION_TITLE' => 'Antivirus Server Information',
   'LBL_ACCOUNTS_PTG_FIREWALL_1_FROM_PTG_FIREWALL_TITLE' => 'Firewall',
+  'LBL_ACCOUNTS_PTG_SHAREPOINT_1_FROM_PTG_SHAREPOINT_TITLE' => 'SharePoint Online',
+  'LBL_ACCOUNTS_PTG_OTHERLICENSEDSOFTWARE_1_FROM_PTG_OTHERLICENSEDSOFTWARE_TITLE' => 'Other Licensed Softwares Online',
+  'LBL_ACCOUNTS_PTG_QUICKBOOKS_1_FROM_PTG_QUICKBOOKS_TITLE' => 'Quick Books Online',
+  'LBL_ACCOUNTS_PTG_MICROSOFTOFFICE_1_FROM_PTG_MICROSOFTOFFICE_TITLE' => 'Microsoft Office Online',
 );

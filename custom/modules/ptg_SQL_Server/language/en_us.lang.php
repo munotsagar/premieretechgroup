@@ -1,5 +1,5 @@
 <?php
-// created: 2020-06-05 18:59:23
+// created: 2020-06-08 07:31:15
 $mod_strings = array (
   'LBL_NAME' => 'Name',
   'LBL_DOC_ACTIVE_DATE' => 'Publish Date:',
@@ -8,4 +8,5 @@ $mod_strings = array (
   'LBL_LOGIN' => 'Login',
   'LBL_PASSWORD' => 'Password',
   'LBL_CONFIRM_PASSWORD' => 'Confirm Password',
+  'LBL_DESCRIPTION' => 'Additional Notes',
 );

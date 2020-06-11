@@ -1,5 +1,5 @@
 <?php
-// created: 2020-06-05 09:48:04
+// created: 2020-06-08 05:38:10
 $mod_strings = array (
   'LBL_SERVER' => 'Server',
   'LBL_LOGIN' => 'Login',
@@ -11,4 +11,5 @@ $mod_strings = array (
   'LBL_LOGIN_PASSWORD' => 'Login Password',
   'LBL_CONFIRM_PASSWORD' => 'Confirm Password',
   'LBL_NAME' => 'Name',
+  'LBL_DESCRIPTION' => 'Additional Notes',
 );

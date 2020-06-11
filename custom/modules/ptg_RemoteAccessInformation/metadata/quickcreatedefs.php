@@ -116,6 +116,18 @@ array (
           ),
           1 => '',
         ),
+        8 => 
+        array (
+          0 => 
+          array (
+            'name' => 'description',
+            'displayParams' => 
+            array (
+              'rows' => 10,
+              'cols' => 120,
+            ),
+          ),
+        ),
       ),
     ),
   ),

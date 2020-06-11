@@ -40,7 +40,7 @@
 $relationships = array (
   'campaign_accounts' => 
   array (
-    'id' => 'adc660f4-1539-33cb-c74f-5edb7f3da17b',
+    'id' => 'bea8b35f-8616-92dc-9635-5ede7741cd79',
     'relationship_name' => 'campaign_accounts',
     'lhs_module' => 'Campaigns',
     'lhs_table' => 'campaigns',
@@ -66,7 +66,7 @@ $relationships = array (
   ),
   'accounts_modified_user' => 
   array (
-    'id' => 'b77519db-a7ac-95e8-5fcc-5edb7f56a16a',
+    'id' => 'c5d7104f-d792-dde2-92cb-5ede776e0ab2',
     'relationship_name' => 'accounts_modified_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -92,7 +92,7 @@ $relationships = array (
   ),
   'accounts_created_by' => 
   array (
-    'id' => 'b78f7d54-7063-a700-df60-5edb7f4d2a69',
+    'id' => 'c5e94be2-3ba4-fb1a-35c0-5ede77abd697',
     'relationship_name' => 'accounts_created_by',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -118,7 +118,7 @@ $relationships = array (
   ),
   'accounts_assigned_user' => 
   array (
-    'id' => 'b7a7d597-d519-a383-fb5c-5edb7ffc77f7',
+    'id' => 'c5fa65d5-b762-783f-8100-5ede7737ee0d',
     'relationship_name' => 'accounts_assigned_user',
     'lhs_module' => 'Users',
     'lhs_table' => 'users',
@@ -144,7 +144,7 @@ $relationships = array (
   ),
   'securitygroups_accounts' => 
   array (
-    'id' => 'b7c116cb-90ec-c815-35bb-5edb7ff82287',
+    'id' => 'c60da885-a6e2-0443-03fc-5ede7725f319',
     'relationship_name' => 'securitygroups_accounts',
     'lhs_module' => 'SecurityGroups',
     'lhs_table' => 'securitygroups',
@@ -162,7 +162,7 @@ $relationships = array (
     'deleted' => '0',
     'readonly' => true,
     'rhs_subpanel' => NULL,
-    'lhs_subpanel' => 'default',
+    'lhs_subpanel' => NULL,
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
@@ -170,7 +170,7 @@ $relationships = array (
   ),
   'member_accounts' => 
   array (
-    'id' => 'b80c94ff-16e1-e33c-438f-5edb7f547a92',
+    'id' => 'c6455adf-2a28-023b-4e83-5ede77b9246d',
     'relationship_name' => 'member_accounts',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -187,8 +187,8 @@ $relationships = array (
     'reverse' => '0',
     'deleted' => '0',
     'readonly' => true,
-    'rhs_subpanel' => 'default',
-    'lhs_subpanel' => 'default',
+    'rhs_subpanel' => NULL,
+    'lhs_subpanel' => NULL,
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
@@ -196,7 +196,7 @@ $relationships = array (
   ),
   'account_cases' => 
   array (
-    'id' => 'b8255500-9a28-b29f-12f7-5edb7f862baf',
+    'id' => 'c658b2d5-8b99-90f7-c360-5ede77bb4a12',
     'relationship_name' => 'account_cases',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -213,7 +213,7 @@ $relationships = array (
     'reverse' => '0',
     'deleted' => '0',
     'readonly' => true,
-    'rhs_subpanel' => 'ForAccounts',
+    'rhs_subpanel' => NULL,
     'lhs_subpanel' => NULL,
     'relationship_only' => false,
     'for_activities' => false,
@@ -222,7 +222,7 @@ $relationships = array (
   ),
   'account_tasks' => 
   array (
-    'id' => 'b83d144d-5df7-d033-8d5a-5edb7ff3ef56',
+    'id' => 'c6695f69-c2a2-8449-8d62-5ede77b13c95',
     'relationship_name' => 'account_tasks',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -248,7 +248,7 @@ $relationships = array (
   ),
   'account_notes' => 
   array (
-    'id' => 'b85478a7-16ab-b953-b4d5-5edb7f1ead28',
+    'id' => 'c67a310e-f2b7-d597-adbf-5ede7724e3b8',
     'relationship_name' => 'account_notes',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -274,7 +274,7 @@ $relationships = array (
   ),
   'account_meetings' => 
   array (
-    'id' => 'b86aefc1-de05-64bb-f8b1-5edb7fd9055e',
+    'id' => 'c68cd878-7ffd-c499-de0d-5ede7727824f',
     'relationship_name' => 'account_meetings',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -300,7 +300,7 @@ $relationships = array (
   ),
   'account_calls' => 
   array (
-    'id' => 'b88267a9-e2e6-4d50-0b06-5edb7f9fd374',
+    'id' => 'c69fb7e1-c18d-7630-f352-5ede774285b7',
     'relationship_name' => 'account_calls',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -326,7 +326,7 @@ $relationships = array (
   ),
   'account_emails' => 
   array (
-    'id' => 'b899aafd-4020-1b53-a354-5edb7f7b452a',
+    'id' => 'c6b11f37-738f-2dd8-b19b-5ede770cc5c7',
     'relationship_name' => 'account_emails',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -352,7 +352,7 @@ $relationships = array (
   ),
   'account_leads' => 
   array (
-    'id' => 'b8b01435-5421-1a14-0cf5-5edb7fd11a9a',
+    'id' => 'c6c35b87-ba05-9779-2d1d-5ede777fb6b5',
     'relationship_name' => 'account_leads',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -369,7 +369,7 @@ $relationships = array (
     'reverse' => '0',
     'deleted' => '0',
     'readonly' => true,
-    'rhs_subpanel' => 'default',
+    'rhs_subpanel' => NULL,
     'lhs_subpanel' => NULL,
     'relationship_only' => false,
     'for_activities' => false,
@@ -378,7 +378,7 @@ $relationships = array (
   ),
   'account_aos_quotes' => 
   array (
-    'id' => 'b8deda64-a02f-4555-ed78-5edb7fe98735',
+    'id' => 'c6e5d650-019c-9f49-2578-5ede77f5ed45',
     'relationship_name' => 'account_aos_quotes',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -395,7 +395,7 @@ $relationships = array (
     'reverse' => '0',
     'deleted' => '0',
     'readonly' => true,
-    'rhs_subpanel' => 'default',
+    'rhs_subpanel' => NULL,
     'lhs_subpanel' => NULL,
     'relationship_only' => false,
     'for_activities' => false,
@@ -404,7 +404,7 @@ $relationships = array (
   ),
   'account_aos_invoices' => 
   array (
-    'id' => 'b8f60e65-bed8-ce53-b6b3-5edb7faa1187',
+    'id' => 'c6f66def-3c29-ad1d-6cc2-5ede77974232',
     'relationship_name' => 'account_aos_invoices',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -421,7 +421,7 @@ $relationships = array (
     'reverse' => '0',
     'deleted' => '0',
     'readonly' => true,
-    'rhs_subpanel' => 'default',
+    'rhs_subpanel' => NULL,
     'lhs_subpanel' => NULL,
     'relationship_only' => false,
     'for_activities' => false,
@@ -430,7 +430,7 @@ $relationships = array (
   ),
   'account_aos_contracts' => 
   array (
-    'id' => 'b90d0cda-9e81-e8a1-e97c-5edb7f90d2d9',
+    'id' => 'c7085d85-13c9-fafc-354b-5ede77daed5f',
     'relationship_name' => 'account_aos_contracts',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -447,7 +447,7 @@ $relationships = array (
     'reverse' => '0',
     'deleted' => '0',
     'readonly' => true,
-    'rhs_subpanel' => 'default',
+    'rhs_subpanel' => NULL,
     'lhs_subpanel' => NULL,
     'relationship_only' => false,
     'for_activities' => false,
@@ -456,7 +456,7 @@ $relationships = array (
   ),
   'emails_accounts_rel' => 
   array (
-    'id' => 'd95dcabf-8eb7-9cc2-d2b1-5edb7f4d1366',
+    'id' => 'cd2b83c7-5c57-636b-4009-5ede774b8576',
     'relationship_name' => 'emails_accounts_rel',
     'lhs_module' => 'Emails',
     'lhs_table' => 'emails',
@@ -482,7 +482,7 @@ $relationships = array (
   ),
   'jjwg_Maps_accounts' => 
   array (
-    'id' => '8ee009de-02f4-8625-7c4b-5edb7f236dd2',
+    'id' => 'eb67fd11-9e37-359a-6ba4-5ede77cd7ec7',
     'relationship_name' => 'jjwg_Maps_accounts',
     'lhs_module' => 'jjwg_Maps',
     'lhs_table' => 'jjwg_Maps',
@@ -508,7 +508,7 @@ $relationships = array (
   ),
   'accounts_bugs' => 
   array (
-    'id' => '371cf792-1022-d4f9-2f9c-5edb7f29d4a4',
+    'id' => '2e54641e-d0c4-8bd4-c9f5-5ede77cb65e3',
     'relationship_name' => 'accounts_bugs',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -525,7 +525,7 @@ $relationships = array (
     'reverse' => '0',
     'deleted' => '0',
     'readonly' => true,
-    'rhs_subpanel' => 'default',
+    'rhs_subpanel' => NULL,
     'lhs_subpanel' => 'default',
     'relationship_only' => false,
     'for_activities' => false,
@@ -534,7 +534,7 @@ $relationships = array (
   ),
   'accounts_contacts' => 
   array (
-    'id' => '37376f5f-5777-9d4f-aa73-5edb7f154fbb',
+    'id' => '2e705c1a-ff50-79ee-e49a-5ede77524e75',
     'relationship_name' => 'accounts_contacts',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -551,7 +551,7 @@ $relationships = array (
     'reverse' => '0',
     'deleted' => '0',
     'readonly' => true,
-    'rhs_subpanel' => 'ForAccounts',
+    'rhs_subpanel' => NULL,
     'lhs_subpanel' => NULL,
     'relationship_only' => false,
     'for_activities' => false,
@@ -560,7 +560,7 @@ $relationships = array (
   ),
   'accounts_opportunities' => 
   array (
-    'id' => '3750e4b2-f7f9-ab08-405b-5edb7f63ef34',
+    'id' => '2e883fe6-b394-e635-6156-5ede7720d3ba',
     'relationship_name' => 'accounts_opportunities',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -577,7 +577,7 @@ $relationships = array (
     'reverse' => '0',
     'deleted' => '0',
     'readonly' => true,
-    'rhs_subpanel' => 'ForAccounts',
+    'rhs_subpanel' => NULL,
     'lhs_subpanel' => NULL,
     'relationship_only' => false,
     'for_activities' => false,
@@ -586,7 +586,7 @@ $relationships = array (
   ),
   'prospect_list_accounts' => 
   array (
-    'id' => '39eb2854-c9d2-0f60-99ce-5edb7f7e40af',
+    'id' => '311c2873-51d8-68e6-5b89-5ede77c9bb7b',
     'relationship_name' => 'prospect_list_accounts',
     'lhs_module' => 'ProspectLists',
     'lhs_table' => 'prospect_lists',
@@ -612,7 +612,7 @@ $relationships = array (
   ),
   'projects_accounts' => 
   array (
-    'id' => '3a5497d5-d778-12f0-bc3e-5edb7f7c47a1',
+    'id' => '3180f16d-0ac3-b5bc-3240-5ede77bbb8d9',
     'relationship_name' => 'projects_accounts',
     'lhs_module' => 'Project',
     'lhs_table' => 'project',
@@ -630,7 +630,7 @@ $relationships = array (
     'deleted' => '0',
     'readonly' => true,
     'rhs_subpanel' => 'default',
-    'lhs_subpanel' => 'default',
+    'lhs_subpanel' => NULL,
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
@@ -638,7 +638,7 @@ $relationships = array (
   ),
   'documents_accounts' => 
   array (
-    'id' => '3b032a11-2ffd-5981-ebda-5edb7f51bfba',
+    'id' => '322d6472-7b17-f327-43cc-5ede77276610',
     'relationship_name' => 'documents_accounts',
     'lhs_module' => 'Documents',
     'lhs_table' => 'documents',
@@ -656,7 +656,7 @@ $relationships = array (
     'deleted' => '0',
     'readonly' => true,
     'rhs_subpanel' => 'default',
-    'lhs_subpanel' => 'default',
+    'lhs_subpanel' => NULL,
     'relationship_only' => false,
     'for_activities' => false,
     'is_custom' => false,
@@ -664,7 +664,7 @@ $relationships = array (
   ),
   'accounts_ptg_sql_server_1' => 
   array (
-    'id' => '3e4f665f-b227-abd4-e473-5edb7f3a8b2d',
+    'id' => '35f53825-14b6-9620-2e35-5ede772a69fc',
     'relationship_name' => 'accounts_ptg_sql_server_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -690,7 +690,7 @@ $relationships = array (
   ),
   'accounts_ptg_isp_information_1' => 
   array (
-    'id' => '3e65d690-6142-8ccd-fbee-5edb7f1c9982',
+    'id' => '364bc329-951d-938e-b8e9-5ede77b125c4',
     'relationship_name' => 'accounts_ptg_isp_information_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -716,7 +716,7 @@ $relationships = array (
   ),
   'accounts_ptg_resources_1' => 
   array (
-    'id' => '3e7bc8f1-b4a2-141c-4c03-5edb7ff4d8ae',
+    'id' => '3666cc45-6cb6-8072-a681-5ede77b6014c',
     'relationship_name' => 'accounts_ptg_resources_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -742,7 +742,7 @@ $relationships = array (
   ),
   'accounts_ptg_quickbooks_1' => 
   array (
-    'id' => '3e928535-bb9e-7360-eee2-5edb7f5e5661',
+    'id' => '36818954-171c-2f9e-4430-5ede77a79ef0',
     'relationship_name' => 'accounts_ptg_quickbooks_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -768,7 +768,7 @@ $relationships = array (
   ),
   'accounts_ptg_activedirectory_1' => 
   array (
-    'id' => '3eaa957d-f636-2d82-7448-5edb7ff07297',
+    'id' => '36b7b42c-5a49-cc21-be04-5ede77535a12',
     'relationship_name' => 'accounts_ptg_activedirectory_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -792,9 +792,61 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
   ),
+  'accounts_ptg_otherlicensedsoftwaredesktop_1' => 
+  array (
+    'id' => '36d1f3c5-b5e1-50ba-ffdc-5ede7723ec5c',
+    'relationship_name' => 'accounts_ptg_otherlicensedsoftwaredesktop_1',
+    'lhs_module' => 'Accounts',
+    'lhs_table' => 'accounts',
+    'lhs_key' => 'id',
+    'rhs_module' => 'ptg_OtherLicensedSoftwareDesktop',
+    'rhs_table' => 'ptg_otherlicensedsoftwaredesktop',
+    'rhs_key' => 'id',
+    'join_table' => 'accounts_ptg_otherlicensedsoftwaredesktop_1_c',
+    'join_key_lhs' => 'accounts_ptg_otherlicensedsoftwaredesktop_1accounts_ida',
+    'join_key_rhs' => 'accounts_p72a7desktop_idb',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => NULL,
+    'relationship_role_column_value' => NULL,
+    'reverse' => '0',
+    'deleted' => '0',
+    'readonly' => true,
+    'rhs_subpanel' => 'default',
+    'lhs_subpanel' => NULL,
+    'from_studio' => true,
+    'is_custom' => true,
+    'relationship_only' => false,
+    'for_activities' => false,
+  ),
+  'accounts_ptg_quickbooksdesktop_1' => 
+  array (
+    'id' => '372170e9-ab5c-f88e-2f80-5ede77044fd4',
+    'relationship_name' => 'accounts_ptg_quickbooksdesktop_1',
+    'lhs_module' => 'Accounts',
+    'lhs_table' => 'accounts',
+    'lhs_key' => 'id',
+    'rhs_module' => 'ptg_QuickBooksDesktop',
+    'rhs_table' => 'ptg_quickbooksdesktop',
+    'rhs_key' => 'id',
+    'join_table' => 'accounts_ptg_quickbooksdesktop_1_c',
+    'join_key_lhs' => 'accounts_ptg_quickbooksdesktop_1accounts_ida',
+    'join_key_rhs' => 'accounts_ptg_quickbooksdesktop_1ptg_quickbooksdesktop_idb',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => NULL,
+    'relationship_role_column_value' => NULL,
+    'reverse' => '0',
+    'deleted' => '0',
+    'readonly' => true,
+    'rhs_subpanel' => 'default',
+    'lhs_subpanel' => NULL,
+    'from_studio' => true,
+    'is_custom' => true,
+    'relationship_only' => false,
+    'for_activities' => false,
+  ),
   'accounts_ptg_routerinformation_1' => 
   array (
-    'id' => '3ec304f1-ac63-5c7b-5582-5edb7f0c36f6',
+    'id' => '37757895-876c-0cf4-ff7c-5ede772685ae',
     'relationship_name' => 'accounts_ptg_routerinformation_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -820,7 +872,7 @@ $relationships = array (
   ),
   'accounts_ptg_antivirus_server_information_1' => 
   array (
-    'id' => '3ed9eba2-c9a6-9fc5-9360-5edb7f522e39',
+    'id' => '37c8a9ea-83b8-a15d-f97a-5ede777bde08',
     'relationship_name' => 'accounts_ptg_antivirus_server_information_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -846,7 +898,7 @@ $relationships = array (
   ),
   'accounts_ptg_localareanetworkinformation_1' => 
   array (
-    'id' => '3ef17628-e6da-f23e-9a6f-5edb7fbbcf6c',
+    'id' => '37febf87-ccab-de8c-bbea-5ede775d83d8',
     'relationship_name' => 'accounts_ptg_localareanetworkinformation_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -872,7 +924,7 @@ $relationships = array (
   ),
   'accounts_ptg_hosted_email_services_1' => 
   array (
-    'id' => '3f09cc46-0012-24c7-63da-5edb7f1d7583',
+    'id' => '3862d867-2ad8-09b6-ab9e-5ede773affe6',
     'relationship_name' => 'accounts_ptg_hosted_email_services_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -898,7 +950,7 @@ $relationships = array (
   ),
   'accounts_ptg_local_admin_credentials_1' => 
   array (
-    'id' => '3f21989b-672e-03c0-81cc-5edb7f2b4a02',
+    'id' => '387cd690-f9cf-fa56-8cb2-5ede7735a7c6',
     'relationship_name' => 'accounts_ptg_local_admin_credentials_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -924,7 +976,7 @@ $relationships = array (
   ),
   'accounts_ptg_firewall_1' => 
   array (
-    'id' => '3f39d7c2-82e0-8f1e-ba6d-5edb7f66cf16',
+    'id' => '38ada507-049c-0793-5bb0-5ede77d4d038',
     'relationship_name' => 'accounts_ptg_firewall_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -950,7 +1002,7 @@ $relationships = array (
   ),
   'accounts_ptg_hosting_and_registrar_1' => 
   array (
-    'id' => '3f5088d7-2367-3106-51d6-5edb7f0b5c53',
+    'id' => '3913c1ca-a76d-51a7-ed3c-5ede7757ccb4',
     'relationship_name' => 'accounts_ptg_hosting_and_registrar_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -976,7 +1028,7 @@ $relationships = array (
   ),
   'accounts_ptg_otherlicensedsoftware_1' => 
   array (
-    'id' => '3f67a25e-3c20-24cb-e38d-5edb7f4575df',
+    'id' => '392cc372-b286-9b78-74d7-5ede77ffd159',
     'relationship_name' => 'accounts_ptg_otherlicensedsoftware_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -1002,7 +1054,7 @@ $relationships = array (
   ),
   'accounts_ptg_otherunlicensedsoftware_1' => 
   array (
-    'id' => '3f8103bc-cfe1-3166-0391-5edb7f42c6f5',
+    'id' => '394531c3-ff9b-f7b2-564d-5ede77aa7240',
     'relationship_name' => 'accounts_ptg_otherunlicensedsoftware_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -1028,7 +1080,7 @@ $relationships = array (
   ),
   'accounts_ptg_wirelessinformation_1' => 
   array (
-    'id' => '3f9bc41d-c01c-a3b6-950c-5edb7fa36071',
+    'id' => '395e1e1a-4c14-1d52-adf7-5ede7736ed94',
     'relationship_name' => 'accounts_ptg_wirelessinformation_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -1054,7 +1106,7 @@ $relationships = array (
   ),
   'accounts_ptg_microsoftoffice_1' => 
   array (
-    'id' => '3fb71709-00e3-35ee-e5ac-5edb7f6dfeaf',
+    'id' => '3977c0ff-dcaf-0406-3de7-5ede7780f9d2',
     'relationship_name' => 'accounts_ptg_microsoftoffice_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -1078,9 +1130,35 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
   ),
+  'accounts_ptg_microsoftofficedesktop_1' => 
+  array (
+    'id' => '39a8c85e-83a2-aebc-8204-5ede771909b2',
+    'relationship_name' => 'accounts_ptg_microsoftofficedesktop_1',
+    'lhs_module' => 'Accounts',
+    'lhs_table' => 'accounts',
+    'lhs_key' => 'id',
+    'rhs_module' => 'ptg_MicrosoftOfficeDesktop',
+    'rhs_table' => 'ptg_microsoftofficedesktop',
+    'rhs_key' => 'id',
+    'join_table' => 'accounts_ptg_microsoftofficedesktop_1_c',
+    'join_key_lhs' => 'accounts_ptg_microsoftofficedesktop_1accounts_ida',
+    'join_key_rhs' => 'accounts_pe92adesktop_idb',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => NULL,
+    'relationship_role_column_value' => NULL,
+    'reverse' => '0',
+    'deleted' => '0',
+    'readonly' => true,
+    'rhs_subpanel' => 'default',
+    'lhs_subpanel' => NULL,
+    'from_studio' => true,
+    'is_custom' => true,
+    'relationship_only' => false,
+    'for_activities' => false,
+  ),
   'accounts_ptg_onpremise_email_services_1' => 
   array (
-    'id' => '3fccaa11-77d9-ba28-5ecd-5edb7f0d97f3',
+    'id' => '3a058805-49e5-f36d-6c80-5ede776ce32c',
     'relationship_name' => 'accounts_ptg_onpremise_email_services_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -1106,7 +1184,7 @@ $relationships = array (
   ),
   'accounts_ptg_switches_1' => 
   array (
-    'id' => '3fe58db1-2b8e-2377-aa11-5edb7f489f4c',
+    'id' => '3a232a8c-39ad-3d70-7d91-5ede77a1355b',
     'relationship_name' => 'accounts_ptg_switches_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -1132,7 +1210,7 @@ $relationships = array (
   ),
   'accounts_ptg_webserverintranet_1' => 
   array (
-    'id' => '4001039b-7860-1487-73f1-5edb7f3de459',
+    'id' => '3a3d4253-7083-42f1-0f0f-5ede77ad8b00',
     'relationship_name' => 'accounts_ptg_webserverintranet_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -1158,7 +1236,7 @@ $relationships = array (
   ),
   'accounts_ptg_network_drives_1' => 
   array (
-    'id' => '401cb8e4-a09c-f9d3-50d2-5edb7ffddee2',
+    'id' => '3a72d143-18a8-e986-d963-5ede77c3b415',
     'relationship_name' => 'accounts_ptg_network_drives_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -1184,7 +1262,7 @@ $relationships = array (
   ),
   'accounts_ptg_backup_software_1' => 
   array (
-    'id' => '403844b8-2432-561f-ad3b-5edb7f663808',
+    'id' => '3a8abb0c-3e36-671d-33c1-5ede77dc2b5e',
     'relationship_name' => 'accounts_ptg_backup_software_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -1208,9 +1286,35 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
   ),
+  'accounts_ptg_sharepoint_1' => 
+  array (
+    'id' => '3aa36e93-7d6d-7d95-8bb6-5ede770a2267',
+    'relationship_name' => 'accounts_ptg_sharepoint_1',
+    'lhs_module' => 'Accounts',
+    'lhs_table' => 'accounts',
+    'lhs_key' => 'id',
+    'rhs_module' => 'ptg_SharePoint',
+    'rhs_table' => 'ptg_sharepoint',
+    'rhs_key' => 'id',
+    'join_table' => 'accounts_ptg_sharepoint_1_c',
+    'join_key_lhs' => 'accounts_ptg_sharepoint_1accounts_ida',
+    'join_key_rhs' => 'accounts_ptg_sharepoint_1ptg_sharepoint_idb',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => NULL,
+    'relationship_role_column_value' => NULL,
+    'reverse' => '0',
+    'deleted' => '0',
+    'readonly' => true,
+    'rhs_subpanel' => 'default',
+    'lhs_subpanel' => NULL,
+    'from_studio' => true,
+    'is_custom' => true,
+    'relationship_only' => false,
+    'for_activities' => false,
+  ),
   'accounts_ptg_citrixservers_1' => 
   array (
-    'id' => '4055086a-3788-44fd-2832-5edb7f8ea4d2',
+    'id' => '3b25cabe-9392-e3f3-1411-5ede777698a0',
     'relationship_name' => 'accounts_ptg_citrixservers_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -1236,7 +1340,7 @@ $relationships = array (
   ),
   'accounts_ptg_client_connectivity_1' => 
   array (
-    'id' => '406fb317-d8b0-5a06-65d5-5edb7f82419f',
+    'id' => '3b3f7cd9-b87c-da6a-ee55-5ede77b522ed',
     'relationship_name' => 'accounts_ptg_client_connectivity_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -1262,7 +1366,7 @@ $relationships = array (
   ),
   'accounts_ptg_printers_1' => 
   array (
-    'id' => '4089aec6-d1f2-eb28-6e32-5edb7f02acea',
+    'id' => '3b592fad-6b4c-f576-d56e-5ede77fc169d',
     'relationship_name' => 'accounts_ptg_printers_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -1288,7 +1392,7 @@ $relationships = array (
   ),
   'accounts_ptg_odbc_1' => 
   array (
-    'id' => '40a384be-81cf-8435-15c5-5edb7f7a78cc',
+    'id' => '3b7405d1-5e5e-0935-390c-5ede77348bc0',
     'relationship_name' => 'accounts_ptg_odbc_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -1312,9 +1416,35 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
   ),
+  'accounts_ptg_thirdpartycontactinformation_1' => 
+  array (
+    'id' => '3b8c8da1-28f5-b4ad-56d2-5ede7739b9d8',
+    'relationship_name' => 'accounts_ptg_thirdpartycontactinformation_1',
+    'lhs_module' => 'Accounts',
+    'lhs_table' => 'accounts',
+    'lhs_key' => 'id',
+    'rhs_module' => 'ptg_ThirdPartyContactInformation',
+    'rhs_table' => 'ptg_thirdpartycontactinformation',
+    'rhs_key' => 'id',
+    'join_table' => 'accounts_ptg_thirdpartycontactinformation_1_c',
+    'join_key_lhs' => 'accounts_ptg_thirdpartycontactinformation_1accounts_ida',
+    'join_key_rhs' => 'accounts_p1ff0rmation_idb',
+    'relationship_type' => 'one-to-many',
+    'relationship_role_column' => NULL,
+    'relationship_role_column_value' => NULL,
+    'reverse' => '0',
+    'deleted' => '0',
+    'readonly' => true,
+    'rhs_subpanel' => 'default',
+    'lhs_subpanel' => NULL,
+    'from_studio' => true,
+    'is_custom' => true,
+    'relationship_only' => false,
+    'for_activities' => false,
+  ),
   'accounts_ptg_remoteaccessinformation_1' => 
   array (
-    'id' => '40bdb218-4e3c-da50-b77e-5edb7f73abc3',
+    'id' => '3bd847f4-0e16-a99f-eeca-5ede778896e7',
     'relationship_name' => 'accounts_ptg_remoteaccessinformation_1',
     'lhs_module' => 'Accounts',
     'lhs_table' => 'accounts',
@@ -1338,13 +1468,13 @@ $relationships = array (
     'relationship_only' => false,
     'for_activities' => false,
   ),
-  'accounts_ptg_thirdpartycontactinformation_1' => 
+  'accounts_ptg_hostedantisoftwareemail_1' => 
   array (
-    'rhs_label' => 'Third-Party Contact Information',
+    'rhs_label' => 'Hosted Anti-Software (Email)',
     'lhs_label' => 'Customers',
     'rhs_subpanel' => 'default',
     'lhs_module' => 'Accounts',
-    'rhs_module' => 'ptg_ThirdPartyContactInformation',
+    'rhs_module' => 'ptg_HostedAntiSoftwareEmail',
     'relationship_type' => 'one-to-many',
     'readonly' => true,
     'deleted' => false,
@@ -1352,6 +1482,6 @@ $relationships = array (
     'for_activities' => false,
     'is_custom' => false,
     'from_studio' => true,
-    'relationship_name' => 'accounts_ptg_thirdpartycontactinformation_1',
+    'relationship_name' => 'accounts_ptg_hostedantisoftwareemail_1',
   ),
 );

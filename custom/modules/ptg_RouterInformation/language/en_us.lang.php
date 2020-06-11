@@ -1,5 +1,5 @@
 <?php
-// created: 2020-06-05 17:20:36
+// created: 2020-06-08 06:54:38
 $mod_strings = array (
   'LBL_NAME' => 'Name',
   'LBL_DOC_ACTIVE_DATE' => 'Publish Date:',
@@ -10,4 +10,5 @@ $mod_strings = array (
   'LBL_NAT' => 'NAT (On /OFF)',
   'LBL_DHCP' => 'DHCP (On /OFF)',
   'LBL_EDITVIEW_PANEL1' => 'New Panel 1',
+  'LBL_DESCRIPTION' => 'Additional Notes',
 );

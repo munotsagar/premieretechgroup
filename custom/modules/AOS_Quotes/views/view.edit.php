@@ -44,11 +44,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 
 class AOS_QuotesViewEdit extends ViewEdit
-{	
+{   
 
-	
+    
     public function __construct()
-    {	
+    {   
         parent::__construct();
          $this->useForSubpanel = true;
          $this->useModuleQuickCreateTemplate = true;
@@ -59,22 +59,47 @@ class AOS_QuotesViewEdit extends ViewEdit
         global $current_user, $app_list_strings;
         $serviceCnt = count($app_list_strings['services_products_list']);
         $servicesDropDown = $app_list_strings['services_products_list'];
+
         $this->bean->services_products_c = str_replace('^', '', $this->bean->services_products_c);
         $services_products_c = explode(",", $this->bean->services_products_c);
-        //print_r($services_products_c);
         if($serviceCnt > 0) {
             $i = 0;
             $checkboxes.= '<div style="display:none;" id = "serviceCheckboxes">';
             foreach ($servicesDropDown as $key => $value) {
                 $serviceId = str_replace(" ", "_", $value);
+                if($services_products_c[$i] == $key) {
+                    $jsCode.='$("#'.strtolower($serviceId).'_c").parent().parent().next().show();
+        $("#'.strtolower($serviceId).'_c").parent().parent().show();';
+                } else {
+                     $jsCode.='$("#'.strtolower($serviceId).'_c").parent().parent().next().hide();
+        $("#'.strtolower($serviceId).'_c").parent().parent().hide();';
+                }
+
                 $checked = ($services_products_c[$i] == $key)?'checked="cheched"':'';
                $checkboxes.= '<label><input '.$checked.' type="checkbox" name="services_products_c[]" id = "'.$serviceId.'" value="'.$key.'"> '.$value.'</label><br><br>';
 
                $i++;
             }
-            $checkboxes.= '</div>';
+            $checkboxes.= '</div><script>$(document).ready(function(){'.$jsCode.'});</script>';
         }
         echo $checkboxes;
+
+
+        /*if($VoiceServiceCnt > 0) {
+            $i = 0;
+            $VoiceCheckboxes.= '<div style="display:none;" id = "VoiceServiceCheckboxes">';
+            foreach ($VoiceServicesDropDown as $key => $value) {
+                $VoiceServiceId = str_replace(" ", "_", $value);
+                $checked = ($voice_services_c[$i] == $key)?'checked="cheched"':'';
+               $VoiceCheckboxes.= '<label><input '.$checked.' type="checkbox" name="voice_services_c[]" id = "'.$VoiceServiceId.'" value="'.$key.'"> '.$value.'</label><br><br>';
+
+               $i++;
+            }
+            $VoiceCheckboxes.= '</div>';
+        }
+        // echo "hello";
+        echo $VoiceCheckboxes;
+*/
 ?>
 
 <script type="text/javascript" src="custom/modules/AOS_Quotes/js/aos_quotes.js"></script>

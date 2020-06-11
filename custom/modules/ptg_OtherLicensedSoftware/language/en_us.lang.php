@@ -1,5 +1,5 @@
 <?php
-// created: 2020-06-06 07:07:36
+// created: 2020-06-08 15:20:59
 $mod_strings = array (
   'LBL_WEBLINK' => 'Weblink',
   'LBL_NAME' => 'Application Name ',
@@ -14,4 +14,11 @@ $mod_strings = array (
   'LBL_APPROVAL_REQUESTER' => 'Approval requester',
   'LBL_APPROVAL_NOT_NEEDED' => 'Approval not needed',
   'LBL_DOC_ACTIVE_DATE' => 'Publish Date:',
+  'LBL_DESCRIPTION' => 'Additional Notes',
+  'LNK_NEW_RECORD' => 'Create Other Licensed Softwares Online',
+  'LNK_LIST' => 'View Other Licensed Softwares Online',
+  'LNK_IMPORT_PTG_OTHERLICENSEDSOFTWARE' => 'Import Other Licensed Softwares Online',
+  'LBL_LIST_FORM_TITLE' => 'Other Licensed Software Online List',
+  'LBL_SEARCH_FORM_TITLE' => 'Search Other Licensed Software Online',
+  'LBL_HOMEPAGE_TITLE' => 'My Other Licensed Softwares Online',
 );

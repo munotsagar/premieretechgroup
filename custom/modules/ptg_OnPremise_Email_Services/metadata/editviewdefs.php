@@ -103,6 +103,10 @@ array (
             'label' => 'LBL_HYBRID_CONFIGURATION',
           ),
         ),
+        8 => 
+        array (
+          0 => 'description',
+        ),
       ),
     ),
   ),

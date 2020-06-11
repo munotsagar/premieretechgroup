@@ -68,12 +68,22 @@ array (
         array (
           0 => 
           array (
+            'name' => 'license_type_c',
+            'studio' => 'visible',
+            'label' => 'LBL_LICENSE_TYPE',
+          ),
+          1 => '',
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
             'name' => 'admin_user_name_c',
             'label' => 'LBL_ADMIN_USER_NAME',
           ),
           1 => '',
         ),
-        3 => 
+        4 => 
         array (
           0 => 
           array (
@@ -82,7 +92,7 @@ array (
           ),
           1 => '',
         ),
-        4 => 
+        5 => 
         array (
           0 => 
           array (
@@ -91,7 +101,7 @@ array (
           ),
           1 => '',
         ),
-        5 => 
+        6 => 
         array (
           0 => 
           array (
@@ -99,6 +109,13 @@ array (
             'label' => 'LBL_APPROVAL_NOT_NEEDED ',
           ),
           1 => '',
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'description',
+          ),
         ),
       ),
     ),

@@ -2,6 +2,40 @@
  //WARNING: The contents of this file are auto-generated
 
 
+// created: 2020-06-07 10:23:52
+$dictionary["ptg_RemoteAccessInformation"]["fields"]["users_ptg_remoteaccessinformation_1"] = array (
+  'name' => 'users_ptg_remoteaccessinformation_1',
+  'type' => 'link',
+  'relationship' => 'users_ptg_remoteaccessinformation_1',
+  'source' => 'non-db',
+  'module' => 'Users',
+  'bean_name' => 'User',
+  'vname' => 'LBL_USERS_PTG_REMOTEACCESSINFORMATION_1_FROM_USERS_TITLE',
+  'id_name' => 'users_ptg_remoteaccessinformation_1users_ida',
+);
+$dictionary["ptg_RemoteAccessInformation"]["fields"]["users_ptg_remoteaccessinformation_1_name"] = array (
+  'name' => 'users_ptg_remoteaccessinformation_1_name',
+  'type' => 'relate',
+  'source' => 'non-db',
+  'vname' => 'LBL_USERS_PTG_REMOTEACCESSINFORMATION_1_FROM_USERS_TITLE',
+  'save' => true,
+  'id_name' => 'users_ptg_remoteaccessinformation_1users_ida',
+  'link' => 'users_ptg_remoteaccessinformation_1',
+  'table' => 'users',
+  'module' => 'Users',
+  'rname' => 'name',
+);
+$dictionary["ptg_RemoteAccessInformation"]["fields"]["users_ptg_remoteaccessinformation_1users_ida"] = array (
+  'name' => 'users_ptg_remoteaccessinformation_1users_ida',
+  'type' => 'link',
+  'relationship' => 'users_ptg_remoteaccessinformation_1',
+  'source' => 'non-db',
+  'reportable' => false,
+  'side' => 'right',
+  'vname' => 'LBL_USERS_PTG_REMOTEACCESSINFORMATION_1_FROM_PTG_REMOTEACCESSINFORMATION_TITLE',
+);
+
+
 // created: 2020-06-06 11:29:55
 $dictionary["ptg_RemoteAccessInformation"]["fields"]["accounts_ptg_remoteaccessinformation_1"] = array (
   'name' => 'accounts_ptg_remoteaccessinformation_1',
@@ -97,6 +131,14 @@ $dictionary['ptg_RemoteAccessInformation']['fields']['vpn_c']['labelValue']='VPN
  // created: 2020-06-05 18:39:02
 $dictionary['ptg_RemoteAccessInformation']['fields']['confirm_password_c']['inline_edit']='1';
 $dictionary['ptg_RemoteAccessInformation']['fields']['confirm_password_c']['labelValue']='Confirm Password';
+
+ 
+
+ // created: 2020-06-08 07:05:43
+$dictionary['ptg_RemoteAccessInformation']['fields']['description']['inline_edit']=true;
+$dictionary['ptg_RemoteAccessInformation']['fields']['description']['help']='Additional Notes';
+$dictionary['ptg_RemoteAccessInformation']['fields']['description']['comments']='Additional Notes';
+$dictionary['ptg_RemoteAccessInformation']['fields']['description']['merge_filter']='disabled';
 
  
 ?>

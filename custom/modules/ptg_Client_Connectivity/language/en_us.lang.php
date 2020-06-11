@@ -1,5 +1,5 @@
 <?php
-// created: 2020-06-05 14:00:20
+// created: 2020-06-08 06:40:29
 $mod_strings = array (
   'LBL_SUPPORTED_PROTOCOLS' => 'Supported Protocols',
   'LBL_IMAPINCOMINGMAILSERVER' => 'IMAP Incoming Mail Server',
@@ -21,4 +21,5 @@ $mod_strings = array (
   'LBL_IMAP' => 'IMAP',
   'LBL_EXCHANGEACTIVESYNC' => 'Exchange Active Sync (EAS)',
   'LBL_EDITVIEW_PANEL1' => 'Supported Protocols',
+  'LBL_DESCRIPTION' => 'Additional Notes',
 );

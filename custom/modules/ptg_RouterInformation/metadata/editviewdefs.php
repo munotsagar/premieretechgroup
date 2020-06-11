@@ -101,6 +101,13 @@ array (
           ),
           1 => '',
         ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'description',
+          ),
+        ),
       ),
     ),
   ),

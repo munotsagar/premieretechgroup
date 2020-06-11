@@ -67,6 +67,19 @@ $dictionary["Account"]["fields"]["accounts_ptg_remoteaccessinformation_1"] = arr
 );
 
 
+// created: 2020-06-08 17:38:11
+$dictionary["Account"]["fields"]["accounts_ptg_hostedantisoftwareemail_1"] = array (
+  'name' => 'accounts_ptg_hostedantisoftwareemail_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_hostedantisoftwareemail_1',
+  'source' => 'non-db',
+  'module' => 'ptg_HostedAntiSoftwareEmail',
+  'bean_name' => 'ptg_HostedAntiSoftwareEmail',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_HOSTEDANTISOFTWAREEMAIL_1_FROM_PTG_HOSTEDANTISOFTWAREEMAIL_TITLE',
+);
+
+
 // created: 2020-06-06 11:27:30
 $dictionary["Account"]["fields"]["accounts_ptg_wirelessinformation_1"] = array (
   'name' => 'accounts_ptg_wirelessinformation_1',
@@ -80,6 +93,19 @@ $dictionary["Account"]["fields"]["accounts_ptg_wirelessinformation_1"] = array (
 );
 
 
+// created: 2020-06-08 17:35:53
+$dictionary["Account"]["fields"]["accounts_ptg_quickbooksdesktop_1"] = array (
+  'name' => 'accounts_ptg_quickbooksdesktop_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_quickbooksdesktop_1',
+  'source' => 'non-db',
+  'module' => 'ptg_QuickBooksDesktop',
+  'bean_name' => 'ptg_QuickBooksDesktop',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_QUICKBOOKSDESKTOP_1_FROM_PTG_QUICKBOOKSDESKTOP_TITLE',
+);
+
+
 // created: 2020-06-06 11:35:45
 $dictionary["Account"]["fields"]["accounts_ptg_sharepoint_1"] = array (
   'name' => 'accounts_ptg_sharepoint_1',
@@ -90,6 +116,19 @@ $dictionary["Account"]["fields"]["accounts_ptg_sharepoint_1"] = array (
   'bean_name' => 'ptg_SharePoint',
   'side' => 'right',
   'vname' => 'LBL_ACCOUNTS_PTG_SHAREPOINT_1_FROM_PTG_SHAREPOINT_TITLE',
+);
+
+
+// created: 2020-06-08 17:36:47
+$dictionary["Account"]["fields"]["accounts_ptg_otherlicensedsoftwaredesktop_1"] = array (
+  'name' => 'accounts_ptg_otherlicensedsoftwaredesktop_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_otherlicensedsoftwaredesktop_1',
+  'source' => 'non-db',
+  'module' => 'ptg_OtherLicensedSoftwareDesktop',
+  'bean_name' => 'ptg_OtherLicensedSoftwareDesktop',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_OTHERLICENSEDSOFTWAREDESKTOP_1_FROM_PTG_OTHERLICENSEDSOFTWAREDESKTOP_TITLE',
 );
 
 
@@ -142,6 +181,19 @@ $dictionary["Account"]["fields"]["accounts_ptg_localareanetworkinformation_1"] =
   'bean_name' => 'ptg_LocalAreaNetworkInformation',
   'side' => 'right',
   'vname' => 'LBL_ACCOUNTS_PTG_LOCALAREANETWORKINFORMATION_1_FROM_PTG_LOCALAREANETWORKINFORMATION_TITLE',
+);
+
+
+// created: 2020-06-08 17:37:28
+$dictionary["Account"]["fields"]["accounts_ptg_sharepointonpremise_1"] = array (
+  'name' => 'accounts_ptg_sharepointonpremise_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_sharepointonpremise_1',
+  'source' => 'non-db',
+  'module' => 'ptg_SharepointOnPremise',
+  'bean_name' => 'ptg_SharepointOnPremise',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_SHAREPOINTONPREMISE_1_FROM_PTG_SHAREPOINTONPREMISE_TITLE',
 );
 
 
@@ -363,6 +415,19 @@ $dictionary["Account"]["fields"]["accounts_ptg_local_admin_credentials_1"] = arr
   'bean_name' => 'ptg_Local_Admin_Credentials',
   'side' => 'right',
   'vname' => 'LBL_ACCOUNTS_PTG_LOCAL_ADMIN_CREDENTIALS_1_FROM_PTG_LOCAL_ADMIN_CREDENTIALS_TITLE',
+);
+
+
+// created: 2020-06-08 17:33:44
+$dictionary["Account"]["fields"]["accounts_ptg_microsoftofficedesktop_1"] = array (
+  'name' => 'accounts_ptg_microsoftofficedesktop_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_microsoftofficedesktop_1',
+  'source' => 'non-db',
+  'module' => 'ptg_MicrosoftOfficeDesktop',
+  'bean_name' => 'ptg_MicrosoftOfficeDesktop',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_MICROSOFTOFFICEDESKTOP_1_FROM_PTG_MICROSOFTOFFICEDESKTOP_TITLE',
 );
 
 

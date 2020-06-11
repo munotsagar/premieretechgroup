@@ -1,5 +1,5 @@
 <?php
-// created: 2020-06-05 18:01:47
+// created: 2020-06-08 07:01:36
 $mod_strings = array (
   'LBL_NAME' => 'Name',
   'LBL_DOC_ACTIVE_DATE' => 'Publish Date:',
@@ -14,4 +14,5 @@ $mod_strings = array (
   'LBL_SSID' => 'SSID',
   'LBL_ENCRYPTION_KEY' => 'Encryption Key',
   'LBL_PHYSICAL_LOCATION' => 'Physical Location',
+  'LBL_DESCRIPTION' => 'Additional Notes',
 );

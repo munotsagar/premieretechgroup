@@ -61,6 +61,15 @@ array (
           ),
           1 => '',
         ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'description',
+            'comment' => 'Full text of the note',
+            'label' => 'LBL_DESCRIPTION',
+          ),
+        ),
       ),
     ),
   ),

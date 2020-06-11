@@ -1,5 +1,5 @@
 <?php
-// created: 2020-06-05 18:29:09
+// created: 2020-06-08 07:03:59
 $mod_strings = array (
   'LBL_CITRIX_SERVER_TYPE' => 'Type',
   'LBL_WEBLINK' => 'Weblink',
@@ -13,4 +13,5 @@ $mod_strings = array (
   'LBL_URL_THIN_CLIENT ' => 'URL for thin client access',
   'LBL_DOC_ACTIVE_DATE' => 'Publish Date:',
   'LBL_NAME' => 'Name',
+  'LBL_DESCRIPTION' => 'Additional Notes',
 );

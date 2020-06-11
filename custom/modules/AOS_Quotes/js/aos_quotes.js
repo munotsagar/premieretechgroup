@@ -1,7 +1,6 @@
 $(document).ready(function(){
-        $("#voice_services_c").parent().parent().next().hide();
+		/*$("#voice_services_c").parent().parent().next().hide();
         $("#voice_services_c").parent().parent().hide();
-
         $("#local_services_c").parent().parent().next().hide();
         $("#local_services_c").parent().parent().hide();
 
@@ -13,7 +12,7 @@ $(document).ready(function(){
         
         $("#other_services_c").parent().parent().next().hide();
         $("#other_services_c").parent().parent().hide();
-
+*/
         var labelID;
 
         $('label').click(function() {
@@ -30,7 +29,9 @@ $(document).ready(function(){
             {
                 $("#voice_services_c").parent().parent().next().show();
                 $("#voice_services_c").parent().parent().show();
-            }
+            } else {
+				$("#voice_services_c option:selected").prop("selected", false);
+			}
 
         });
 
@@ -41,7 +42,9 @@ $(document).ready(function(){
             {
                 $("#local_services_c").parent().parent().next().show();
                 $("#local_services_c").parent().parent().show();
-            }
+            } else {
+				$("#local_services_c option:selected").prop("selected", false);
+			}
 
         });
 
@@ -52,7 +55,9 @@ $(document).ready(function(){
             {
                 $("#data_services_c").parent().parent().next().show();
                 $("#data_services_c").parent().parent().show();
-            }
+            } else {
+				$("#data_services_c option:selected").prop("selected", false);
+			}
 
         });
 
@@ -63,7 +68,9 @@ $(document).ready(function(){
             {
                 $("#cloud_services_c").parent().parent().next().show();
                 $("#cloud_services_c").parent().parent().show();
-            }
+            } else {
+				$("#cloud_services_c option:selected").prop("selected", false);
+			}
 
         });
 
@@ -74,7 +81,9 @@ $(document).ready(function(){
             {
                 $("#other_services_c").parent().parent().next().show();
                 $("#other_services_c").parent().parent().show();
-            }
+            } else {
+				$('#other_services_c').text("");
+			}
 
         });
 

@@ -53,6 +53,18 @@ array (
           ),
           1 => '',
         ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'description',
+            'displayParams' => 
+            array (
+              'rows' => 10,
+              'cols' => 120,
+            ),
+          ),
+        ),
       ),
     ),
   ),

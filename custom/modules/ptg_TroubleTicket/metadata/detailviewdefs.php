@@ -48,6 +48,11 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL4' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
       ),
       'syncDetailEditViews' => true,
     ),
@@ -62,7 +67,6 @@ array (
             'name' => 'ticket_number_c',
             'label' => 'LBL_TICKET_NUMBER',
           ),
-          1 => '',
         ),
         1 => 
         array (
@@ -72,6 +76,20 @@ array (
             'label' => 'LBL_SITES',
           ),
           1 => '',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'customer_name_c',
+            'studio' => 'visible',
+            'label' => 'LBL_CUSTOMER_NAME',
+          ),
+          1 => 
+          array (
+            'name' => 'company_name_c',
+            'label' => 'LBL_COMPANY_NAME',
+          ),
         ),
       ),
       'lbl_editview_panel2' => 
@@ -135,6 +153,203 @@ array (
             'label' => 'LBL_PRIORITY',
           ),
           1 => '',
+        ),
+        3 => 
+        array (
+          0 => 'name',
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'department_c',
+            'label' => 'LBL_DEPARTMENT',
+          ),
+          1 => 
+          array (
+            'name' => 'position_c',
+            'label' => 'LBL_POSITION',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'telephone_c',
+            'label' => 'LBL_TELEPHONE',
+          ),
+          1 => 
+          array (
+            'name' => 'extension_c',
+            'label' => 'LBL_EXTENSION',
+          ),
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'cellular_c',
+            'label' => 'LBL_CELLULAR',
+          ),
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel4' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'request_new_c',
+            'label' => 'LBL_REQUEST_NEW',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'request_new_dropdown_c',
+            'studio' => 'visible',
+            'label' => 'LBL_REQUEST_NEW_DROPDOWN',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'description3_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DESCRIPTION3',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'reporting_trouble_ticket_c',
+            'label' => 'LBL_REPORTING_TROUBLE_TICKET',
+          ),
+          1 => '',
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'user_name_c',
+            'label' => 'LBL_USER_NAME',
+          ),
+          1 => 
+          array (
+            'name' => 'password_c',
+            'label' => 'LBL_PASSWORD',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'teamviewer_id_c',
+            'label' => 'LBL_TEAMVIEWER_ID',
+          ),
+          1 => '',
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'any_desk_id_c',
+            'label' => 'LBL_ANY_DESK_ID',
+          ),
+          1 => '',
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'solarwinds_id_c',
+            'label' => 'LBL_SOLARWINDS_ID',
+          ),
+          1 => '',
+        ),
+        8 => 
+        array (
+          0 => 
+          array (
+            'name' => 'ninja_id_c',
+            'label' => 'LBL_NINJA_ID',
+          ),
+          1 => '',
+        ),
+        9 => 
+        array (
+          0 => 
+          array (
+            'name' => 'connectwise_id_c',
+            'label' => 'LBL_CONNECTWISE_ID',
+          ),
+          1 => '',
+        ),
+        10 => 
+        array (
+          0 => 
+          array (
+            'name' => 'continuum_id_c',
+            'label' => 'LBL_CONTINUUM_ID',
+          ),
+          1 => '',
+        ),
+        11 => 
+        array (
+          0 => 
+          array (
+            'name' => 'logmein_id_c',
+            'label' => 'LBL_LOGMEIN_ID',
+          ),
+          1 => '',
+        ),
+        12 => 
+        array (
+          0 => 
+          array (
+            'name' => 'gotomypc_id_c',
+            'label' => 'LBL_GOTOMYPC_ID',
+          ),
+          1 => '',
+        ),
+        13 => 
+        array (
+          0 => 
+          array (
+            'name' => 'other_id_c',
+            'label' => 'LBL_OTHER_ID',
+          ),
+          1 => '',
+        ),
+        14 => 
+        array (
+          0 => 
+          array (
+            'name' => 'reset_password_c',
+            'label' => 'LBL_RESET_PASSWORD',
+          ),
+        ),
+        15 => 
+        array (
+          0 => 
+          array (
+            'name' => 'reset_password_dropdown_c',
+            'studio' => 'visible',
+            'label' => 'LBL_RESET_PASSWORD_DROPDOWN',
+          ),
+        ),
+        16 => 
+        array (
+          0 => 
+          array (
+            'name' => 'description2_c',
+            'studio' => 'visible',
+            'label' => 'LBL_DESCRIPTION2',
+          ),
         ),
       ),
     ),

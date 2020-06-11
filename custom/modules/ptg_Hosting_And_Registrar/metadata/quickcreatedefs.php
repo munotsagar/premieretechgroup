@@ -93,6 +93,15 @@ array (
           ),
           1 => '',
         ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'description',
+            'comment' => 'Full text of the note',
+            'label' => 'LBL_DESCRIPTION',
+          ),
+        ),
       ),
     ),
   ),

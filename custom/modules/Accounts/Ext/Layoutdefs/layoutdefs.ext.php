@@ -143,6 +143,30 @@ $layout_defs["Accounts"]["subpanel_setup"]['accounts_ptg_remoteaccessinformation
 );
 
 
+ // created: 2020-06-08 17:38:11
+$layout_defs["Accounts"]["subpanel_setup"]['accounts_ptg_hostedantisoftwareemail_1'] = array (
+  'order' => 100,
+  'module' => 'ptg_HostedAntiSoftwareEmail',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_ACCOUNTS_PTG_HOSTEDANTISOFTWAREEMAIL_1_FROM_PTG_HOSTEDANTISOFTWAREEMAIL_TITLE',
+  'get_subpanel_data' => 'accounts_ptg_hostedantisoftwareemail_1',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
  // created: 2020-06-06 11:27:30
 $layout_defs["Accounts"]["subpanel_setup"]['accounts_ptg_wirelessinformation_1'] = array (
   'order' => 100,
@@ -167,6 +191,30 @@ $layout_defs["Accounts"]["subpanel_setup"]['accounts_ptg_wirelessinformation_1']
 );
 
 
+ // created: 2020-06-08 17:35:53
+$layout_defs["Accounts"]["subpanel_setup"]['accounts_ptg_quickbooksdesktop_1'] = array (
+  'order' => 100,
+  'module' => 'ptg_QuickBooksDesktop',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_ACCOUNTS_PTG_QUICKBOOKSDESKTOP_1_FROM_PTG_QUICKBOOKSDESKTOP_TITLE',
+  'get_subpanel_data' => 'accounts_ptg_quickbooksdesktop_1',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
  // created: 2020-06-06 11:35:45
 $layout_defs["Accounts"]["subpanel_setup"]['accounts_ptg_sharepoint_1'] = array (
   'order' => 100,
@@ -176,6 +224,30 @@ $layout_defs["Accounts"]["subpanel_setup"]['accounts_ptg_sharepoint_1'] = array 
   'sort_by' => 'id',
   'title_key' => 'LBL_ACCOUNTS_PTG_SHAREPOINT_1_FROM_PTG_SHAREPOINT_TITLE',
   'get_subpanel_data' => 'accounts_ptg_sharepoint_1',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
+ // created: 2020-06-08 17:36:47
+$layout_defs["Accounts"]["subpanel_setup"]['accounts_ptg_otherlicensedsoftwaredesktop_1'] = array (
+  'order' => 100,
+  'module' => 'ptg_OtherLicensedSoftwareDesktop',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_ACCOUNTS_PTG_OTHERLICENSEDSOFTWAREDESKTOP_1_FROM_PTG_OTHERLICENSEDSOFTWAREDESKTOP_TITLE',
+  'get_subpanel_data' => 'accounts_ptg_otherlicensedsoftwaredesktop_1',
   'top_buttons' => 
   array (
     0 => 
@@ -272,6 +344,30 @@ $layout_defs["Accounts"]["subpanel_setup"]['accounts_ptg_localareanetworkinforma
   'sort_by' => 'id',
   'title_key' => 'LBL_ACCOUNTS_PTG_LOCALAREANETWORKINFORMATION_1_FROM_PTG_LOCALAREANETWORKINFORMATION_TITLE',
   'get_subpanel_data' => 'accounts_ptg_localareanetworkinformation_1',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
+ // created: 2020-06-08 17:37:28
+$layout_defs["Accounts"]["subpanel_setup"]['accounts_ptg_sharepointonpremise_1'] = array (
+  'order' => 100,
+  'module' => 'ptg_SharepointOnPremise',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_ACCOUNTS_PTG_SHAREPOINTONPREMISE_1_FROM_PTG_SHAREPOINTONPREMISE_TITLE',
+  'get_subpanel_data' => 'accounts_ptg_sharepointonpremise_1',
   'top_buttons' => 
   array (
     0 => 
@@ -680,6 +776,30 @@ $layout_defs["Accounts"]["subpanel_setup"]['accounts_ptg_local_admin_credentials
   'sort_by' => 'id',
   'title_key' => 'LBL_ACCOUNTS_PTG_LOCAL_ADMIN_CREDENTIALS_1_FROM_PTG_LOCAL_ADMIN_CREDENTIALS_TITLE',
   'get_subpanel_data' => 'accounts_ptg_local_admin_credentials_1',
+  'top_buttons' => 
+  array (
+    0 => 
+    array (
+      'widget_class' => 'SubPanelTopButtonQuickCreate',
+    ),
+    1 => 
+    array (
+      'widget_class' => 'SubPanelTopSelectButton',
+      'mode' => 'MultiSelect',
+    ),
+  ),
+);
+
+
+ // created: 2020-06-08 17:33:44
+$layout_defs["Accounts"]["subpanel_setup"]['accounts_ptg_microsoftofficedesktop_1'] = array (
+  'order' => 100,
+  'module' => 'ptg_MicrosoftOfficeDesktop',
+  'subpanel_name' => 'default',
+  'sort_order' => 'asc',
+  'sort_by' => 'id',
+  'title_key' => 'LBL_ACCOUNTS_PTG_MICROSOFTOFFICEDESKTOP_1_FROM_PTG_MICROSOFTOFFICEDESKTOP_TITLE',
+  'get_subpanel_data' => 'accounts_ptg_microsoftofficedesktop_1',
   'top_buttons' => 
   array (
     0 => 

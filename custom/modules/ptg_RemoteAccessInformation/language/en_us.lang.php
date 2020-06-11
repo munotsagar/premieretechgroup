@@ -1,5 +1,5 @@
 <?php
-// created: 2020-06-05 18:40:25
+// created: 2020-06-08 07:05:43
 $mod_strings = array (
   'LBL_NAME' => 'Name',
   'LBL_DOC_ACTIVE_DATE' => 'Publish Date:',
@@ -11,4 +11,5 @@ $mod_strings = array (
   'LBL_PORT_FORWARDING_NUMBER' => 'Port Forwarding Number',
   'LBL_VPN_CLIENT' => 'VPN Client',
   'LBL_EXTERNAL_LINK' => 'External Link',
+  'LBL_DESCRIPTION' => 'Additional Notes',
 );

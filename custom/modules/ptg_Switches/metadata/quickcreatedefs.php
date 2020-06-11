@@ -61,7 +61,6 @@ array (
             'name' => 'switch_configured_c',
             'label' => 'LBL_SWITCH_CONFIGURED',
           ),
-          1 => '',
         ),
         2 => 
         array (
@@ -93,7 +92,11 @@ array (
         ),
         5 => 
         array (
-          0 => '',
+          0 => 
+          array (
+            'name' => 'ip_address__c',
+            'label' => 'LBL_IP_ADDRESS ',
+          ),
           1 => '',
         ),
         6 => 
@@ -104,6 +107,18 @@ array (
             'label' => 'LBL_PHYSICAL_LOCATION ',
           ),
           1 => '',
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'description',
+            'displayParams' => 
+            array (
+              'rows' => 10,
+              'cols' => 120,
+            ),
+          ),
         ),
       ),
     ),

@@ -150,7 +150,10 @@ array (
             'name' => 'upload_one_recent_bill_c',
             'label' => 'LBL_UPLOAD_ONE_RECENT_BILL',
           ),
-          1 => '',
+        ),
+        13 => 
+        array (
+          0 => 'description',
         ),
       ),
     ),

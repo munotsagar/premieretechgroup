@@ -90,6 +90,13 @@ array (
           ),
           1 => '',
         ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'description',
+          ),
+        ),
       ),
     ),
   ),

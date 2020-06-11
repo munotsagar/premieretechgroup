@@ -25,17 +25,22 @@ array (
         'footerTpl' => 'modules/Users/tpls/EditViewFooter.tpl',
       ),
       'javascript' => '<script type="text/javascript" src="modules/Users/UserEditView.js"></script>',
-      'useTabs' => false,
+      'useTabs' => true,
       'tabDefs' => 
       array (
         'LBL_USER_INFORMATION' => 
         array (
-          'newTab' => false,
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
         'LBL_EMPLOYEE_INFORMATION' => 
         array (
           'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL1' => 
+        array (
+          'newTab' => true,
           'panelDefault' => 'expanded',
         ),
       ),
@@ -147,11 +152,20 @@ array (
         array (
           0 => 
           array (
+            'name' => 'organization_c',
+            'label' => 'LBL_ORGANIZATION',
+          ),
+          1 => '',
+        ),
+        8 => 
+        array (
+          0 => 
+          array (
             'name' => 'photo',
             'label' => 'LBL_PHOTO',
           ),
         ),
-        8 => 
+        9 => 
         array (
           0 => 
           array (
@@ -278,6 +292,22 @@ array (
             'name' => 'description',
             'label' => 'LBL_DESCRIPTION',
           ),
+        ),
+      ),
+      'lbl_editview_panel1' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'full_name',
+            'studio' => 
+            array (
+              'formula' => false,
+            ),
+            'label' => 'LBL_NAME',
+          ),
+          1 => '',
         ),
       ),
     ),

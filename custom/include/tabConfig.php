@@ -1,5 +1,5 @@
 <?php
-// created: 2020-06-06 18:23:59
+// created: 2020-06-08 06:57:06
 $GLOBALS['tabStructure'] = array (
   'LBL_TABGROUP_SALES' => 
   array (
@@ -11,7 +11,8 @@ $GLOBALS['tabStructure'] = array (
       2 => 'Contacts',
       3 => 'AOS_Quotes',
       4 => 'Opportunities',
-      5 => 'Leads',
+      5 => 'ptg_TroubleTicket',
+      6 => 'Leads',
     ),
   ),
   'LBL_TABGROUP_MARKETING' => 

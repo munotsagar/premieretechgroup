@@ -1,5 +1,5 @@
 <?php
-// created: 2020-06-05 09:50:24
+// created: 2020-06-08 05:34:14
 $mod_strings = array (
   'LBL_MODEL' => 'Model',
   'LBL_FIRMWARE_VERSION' => 'Firmware version',
@@ -7,4 +7,5 @@ $mod_strings = array (
   'LBL_USERNAME' => 'Username',
   'LBL_PASSWORD' => 'Password',
   'LBL_WEBLINK' => 'Weblink',
+  'LBL_DESCRIPTION' => 'Additional Notes',
 );

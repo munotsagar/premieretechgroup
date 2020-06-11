@@ -147,6 +147,14 @@ array (
           ),
           1 => '',
         ),
+        12 => 
+        array (
+          0 => 
+          array (
+            'name' => 'description',
+            'label' => 'LBL_DOC_DESCRIPTION',
+          ),
+        ),
       ),
     ),
   ),

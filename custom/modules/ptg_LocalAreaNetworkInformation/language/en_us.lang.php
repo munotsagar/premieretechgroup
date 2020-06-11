@@ -1,5 +1,5 @@
 <?php
-// created: 2020-06-05 16:57:58
+// created: 2020-06-08 06:47:55
 $mod_strings = array (
   'LBL_LOCAL_IP_RANGE' => 'Local IP Range',
   'LBL_EXTERNAL_IP_ADDRESS' => 'External IP Address',
@@ -16,4 +16,5 @@ $mod_strings = array (
   'LBL_SECONDARY_DOMAIN_CONTROLLER' => 'Secondary Domain Controller',
   'LBL_NAME' => 'Name',
   'LBL_DOC_ACTIVE_DATE' => 'Publish Date:',
+  'LBL_DESCRIPTION' => 'Additional Notes',
 );

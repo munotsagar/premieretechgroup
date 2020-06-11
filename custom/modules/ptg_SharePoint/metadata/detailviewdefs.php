@@ -43,9 +43,8 @@ array (
         array (
           0 => 
           array (
-            'name' => 'environment_c',
-            'studio' => 'visible',
-            'label' => 'LBL_ENVIRONMENT',
+            'name' => 'share_point_url__c',
+            'label' => 'LBL_SHARE_POINT_URL ',
           ),
           1 => '',
         ),
@@ -53,8 +52,8 @@ array (
         array (
           0 => 
           array (
-            'name' => 'share_point_url__c',
-            'label' => 'LBL_SHARE_POINT_URL ',
+            'name' => 'main_team_site_url_c',
+            'label' => 'LBL_MAIN_TEAM_SITE_URL',
           ),
           1 => '',
         ),
@@ -62,10 +61,9 @@ array (
         array (
           0 => 
           array (
-            'name' => 'main_team_site_url_c',
-            'label' => 'LBL_MAIN_TEAM_SITE_URL',
+            'name' => 'description',
+            'label' => 'LBL_DOC_DESCRIPTION',
           ),
-          1 => '',
         ),
       ),
     ),
