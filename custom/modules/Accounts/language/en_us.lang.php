@@ -1,5 +1,5 @@
 <?php
-// created: 2020-06-08 15:20:58
+// created: 2020-06-13 14:46:18
 $mod_strings = array (
   'LBL_NAME' => 'Comapny Legal Name',
   'LBL_PHONE_OFFICE' => 'Office Phone:',
@@ -74,4 +74,5 @@ $mod_strings = array (
   'LBL_ACCOUNTS_PTG_OTHERLICENSEDSOFTWARE_1_FROM_PTG_OTHERLICENSEDSOFTWARE_TITLE' => 'Other Licensed Softwares Online',
   'LBL_ACCOUNTS_PTG_QUICKBOOKS_1_FROM_PTG_QUICKBOOKS_TITLE' => 'Quick Books Online',
   'LBL_ACCOUNTS_PTG_MICROSOFTOFFICE_1_FROM_PTG_MICROSOFTOFFICE_TITLE' => 'Microsoft Office Online',
+  'LBL_CUSTOMER_COUNT' => 'Customer Count',
 );

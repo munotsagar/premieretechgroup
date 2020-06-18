@@ -71,7 +71,62 @@ class ptg_TroubleTicketViewEdit extends ViewEdit
 			$("#detailpanel_1").parent().attr("style","display:block"); 
 
 		}
-	});
+
+        var onclicksave = $("input[title='Save']").attr("onclick");
+        $("input[title='Save']").removeAttr("onclick");
+
+        $("input[title='Save']").click(function(){
+
+            if($("#request_new_c").prop("checked") == true) 
+            {
+               if($("#request_new_dropdown_c").val() == 0)
+                {
+                    alert("Please select Request New!");
+                    return false;
+                }
+            }
+
+            if($("#reporting_trouble_ticket_c").prop("checked") == true) { 
+                    
+                    if($("#user_name_c").val()=="" && $("#password_c").val()=="")
+                    {
+                        alert("User Name and Password should not be blank!");
+                        return false;
+                    }
+
+                    if(($("#teamviewer_id_c").val()!="" && $("#password6_c").val()!="") || 
+                        ($("#any_desk_id_c").val()!="" && $("#password2_c").val()!="") || 
+                        ($("#solarwinds_id_c").val()!="" && $("#password5_c").val()!="") || 
+                        ($("#ninja_id_c").val()!="" && $("#password9_c").val()!="") || 
+                        ($("#connectwise_id_c").val()!="" && $("#password7_c").val()!="") || 
+                        ($("#continuum_id_c").val()!="" && $("#password4_c").val()!="") || 
+                        ($("#logmein_id_c").val()!="" && $("#password3_c").val()!="") || 
+                        ($("#gotomypc_id_c").val()!="" && $("#password8_c").val()!="") || 
+                        ($("#other_id_c").val()!="" && $("#password10_c").val()!=""))
+                    {
+                        
+                    } else{
+                        alert("Please select one of the ID & Password from TeamViewer ID and Other ID");
+                        return false;
+                    }
+            }
+
+            if($("#reset_password_c").prop("checked") == true) { 
+
+                if($("#reset_password_dropdown_c").val() == 0)
+                {
+                    alert("Please select Reset Password!");
+                    return false;
+                }
+            }
+            
+            var _form = document.getElementById('EditView'); 
+            _form.action.value='Save'; 
+            if(check_form('EditView')){SUGAR.ajaxUI.submitForm(_form);}
+            return false;
+        });
+   });
+	
 </script>
 
 <?php

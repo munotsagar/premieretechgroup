@@ -162,7 +162,7 @@
             deleteCallback: false,
             afterUploadAll: false,
             uploadButtonClass: "ajax-file-upload",
-            dragDropStr: "<span><b>Drag &amp; Drop Files</b></span>",
+            dragDropStr: "<span><b>Drag &amp; Drop files to upload</b></span>",
             abortStr: "Abort",
             cancelStr: "Cancel",
             deletelStr: "Delete",
@@ -371,7 +371,7 @@
                 if (C.fileName.indexOf("[]") != C.fileName.length - 2) {
                     C.fileName += "[]"
                 }
-                u = "<input type='file' id='" + z + "' name='" + C.fileName + "' multiple>Upload</input>"
+                u = "<input type='file' id='" + z + "' name='" + C.fileName + "' multiple>Upload Files</input>"
             }
             var y = b(u).appendTo(v);
             y.change(function() {

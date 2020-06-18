@@ -16,6 +16,9 @@ $hook_array['after_relationship_add'][] = Array(77, 'addRelationship', 'modules/
 $hook_array['after_relationship_delete'] = Array(); 
 $hook_array['after_relationship_delete'][] = Array(77, 'deleteRelationship', 'modules/Accounts/AccountsJjwg_MapsLogicHook.php','AccountsJjwg_MapsLogicHook', 'deleteRelationship'); 
 
+//Sachin Mane 13-June-2020
+$hook_array['before_save'] = Array(); 
+$hook_array['before_save'][] = Array(1, 'Create Customer ID', 'custom/modules/Accounts/LogicHooks/Logics.php','Logics', 'createCustomerId');
 
 
 ?>

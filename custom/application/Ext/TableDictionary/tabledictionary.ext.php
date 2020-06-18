@@ -63,6 +63,11 @@ include('custom/metadata/accounts_ptg_otherlicensedsoftwaredesktop_1MetaData.php
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/accounts_ptg_camera_system_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/users_ptg_printers_1MetaData.php');
 
 
@@ -134,6 +139,11 @@ include('custom/metadata/users_ptg_odbc_1MetaData.php');
  
  //WARNING: The contents of this file are auto-generated
 include('custom/metadata/users_ptg_microsoftofficedesktop_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
+include('custom/metadata/users_ptg_camera_system_1MetaData.php');
 
 
  

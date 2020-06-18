@@ -49,12 +49,21 @@ array (
         array (
           0 => 
           array (
+            'name' => 'server_c',
+            'label' => 'LBL_SERVER',
+          ),
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
             'name' => 'sharepoint_url_c',
             'label' => 'LBL_SHAREPOINT_URL',
           ),
           1 => '',
         ),
-        1 => 
+        2 => 
         array (
           0 => 
           array (
@@ -63,7 +72,7 @@ array (
           ),
           1 => '',
         ),
-        2 => 
+        3 => 
         array (
           0 => 
           array (

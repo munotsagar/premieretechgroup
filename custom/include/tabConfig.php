@@ -1,5 +1,5 @@
 <?php
-// created: 2020-06-08 06:57:06
+// created: 2020-06-15 08:14:16
 $GLOBALS['tabStructure'] = array (
   'LBL_TABGROUP_SALES' => 
   array (
@@ -7,38 +7,11 @@ $GLOBALS['tabStructure'] = array (
     'modules' => 
     array (
       0 => 'Home',
-      1 => 'Accounts',
-      2 => 'Contacts',
+      1 => 'Calendar',
+      2 => 'Accounts',
       3 => 'AOS_Quotes',
-      4 => 'Opportunities',
-      5 => 'ptg_TroubleTicket',
-      6 => 'Leads',
-    ),
-  ),
-  'LBL_TABGROUP_MARKETING' => 
-  array (
-    'label' => 'LBL_TABGROUP_MARKETING',
-    'modules' => 
-    array (
-      0 => 'Home',
-      1 => 'Accounts',
-      2 => 'Contacts',
-      3 => 'Leads',
-      4 => 'Campaigns',
-      5 => 'Prospects',
-      6 => 'ProspectLists',
-    ),
-  ),
-  'LBL_TABGROUP_SUPPORT' => 
-  array (
-    'label' => 'LBL_TABGROUP_SUPPORT',
-    'modules' => 
-    array (
-      0 => 'Home',
-      1 => 'Accounts',
-      2 => 'Contacts',
-      3 => 'Cases',
-      4 => 'Bugs',
+      4 => 'ptg_TroubleTicket',
+      5 => 'Tasks',
     ),
   ),
   'LBL_TABGROUP_ACTIVITIES' => 
@@ -48,22 +21,48 @@ $GLOBALS['tabStructure'] = array (
     array (
       0 => 'Home',
       1 => 'Calendar',
-      2 => 'Calls',
-      3 => 'Meetings',
-      4 => 'Emails',
-      5 => 'Tasks',
-      6 => 'Notes',
+      2 => 'Campaigns',
+      3 => 'Calls',
+      4 => 'Leads',
+      5 => 'Notes',
+      6 => 'Meetings',
+      7 => 'Opportunities',
+      8 => 'Project',
+      9 => 'Emails',
+      10 => 'Prospects',
+      11 => 'Tasks',
+      12 => 'ProspectLists',
     ),
   ),
-  'LBL_TABGROUP_COLLABORATION' => 
+  'LBL_GROUPTAB5_1592207984' => 
   array (
-    'label' => 'LBL_TABGROUP_COLLABORATION',
+    'label' => 'LBL_GROUPTAB5_1592207984',
     'modules' => 
     array (
       0 => 'Home',
-      1 => 'Emails',
-      2 => 'Documents',
-      3 => 'Project',
+      1 => 'ptg_EmployeeCommission',
+      2 => 'ptg_Message',
+      3 => 'ptg_TroubleTicketEmployeeCommission',
+    ),
+  ),
+  'LBL_GROUPTAB6_1592208053' => 
+  array (
+    'label' => 'LBL_GROUPTAB6_1592208053',
+    'modules' => 
+    array (
+      0 => 'Home',
+      1 => 'ptg_TroubleTicketVendorCommission',
+      2 => 'ptg_VendorCommission',
+    ),
+  ),
+  'LBL_GROUPTAB5_1592208589' => 
+  array (
+    'label' => 'LBL_GROUPTAB5_1592208589',
+    'modules' => 
+    array (
+      0 => 'Home',
+      1 => 'Bugs',
+      2 => 'Cases',
     ),
   ),
 );

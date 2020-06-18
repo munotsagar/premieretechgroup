@@ -237,7 +237,11 @@ array (
             'name' => 'teamviewer_id_c',
             'label' => 'LBL_TEAMVIEWER_ID',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'password6_c',
+            'label' => 'LBL_PASSWORD6',
+          ),
         ),
         6 => 
         array (
@@ -246,7 +250,11 @@ array (
             'name' => 'any_desk_id_c',
             'label' => 'LBL_ANY_DESK_ID',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'password2_c',
+            'label' => 'LBL_PASSWORD2',
+          ),
         ),
         7 => 
         array (
@@ -255,7 +263,11 @@ array (
             'name' => 'solarwinds_id_c',
             'label' => 'LBL_SOLARWINDS_ID',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'password5_c',
+            'label' => 'LBL_PASSWORD5',
+          ),
         ),
         8 => 
         array (
@@ -264,7 +276,11 @@ array (
             'name' => 'ninja_id_c',
             'label' => 'LBL_NINJA_ID',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'password9_c',
+            'label' => 'LBL_PASSWORD9',
+          ),
         ),
         9 => 
         array (
@@ -273,7 +289,11 @@ array (
             'name' => 'connectwise_id_c',
             'label' => 'LBL_CONNECTWISE_ID',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'password7_c',
+            'label' => 'LBL_PASSWORD7',
+          ),
         ),
         10 => 
         array (
@@ -282,7 +302,11 @@ array (
             'name' => 'continuum_id_c',
             'label' => 'LBL_CONTINUUM_ID',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'password4_c',
+            'label' => 'LBL_PASSWORD4',
+          ),
         ),
         11 => 
         array (
@@ -291,7 +315,11 @@ array (
             'name' => 'logmein_id_c',
             'label' => 'LBL_LOGMEIN_ID',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'password3_c',
+            'label' => 'LBL_PASSWORD3',
+          ),
         ),
         12 => 
         array (
@@ -300,7 +328,11 @@ array (
             'name' => 'gotomypc_id_c',
             'label' => 'LBL_GOTOMYPC_ID',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'password8_c',
+            'label' => 'LBL_PASSWORD8',
+          ),
         ),
         13 => 
         array (
@@ -309,7 +341,11 @@ array (
             'name' => 'other_id_c',
             'label' => 'LBL_OTHER_ID',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'password10_c',
+            'label' => 'LBL_PASSWORD10',
+          ),
         ),
         14 => 
         array (

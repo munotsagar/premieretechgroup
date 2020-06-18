@@ -43,9 +43,9 @@ array (
         array (
           0 => 
           array (
-            'name' => 'office_product_type_c',
+            'name' => 'license_type_c',
             'studio' => 'visible',
-            'label' => 'LBL_OFFICE_PRODUCT_TYPE',
+            'label' => 'LBL_LICENSE_TYPE',
           ),
           1 => '',
         ),
@@ -53,22 +53,12 @@ array (
         array (
           0 => 
           array (
-            'name' => 'subcription_plan_c',
-            'label' => 'LBL_SUBCRIPTION_PLAN',
+            'name' => 'admin_login_c',
+            'label' => 'LBL_ADMIN_LOGIN',
           ),
           1 => '',
         ),
         2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'license_type_c',
-            'studio' => 'visible',
-            'label' => 'LBL_LICENSE_TYPE',
-          ),
-          1 => '',
-        ),
-        3 => 
         array (
           0 => 
           array (
@@ -77,12 +67,21 @@ array (
           ),
           1 => '',
         ),
-        4 => 
+        3 => 
         array (
           0 => 
           array (
             'name' => 'admin_password_c',
             'label' => 'LBL_ADMIN_PASSWORD',
+          ),
+          1 => '',
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'confirm_password_c',
+            'label' => 'LBL_CONFIRM_PASSWORD',
           ),
           1 => '',
         ),

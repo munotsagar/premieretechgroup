@@ -36,7 +36,7 @@ array (
         'LBL_EMPLOYEE_INFORMATION' => 
         array (
           'newTab' => false,
-          'panelDefault' => 'expanded',
+          'panelDefault' => 'collapsed',
         ),
         'LBL_EDITVIEW_PANEL1' => 
         array (

@@ -2,6 +2,12 @@
  //WARNING: The contents of this file are auto-generated
 
 
+ // created: 2020-06-12 16:38:35
+$dictionary['ptg_TroubleTicket']['fields']['password6_c']['inline_edit']='1';
+$dictionary['ptg_TroubleTicket']['fields']['password6_c']['labelValue']='Password';
+
+ 
+
  // created: 2020-06-02 13:46:33
 $dictionary['ptg_TroubleTicket']['fields']['subject_c']['inline_edit']='1';
 $dictionary['ptg_TroubleTicket']['fields']['subject_c']['labelValue']='Subject';
@@ -20,6 +26,12 @@ $dictionary['ptg_TroubleTicket']['fields']['extension_c']['labelValue']='Extensi
 
  
 
+ // created: 2020-06-12 16:36:56
+$dictionary['ptg_TroubleTicket']['fields']['password2_c']['inline_edit']='1';
+$dictionary['ptg_TroubleTicket']['fields']['password2_c']['labelValue']='Password';
+
+ 
+
  // created: 2020-06-07 13:21:37
 $dictionary['ptg_TroubleTicket']['fields']['department_c']['inline_edit']='1';
 $dictionary['ptg_TroubleTicket']['fields']['department_c']['labelValue']='Department';
@@ -29,6 +41,12 @@ $dictionary['ptg_TroubleTicket']['fields']['department_c']['labelValue']='Depart
  // created: 2020-06-07 13:25:48
 $dictionary['ptg_TroubleTicket']['fields']['request_new_c']['inline_edit']='1';
 $dictionary['ptg_TroubleTicket']['fields']['request_new_c']['labelValue']='Request New';
+
+ 
+
+ // created: 2020-06-12 16:38:07
+$dictionary['ptg_TroubleTicket']['fields']['password5_c']['inline_edit']='1';
+$dictionary['ptg_TroubleTicket']['fields']['password5_c']['labelValue']='Password';
 
  
 
@@ -68,6 +86,12 @@ $dictionary['ptg_TroubleTicket']['fields']['reporting_trouble_ticket_c']['labelV
 
  
 
+ // created: 2020-06-12 16:38:51
+$dictionary['ptg_TroubleTicket']['fields']['password7_c']['inline_edit']='1';
+$dictionary['ptg_TroubleTicket']['fields']['password7_c']['labelValue']='Password';
+
+ 
+
  // created: 2020-06-10 08:47:22
 $dictionary['ptg_TroubleTicket']['fields']['company_name_c']['inline_edit']='1';
 $dictionary['ptg_TroubleTicket']['fields']['company_name_c']['labelValue']='Company Name';
@@ -98,9 +122,21 @@ $dictionary['ptg_TroubleTicket']['fields']['description3_c']['labelValue']='Desc
 
  
 
+ // created: 2020-06-12 16:39:29
+$dictionary['ptg_TroubleTicket']['fields']['password9_c']['inline_edit']='1';
+$dictionary['ptg_TroubleTicket']['fields']['password9_c']['labelValue']='Password';
+
+ 
+
  // created: 2020-06-02 13:26:01
 $dictionary['ptg_TroubleTicket']['fields']['sites_c']['inline_edit']='1';
 $dictionary['ptg_TroubleTicket']['fields']['sites_c']['labelValue']='Sites';
+
+ 
+
+ // created: 2020-06-12 16:37:49
+$dictionary['ptg_TroubleTicket']['fields']['password4_c']['inline_edit']='1';
+$dictionary['ptg_TroubleTicket']['fields']['password4_c']['labelValue']='Password';
 
  
 
@@ -188,6 +224,12 @@ $dictionary['ptg_TroubleTicket']['fields']['priority_c']['labelValue']='Priority
 
  
 
+ // created: 2020-06-12 16:37:19
+$dictionary['ptg_TroubleTicket']['fields']['password3_c']['inline_edit']='1';
+$dictionary['ptg_TroubleTicket']['fields']['password3_c']['labelValue']='Password';
+
+ 
+
  // created: 2020-06-07 13:22:27
 $dictionary['ptg_TroubleTicket']['fields']['telephone_c']['inline_edit']='1';
 $dictionary['ptg_TroubleTicket']['fields']['telephone_c']['labelValue']='Telephone #';
@@ -210,6 +252,18 @@ $dictionary['ptg_TroubleTicket']['fields']['account_id_c']['inline_edit']=1;
  // created: 2020-06-08 10:00:32
 $dictionary['ptg_TroubleTicket']['fields']['customer_name_c']['inline_edit']='1';
 $dictionary['ptg_TroubleTicket']['fields']['customer_name_c']['labelValue']='Customer Name';
+
+ 
+
+ // created: 2020-06-12 16:39:13
+$dictionary['ptg_TroubleTicket']['fields']['password8_c']['inline_edit']='1';
+$dictionary['ptg_TroubleTicket']['fields']['password8_c']['labelValue']='Password';
+
+ 
+
+ // created: 2020-06-12 16:39:46
+$dictionary['ptg_TroubleTicket']['fields']['password10_c']['inline_edit']='1';
+$dictionary['ptg_TroubleTicket']['fields']['password10_c']['labelValue']='Password';
 
  
 

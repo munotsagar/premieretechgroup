@@ -1,6 +1,14 @@
 <?php
 $listViewDefs ['AOS_Quotes'] = 
 array (
+  'QUOTE_NUMBER_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_QUOTE_NUMBER',
+    'width' => '10%',
+    'link' => true,
+  ),
   'CUSTOMER_NAME_C' => 
   array (
     'type' => 'relate',
@@ -23,12 +31,6 @@ array (
   array (
     'width' => '5%',
     'label' => 'LBL_DATE_ENTERED',
-    'default' => true,
-  ),
-  'NUMBER' => 
-  array (
-    'width' => '5%',
-    'label' => 'LBL_LIST_NUM',
     'default' => true,
   ),
   'AOS_QUOTES_TYPE' => 

@@ -20,9 +20,21 @@ $dictionary['AOS_Quotes']['fields']['other_services_c']['labelValue']='Other Ser
 
  
 
+ // created: 2020-06-13 10:26:52
+$dictionary['AOS_Quotes']['fields']['quote_count_c']['inline_edit']='1';
+$dictionary['AOS_Quotes']['fields']['quote_count_c']['labelValue']='Quote Count';
+
+ 
+
  // created: 2020-06-06 15:50:40
 $dictionary['AOS_Quotes']['fields']['manager_status_c']['inline_edit']='1';
 $dictionary['AOS_Quotes']['fields']['manager_status_c']['labelValue']='Manager Status';
+
+ 
+
+ // created: 2020-06-12 12:08:42
+$dictionary['AOS_Quotes']['fields']['ticket_count_c']['inline_edit']='1';
+$dictionary['AOS_Quotes']['fields']['ticket_count_c']['labelValue']='Ticket Count';
 
  
 
@@ -35,6 +47,18 @@ $dictionary['AOS_Quotes']['fields']['international_c']['labelValue']='Internatio
  // created: 2020-06-05 05:55:26
 $dictionary['AOS_Quotes']['fields']['cloud_services_c']['inline_edit']='1';
 $dictionary['AOS_Quotes']['fields']['cloud_services_c']['labelValue']='Cloud Services';
+
+ 
+
+ // created: 2020-06-13 10:37:20
+$dictionary['AOS_Quotes']['fields']['quote_number_c']['inline_edit']='1';
+$dictionary['AOS_Quotes']['fields']['quote_number_c']['labelValue']='Quote Number';
+
+ 
+
+ // created: 2020-06-13 10:13:30
+$dictionary['AOS_Quotes']['fields']['company_name_c']['inline_edit']='1';
+$dictionary['AOS_Quotes']['fields']['company_name_c']['labelValue']='Company name';
 
  
 
@@ -55,6 +79,12 @@ $dictionary['AOS_Quotes']['fields']['expiration']['display_default']='';
 $dictionary['AOS_Quotes']['fields']['expiration']['required']=false;
 $dictionary['AOS_Quotes']['fields']['expiration']['inline_edit']=true;
 $dictionary['AOS_Quotes']['fields']['expiration']['merge_filter']='disabled';
+
+ 
+
+ // created: 2020-06-13 10:24:15
+$dictionary['AOS_Quotes']['fields']['ticket_number_c']['inline_edit']='1';
+$dictionary['AOS_Quotes']['fields']['ticket_number_c']['labelValue']='Ticket Number';
 
  
 

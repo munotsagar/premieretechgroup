@@ -58,7 +58,7 @@ array (
           'panelDefault' => 'expanded',
         ),
       ),
-      'syncDetailEditViews' => true,
+      'syncDetailEditViews' => false,
     ),
     'panels' => 
     array (
@@ -71,6 +71,11 @@ array (
             'name' => 'customer_name_c',
             'studio' => 'visible',
             'label' => 'LBL_CUSTOMER_NAME',
+          ),
+          1 => 
+          array (
+            'name' => 'company_name_c',
+            'label' => 'LBL_COMPANY_NAME',
           ),
         ),
         1 => 
@@ -104,6 +109,15 @@ array (
             ),
             'label' => 'LBL_SHIPPING_ADDRESS_STREET',
           ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'assigned_user_name',
+            'label' => 'LBL_ASSIGNED_TO_NAME',
+          ),
+          1 => '',
         ),
       ),
       'lbl_editview_panel3' => 

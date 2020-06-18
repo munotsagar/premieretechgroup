@@ -308,19 +308,6 @@ $GLOBALS['app_list_strings']['status_list']=array (
   'Waiting_Customer' => 'Waiting Customer',
   'Work_in_progress_by_backoffice' => 'Work in progress by backoffice',
 );
-$GLOBALS['app_list_strings']['request_new_dropdown_list']=array (
-  'CreateNewEmail' => 'Create New Email',
-  'InstallSoftware' => 'Install Software',
-  'Other' => 'Other',
-);
-$GLOBALS['app_list_strings']['reset_password_dropdown_list']=array (
-  'Computer' => 'Computer',
-  'Microsoft_Office' => 'Microsoft Office',
-  'Email' => 'Email',
-  'Adobe' => 'Adobe',
-  'QuickBooks' => 'QuickBooks',
-  'Others' => 'Others',
-);
 $GLOBALS['app_list_strings']['citrix_server_type_list']=array (
   'Local' => 'Local ',
   'Cloud' => 'Cloud Server',
@@ -566,4 +553,31 @@ $GLOBALS['app_list_strings']['status_0']=array (
   'Processing' => 'Processing',
   'Order_Confirmed' => 'Order Confirmed',
   'Submitted' => 'Submitted',
+);
+$app_strings['LBL_TABGROUP_SALES'] = 'My Dashboard';
+
+$app_strings['LBL_GROUPTAB5_1592207984'] = 'Employee Dashbaord';
+
+$app_strings['LBL_GROUPTAB6_1592208053'] = 'Vendor Dashboard';
+
+$app_strings['LBL_GROUPTAB5_1592208589'] = 'Support Cases';
+
+$GLOBALS['app_list_strings']['register_mode_list']=array (
+  'IP' => 'IP',
+  'Domain_Name' => 'Domain Name',
+);
+$GLOBALS['app_list_strings']['request_new_dropdown_list']=array (
+  0 => 'Select Request New',
+  'CreateNewEmail' => 'Create New Email',
+  'InstallSoftware' => 'Install Software',
+  'Other' => 'Other',
+);
+$GLOBALS['app_list_strings']['reset_password_dropdown_list']=array (
+  0 => 'Select Reset Password',
+  'Computer' => 'Computer',
+  'Microsoft_Office' => 'Microsoft Office',
+  'Email' => 'Email',
+  'Adobe' => 'Adobe',
+  'QuickBooks' => 'QuickBooks',
+  'Others' => 'Others',
 );

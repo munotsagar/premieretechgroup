@@ -262,6 +262,19 @@ $dictionary["Account"]["fields"]["accounts_ptg_citrixservers_1"] = array (
 );
 
 
+// created: 2020-06-15 11:32:09
+$dictionary["Account"]["fields"]["accounts_ptg_camera_system_1"] = array (
+  'name' => 'accounts_ptg_camera_system_1',
+  'type' => 'link',
+  'relationship' => 'accounts_ptg_camera_system_1',
+  'source' => 'non-db',
+  'module' => 'ptg_Camera_System',
+  'bean_name' => 'ptg_Camera_System',
+  'side' => 'right',
+  'vname' => 'LBL_ACCOUNTS_PTG_CAMERA_SYSTEM_1_FROM_PTG_CAMERA_SYSTEM_TITLE',
+);
+
+
 // created: 2020-06-06 11:33:37
 $dictionary["Account"]["fields"]["accounts_ptg_quickbooks_1"] = array (
   'name' => 'accounts_ptg_quickbooks_1',
@@ -434,6 +447,12 @@ $dictionary["Account"]["fields"]["accounts_ptg_microsoftofficedesktop_1"] = arra
  // created: 2020-06-04 12:24:49
 $dictionary['Account']['fields']['ccid2_c']['inline_edit']='1';
 $dictionary['Account']['fields']['ccid2_c']['labelValue']='CCID 2';
+
+ 
+
+ // created: 2020-06-13 14:46:18
+$dictionary['Account']['fields']['customer_count_c']['inline_edit']='1';
+$dictionary['Account']['fields']['customer_count_c']['labelValue']='Customer Count';
 
  
 

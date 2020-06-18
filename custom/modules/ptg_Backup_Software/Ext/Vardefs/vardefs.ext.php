@@ -70,19 +70,19 @@ $dictionary["ptg_Backup_Software"]["fields"]["users_ptg_backup_software_1users_i
 );
 
 
- // created: 2020-06-05 09:52:21
+ // created: 2020-06-12 17:40:24
 $dictionary['ptg_Backup_Software']['fields']['server_c']['inline_edit']='1';
 $dictionary['ptg_Backup_Software']['fields']['server_c']['labelValue']='Server';
 
  
 
- // created: 2020-06-05 09:54:47
+ // created: 2020-06-12 17:40:41
 $dictionary['ptg_Backup_Software']['fields']['login_c']['inline_edit']='1';
 $dictionary['ptg_Backup_Software']['fields']['login_c']['labelValue']='Login';
 
  
 
- // created: 2020-06-05 09:55:08
+ // created: 2020-06-12 17:41:15
 $dictionary['ptg_Backup_Software']['fields']['password_c']['inline_edit']='1';
 $dictionary['ptg_Backup_Software']['fields']['password_c']['labelValue']='Password';
 
@@ -94,7 +94,7 @@ $dictionary['ptg_Backup_Software']['fields']['weblink_c']['labelValue']='Weblink
 
  
 
- // created: 2020-06-05 09:55:31
+ // created: 2020-06-12 17:41:28
 $dictionary['ptg_Backup_Software']['fields']['confirm_password_c']['inline_edit']='1';
 $dictionary['ptg_Backup_Software']['fields']['confirm_password_c']['labelValue']='Confirm Password';
 

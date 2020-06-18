@@ -70,19 +70,19 @@ $dictionary["ptg_Local_Admin_Credentials"]["fields"]["users_ptg_local_admin_cred
 );
 
 
- // created: 2020-06-05 10:16:11
+ // created: 2020-06-12 17:54:16
 $dictionary['ptg_Local_Admin_Credentials']['fields']['admin_login_c']['inline_edit']='1';
 $dictionary['ptg_Local_Admin_Credentials']['fields']['admin_login_c']['labelValue']='Admin Login';
 
  
 
- // created: 2020-06-05 10:16:30
+ // created: 2020-06-12 17:54:06
 $dictionary['ptg_Local_Admin_Credentials']['fields']['password_c']['inline_edit']='1';
 $dictionary['ptg_Local_Admin_Credentials']['fields']['password_c']['labelValue']='Password';
 
  
 
- // created: 2020-06-05 10:16:48
+ // created: 2020-06-12 17:54:29
 $dictionary['ptg_Local_Admin_Credentials']['fields']['confirm_password_c']['inline_edit']='1';
 $dictionary['ptg_Local_Admin_Credentials']['fields']['confirm_password_c']['labelValue']='Confirm Password';
 
