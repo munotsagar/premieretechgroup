@@ -76,13 +76,13 @@ $dictionary['ptg_OnPremise_Email_Services']['fields']['ip_address__c']['labelVal
 
  
 
- // created: 2020-06-05 10:24:05
+ // created: 2020-06-20 13:28:12
 $dictionary['ptg_OnPremise_Email_Services']['fields']['login_password_c']['inline_edit']='1';
 $dictionary['ptg_OnPremise_Email_Services']['fields']['login_password_c']['labelValue']='Login Password';
 
  
 
- // created: 2020-06-05 10:23:47
+ // created: 2020-06-20 13:28:40
 $dictionary['ptg_OnPremise_Email_Services']['fields']['user_login_name_c']['inline_edit']='1';
 $dictionary['ptg_OnPremise_Email_Services']['fields']['user_login_name_c']['labelValue']='User Login Name';
 
@@ -94,7 +94,7 @@ $dictionary['ptg_OnPremise_Email_Services']['fields']['server_roles_c']['labelVa
 
  
 
- // created: 2020-06-05 10:24:23
+ // created: 2020-06-20 13:28:21
 $dictionary['ptg_OnPremise_Email_Services']['fields']['confirm_password_c']['inline_edit']='1';
 $dictionary['ptg_OnPremise_Email_Services']['fields']['confirm_password_c']['labelValue']='Confirm Password';
 
@@ -114,8 +114,15 @@ $dictionary['ptg_OnPremise_Email_Services']['fields']['description']['merge_filt
 
  
 
- // created: 2020-06-05 10:21:51
-$dictionary['ptg_OnPremise_Email_Services']['fields']['name']['required']=false;
+ // created: 2020-06-20 13:29:02
+$dictionary['ptg_OnPremise_Email_Services']['fields']['name']['required']=true;
+$dictionary['ptg_OnPremise_Email_Services']['fields']['name']['inline_edit']=true;
+$dictionary['ptg_OnPremise_Email_Services']['fields']['name']['help']='Server Name ';
+$dictionary['ptg_OnPremise_Email_Services']['fields']['name']['comments']='Server Name ';
+$dictionary['ptg_OnPremise_Email_Services']['fields']['name']['duplicate_merge']='disabled';
+$dictionary['ptg_OnPremise_Email_Services']['fields']['name']['duplicate_merge_dom_value']='0';
+$dictionary['ptg_OnPremise_Email_Services']['fields']['name']['merge_filter']='disabled';
+$dictionary['ptg_OnPremise_Email_Services']['fields']['name']['unified_search']=false;
 
  
 

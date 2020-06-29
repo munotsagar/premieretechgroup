@@ -92,11 +92,14 @@ $dictionary['ptg_OtherUnlicensedSoftware']['fields']['active_date']['enable_rang
 
  
 
- // created: 2020-06-08 07:43:19
-$dictionary['ptg_OtherUnlicensedSoftware']['fields']['description']['inline_edit']=true;
-$dictionary['ptg_OtherUnlicensedSoftware']['fields']['description']['help']='Additional Notes';
-$dictionary['ptg_OtherUnlicensedSoftware']['fields']['description']['comments']='Additional Notes';
-$dictionary['ptg_OtherUnlicensedSoftware']['fields']['description']['merge_filter']='disabled';
+ // created: 2020-06-25 17:26:17
+$dictionary['ptg_OtherUnlicensedSoftware']['fields']['requires_approval2_c']['inline_edit']='1';
+$dictionary['ptg_OtherUnlicensedSoftware']['fields']['requires_approval2_c']['labelValue']='Requires Approval';
+
+ 
+
+ // created: 2020-06-20 15:19:32
+$dictionary['ptg_OtherUnlicensedSoftware']['fields']['description']['required']=true;
 
  
 ?>

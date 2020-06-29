@@ -52,14 +52,9 @@ array (
         array (
           0 => 
           array (
-            'name' => 'uploadfile',
-            'displayParams' => 
-            array (
-              'link' => 'uploadfile',
-              'id' => 'id',
-            ),
+            'name' => 'please_upload_c',
+            'label' => 'LBL_PLEASE_UPLOAD',
           ),
-          1 => '',
         ),
         2 => 
         array (

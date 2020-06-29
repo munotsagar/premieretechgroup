@@ -106,6 +106,12 @@ $dictionary['ptg_Client_Connectivity']['fields']['smtp_ssl_tls_c']['labelValue']
 
  
 
+ // created: 2020-06-24 15:51:05
+$dictionary['ptg_Client_Connectivity']['fields']['other_email_client_c']['inline_edit']='1';
+$dictionary['ptg_Client_Connectivity']['fields']['other_email_client_c']['labelValue']='Other Email Client';
+
+ 
+
  // created: 2020-06-05 13:20:38
 $dictionary['ptg_Client_Connectivity']['fields']['pop_ssl_tls_c']['inline_edit']='1';
 $dictionary['ptg_Client_Connectivity']['fields']['pop_ssl_tls_c']['labelValue']='POP SSL/TLS';
@@ -160,7 +166,7 @@ $dictionary['ptg_Client_Connectivity']['fields']['exchangeactivesync_c']['labelV
 
  
 
- // created: 2020-06-05 13:54:23
+ // created: 2020-06-22 05:50:06
 $dictionary['ptg_Client_Connectivity']['fields']['email_client_c']['inline_edit']='1';
 $dictionary['ptg_Client_Connectivity']['fields']['email_client_c']['labelValue']='Email Client';
 
@@ -193,6 +199,12 @@ $dictionary['ptg_Client_Connectivity']['fields']['name']['duplicate_merge']='dis
 $dictionary['ptg_Client_Connectivity']['fields']['name']['duplicate_merge_dom_value']='0';
 $dictionary['ptg_Client_Connectivity']['fields']['name']['merge_filter']='disabled';
 $dictionary['ptg_Client_Connectivity']['fields']['name']['unified_search']=false;
+
+ 
+
+ // created: 2020-06-24 15:52:33
+$dictionary['ptg_Client_Connectivity']['fields']['browser_own_url_c']['inline_edit']='1';
+$dictionary['ptg_Client_Connectivity']['fields']['browser_own_url_c']['labelValue']='Browser Own URL';
 
  
 ?>

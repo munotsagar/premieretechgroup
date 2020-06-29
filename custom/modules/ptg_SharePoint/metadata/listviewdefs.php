@@ -3,12 +3,18 @@ $module_name = 'ptg_SharePoint';
 $OBJECT_NAME = 'PTG_SHAREPOINT';
 $listViewDefs [$module_name] = 
 array (
-  'ENVIRONMENT_C' => 
+  'SHARE_POINT_URL__C' => 
   array (
-    'type' => 'radioenum',
+    'type' => 'varchar',
     'default' => true,
-    'studio' => 'visible',
-    'label' => 'LBL_ENVIRONMENT',
+    'label' => 'LBL_SHARE_POINT_URL ',
+    'width' => '10%',
+  ),
+  'MAIN_TEAM_SITE_URL_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_MAIN_TEAM_SITE_URL',
     'width' => '10%',
   ),
   'DATE_ENTERED' => 

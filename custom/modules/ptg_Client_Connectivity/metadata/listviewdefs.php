@@ -2,14 +2,6 @@
 $module_name = 'ptg_Client_Connectivity';
 $listViewDefs [$module_name] = 
 array (
-  'EMAIL_CLIENT_C' => 
-  array (
-    'type' => 'enum',
-    'default' => true,
-    'studio' => 'visible',
-    'label' => 'LBL_EMAIL_CLIENT',
-    'width' => '10%',
-  ),
   'CREATED_BY_NAME' => 
   array (
     'type' => 'relate',

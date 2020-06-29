@@ -1,5 +1,5 @@
 <?php
-// created: 2020-06-08 06:40:29
+// created: 2020-06-24 15:52:33
 $mod_strings = array (
   'LBL_SUPPORTED_PROTOCOLS' => 'Supported Protocols',
   'LBL_IMAPINCOMINGMAILSERVER' => 'IMAP Incoming Mail Server',
@@ -14,7 +14,6 @@ $mod_strings = array (
   'LBL_EAS_SERVER_NAME' => 'EAS Server name',
   'LBL_EAS_PORT' => 'Exchange Port #',
   'LBL_EXCHANGE_SSL_TLS' => 'Exchange SSL / TLS',
-  'LBL_EMAIL_CLIENT' => 'Email Client',
   'LBL_NAME' => 'Name',
   'LBL_POP' => 'POP',
   'LBL_SMTP' => 'SMTP',
@@ -22,4 +21,7 @@ $mod_strings = array (
   'LBL_EXCHANGEACTIVESYNC' => 'Exchange Active Sync (EAS)',
   'LBL_EDITVIEW_PANEL1' => 'Supported Protocols',
   'LBL_DESCRIPTION' => 'Additional Notes',
+  'LBL_EMAIL_CLIENT' => 'Email Client',
+  'LBL_OTHER_EMAIL_CLIENT' => 'Other Email Client',
+  'LBL_BROWSER_OWN_URL' => 'Browser Own URL',
 );

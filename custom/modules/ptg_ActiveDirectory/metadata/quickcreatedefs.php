@@ -57,19 +57,9 @@ array (
         array (
           0 => 
           array (
-            'name' => 'uploadfile',
-            'customCode' => '{if $fields.id.value!=""}
-            				{assign var="type" value="hidden"}
-            		 		{else}
-            		 		{assign var="type" value="file"}
-            		  		{/if}
-            		  		<input name="uploadfile" type = {$type} size="30" maxlength="" onchange="setvalue(this);" value="{$fields.filename.value}">{$fields.filename.value}',
-            'displayParams' => 
-            array (
-              'required' => true,
-            ),
+            'name' => 'please_upload_c',
+            'label' => 'LBL_PLEASE_UPLOAD',
           ),
-          1 => '',
         ),
         2 => 
         array (

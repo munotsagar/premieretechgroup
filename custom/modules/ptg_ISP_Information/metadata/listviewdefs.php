@@ -2,13 +2,6 @@
 $module_name = 'ptg_ISP_Information';
 $listViewDefs [$module_name] = 
 array (
-  'CUSTOMER_NAME_C' => 
-  array (
-    'type' => 'varchar',
-    'default' => true,
-    'label' => 'LBL_CUSTOMER_NAME',
-    'width' => '10%',
-  ),
   'PROVIDER_C' => 
   array (
     'type' => 'varchar',
@@ -21,6 +14,13 @@ array (
     'type' => 'varchar',
     'default' => true,
     'label' => 'LBL_TYPE',
+    'width' => '10%',
+  ),
+  'CUSTOMER_NAME_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_CUSTOMER_NAME',
     'width' => '10%',
   ),
   'CREATED_BY_NAME' => 

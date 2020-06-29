@@ -1,5 +1,5 @@
 <?php
-// created: 2020-06-08 18:18:58
+// created: 2020-06-25 17:09:44
 $searchFields['ptg_Message'] = array (
   'document_name' => 
   array (

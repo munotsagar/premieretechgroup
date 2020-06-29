@@ -82,7 +82,7 @@ $dictionary['ptg_Printers']['fields']['physical_location_c']['labelValue']='Phys
 
  
 
- // created: 2020-06-05 10:05:57
+ // created: 2020-06-20 13:22:54
 $dictionary['ptg_Printers']['fields']['admin_password_c']['inline_edit']='1';
 $dictionary['ptg_Printers']['fields']['admin_password_c']['labelValue']='Admin Password';
 
@@ -97,6 +97,12 @@ $dictionary['ptg_Printers']['fields']['printer_type_network_local_c']['labelValu
  // created: 2020-06-05 10:06:16
 $dictionary['ptg_Printers']['fields']['scan_path_c']['inline_edit']='1';
 $dictionary['ptg_Printers']['fields']['scan_path_c']['labelValue']='Scan path';
+
+ 
+
+ // created: 2020-06-20 13:24:10
+$dictionary['ptg_Printers']['fields']['printer_type_c']['inline_edit']='1';
+$dictionary['ptg_Printers']['fields']['printer_type_c']['labelValue']='Printer Type';
 
  
 
@@ -119,7 +125,7 @@ $dictionary['ptg_Printers']['fields']['ip_address_c']['labelValue']='IP Address'
 
  
 
- // created: 2020-06-05 10:05:40
+ // created: 2020-06-20 13:23:07
 $dictionary['ptg_Printers']['fields']['admin_username_c']['inline_edit']='1';
 $dictionary['ptg_Printers']['fields']['admin_username_c']['labelValue']='Admin Username';
 

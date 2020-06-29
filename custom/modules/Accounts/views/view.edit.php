@@ -68,7 +68,13 @@ class AccountsViewEdit extends ViewEdit
 	$(document).ready(function(){
 		// var category = $("#category").val();
 		// $("#tab-content").attr("style","display:none;");
+        $("#rating").parent().prev().removeClass();
 		$("#rating").parent().hide();
+		$("#billing_address_country").hide();
+		$("#billing_address_country_label").hide();
+		$("#shipping_address_country").hide();
+		$("#shipping_address_country_label").hide();
+
 		// $("#LBL_RATING").hide();
 
 		// $("#LBL_RATING").attr("style","display:none;");

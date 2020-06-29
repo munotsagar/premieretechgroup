@@ -1,0 +1,110 @@
+<?php
+$module_name = 'ptg_Hosting_And_Registrar';
+$viewdefs [$module_name] = 
+array (
+  'QuickCreate' => 
+  array (
+    'templateMeta' => 
+    array (
+      'maxColumns' => '2',
+      'widths' => 
+      array (
+        0 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+        1 => 
+        array (
+          'label' => '10',
+          'field' => '30',
+        ),
+      ),
+      'useTabs' => false,
+      'tabDefs' => 
+      array (
+        'DEFAULT' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+      ),
+    ),
+    'panels' => 
+    array (
+      'default' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'web_host_c',
+            'label' => 'LBL_WEB_HOST',
+          ),
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => 'name',
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'registrar_login_c',
+            'label' => 'LBL_REGISTRAR_LOGIN',
+          ),
+          1 => '',
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'registrar_password_c',
+            'label' => 'LBL_REGISTRAR_PASSWORD',
+          ),
+          1 => '',
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'confirm_password_c',
+            'label' => 'LBL_CONFIRM_PASSWORD',
+          ),
+          1 => '',
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'domain_name_c',
+            'label' => 'LBL_DOMAIN_NAME',
+          ),
+          1 => '',
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'name_servers_c',
+            'label' => 'LBL_NAME_SERVERS',
+          ),
+          1 => '',
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'description',
+            'comment' => 'Full text of the note',
+            'label' => 'LBL_DESCRIPTION',
+          ),
+        ),
+      ),
+    ),
+  ),
+);
+;
+?>

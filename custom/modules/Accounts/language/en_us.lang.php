@@ -1,5 +1,5 @@
 <?php
-// created: 2020-06-13 14:46:18
+// created: 2020-06-28 16:27:31
 $mod_strings = array (
   'LBL_NAME' => 'Comapny Legal Name',
   'LBL_PHONE_OFFICE' => 'Office Phone:',
@@ -20,11 +20,11 @@ $mod_strings = array (
   'LBL_REFERENCE1' => 'Reference 1',
   'LBL_REFERENCE2' => 'Reference 2',
   'LBL_REFERENCE3' => 'Reference 3',
-  'LBL_BANK_CARD1NAME' => 'Bank Card 1 Name',
-  'LBL_BANK_CARD2NAME' => 'Bank Card 2 Name',
-  'LBL_BANK_CARD3NAME' => 'Bank Card 3 Name',
-  'LBL_BANK_CARD4NAME' => 'Bank Card 4 Name',
-  'LBL_BANK_CARD5NAME' => 'Bank Card 5 Name',
+  'LBL_BANK_CARD1NAME' => '1. Bank Card Name',
+  'LBL_BANK_CARD2NAME' => '2. Bank Card Name',
+  'LBL_BANK_CARD3NAME' => '3. Bank Card Name',
+  'LBL_BANK_CARD4NAME' => '4. Bank Card Name',
+  'LBL_BANK_CARD5NAME' => '5. Bank Card Name',
   'LBL_TYPE1' => '1. Type ',
   'LBL_TYPE2' => '2. Type ',
   'LBL_TYPE3' => '3. Type ',
@@ -72,7 +72,8 @@ $mod_strings = array (
   'LBL_ACCOUNTS_PTG_FIREWALL_1_FROM_PTG_FIREWALL_TITLE' => 'Firewall',
   'LBL_ACCOUNTS_PTG_SHAREPOINT_1_FROM_PTG_SHAREPOINT_TITLE' => 'SharePoint Online',
   'LBL_ACCOUNTS_PTG_OTHERLICENSEDSOFTWARE_1_FROM_PTG_OTHERLICENSEDSOFTWARE_TITLE' => 'Other Licensed Softwares Online',
-  'LBL_ACCOUNTS_PTG_QUICKBOOKS_1_FROM_PTG_QUICKBOOKS_TITLE' => 'Quick Books Online',
+  'LBL_ACCOUNTS_PTG_QUICKBOOKS_1_FROM_PTG_QUICKBOOKS_TITLE' => 'Quick Books Online ',
   'LBL_ACCOUNTS_PTG_MICROSOFTOFFICE_1_FROM_PTG_MICROSOFTOFFICE_TITLE' => 'Microsoft Office Online',
   'LBL_CUSTOMER_COUNT' => 'Customer Count',
+  'LBL_RATING' => 'In order to enter your customer network information. You will first need to save the profile. Next, you will need to open your customer detail view profile. You will then be given the opportunity to enter all the information of your customer network information.',
 );

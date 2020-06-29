@@ -76,13 +76,13 @@ $dictionary['ptg_Hosting_And_Registrar']['fields']['name_servers_c']['labelValue
 
  
 
- // created: 2020-06-05 14:12:18
+ // created: 2020-06-20 13:40:03
 $dictionary['ptg_Hosting_And_Registrar']['fields']['registrar_login_c']['inline_edit']='1';
 $dictionary['ptg_Hosting_And_Registrar']['fields']['registrar_login_c']['labelValue']='Registrar Login';
 
  
 
- // created: 2020-06-05 14:12:40
+ // created: 2020-06-20 13:39:51
 $dictionary['ptg_Hosting_And_Registrar']['fields']['registrar_password_c']['inline_edit']='1';
 $dictionary['ptg_Hosting_And_Registrar']['fields']['registrar_password_c']['labelValue']='Registrar Password';
 
@@ -100,7 +100,7 @@ $dictionary['ptg_Hosting_And_Registrar']['fields']['web_host_c']['labelValue']='
 
  
 
- // created: 2020-06-05 14:13:03
+ // created: 2020-06-20 13:39:37
 $dictionary['ptg_Hosting_And_Registrar']['fields']['confirm_password_c']['inline_edit']='1';
 $dictionary['ptg_Hosting_And_Registrar']['fields']['confirm_password_c']['labelValue']='Confirm Password';
 
@@ -114,13 +114,8 @@ $dictionary['ptg_Hosting_And_Registrar']['fields']['description']['merge_filter'
 
  
 
- // created: 2020-06-05 14:19:55
-$dictionary['ptg_Hosting_And_Registrar']['fields']['name']['required']=false;
-$dictionary['ptg_Hosting_And_Registrar']['fields']['name']['inline_edit']=true;
-$dictionary['ptg_Hosting_And_Registrar']['fields']['name']['duplicate_merge']='disabled';
-$dictionary['ptg_Hosting_And_Registrar']['fields']['name']['duplicate_merge_dom_value']='0';
-$dictionary['ptg_Hosting_And_Registrar']['fields']['name']['merge_filter']='disabled';
-$dictionary['ptg_Hosting_And_Registrar']['fields']['name']['unified_search']=false;
+ // created: 2020-06-20 13:40:21
+$dictionary['ptg_Hosting_And_Registrar']['fields']['name']['required']=true;
 
  
 ?>

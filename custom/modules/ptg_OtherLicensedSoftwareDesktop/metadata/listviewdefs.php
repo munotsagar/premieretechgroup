@@ -17,6 +17,20 @@ array (
     'label' => 'LBL_VERSION',
     'width' => '10%',
   ),
+  'ADMIN_LOGIN_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_ADMIN_LOGIN',
+    'width' => '10%',
+  ),
+  'USERNAME_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_USERNAME',
+    'width' => '10%',
+  ),
   'DATE_ENTERED' => 
   array (
     'type' => 'datetime',

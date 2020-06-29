@@ -25,6 +25,13 @@ array (
     'label' => 'LBL_REGISTER_MODE',
     'width' => '10%',
   ),
+  'ADMIN_USER_NAME_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_ADMIN_USER_NAME',
+    'width' => '10%',
+  ),
   'CREATED_BY_NAME' => 
   array (
     'width' => '2%',

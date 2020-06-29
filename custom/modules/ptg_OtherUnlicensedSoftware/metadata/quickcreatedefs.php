@@ -52,7 +52,12 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_REQUIRES_APPROVAL',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'requires_approval2_c',
+            'studio' => 'visible',
+            'label' => 'LBL_REQUIRES_APPROVAL2',
+          ),
         ),
         1 => 
         array (

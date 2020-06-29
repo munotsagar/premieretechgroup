@@ -70,7 +70,7 @@ $dictionary["ptg_Switches"]["fields"]["users_ptg_switches_1users_ida"] = array (
 );
 
 
- // created: 2020-06-05 17:33:49
+ // created: 2020-06-20 13:45:52
 $dictionary['ptg_Switches']['fields']['ip_address__c']['inline_edit']='1';
 $dictionary['ptg_Switches']['fields']['ip_address__c']['labelValue']='IP Address';
 
@@ -90,7 +90,7 @@ $dictionary['ptg_Switches']['fields']['switch_configured_c']['labelValue']='This
 
  
 
- // created: 2020-06-05 17:31:33
+ // created: 2020-06-20 13:45:10
 $dictionary['ptg_Switches']['fields']['switch_type_c']['inline_edit']='1';
 $dictionary['ptg_Switches']['fields']['switch_type_c']['labelValue']='Switch Type';
 
@@ -110,7 +110,7 @@ $dictionary['ptg_Switches']['fields']['physical_location__c']['labelValue']='Phy
 
  
 
- // created: 2020-06-05 17:33:16
+ // created: 2020-06-20 13:45:19
 $dictionary['ptg_Switches']['fields']['vendor_c']['inline_edit']='1';
 $dictionary['ptg_Switches']['fields']['vendor_c']['labelValue']='Vendor';
 
@@ -122,7 +122,7 @@ $dictionary['ptg_Switches']['fields']['access_via_c']['labelValue']='Access via'
 
  
 
- // created: 2020-06-05 17:33:33
+ // created: 2020-06-20 13:45:36
 $dictionary['ptg_Switches']['fields']['model_c']['inline_edit']='1';
 $dictionary['ptg_Switches']['fields']['model_c']['labelValue']='Model';
 

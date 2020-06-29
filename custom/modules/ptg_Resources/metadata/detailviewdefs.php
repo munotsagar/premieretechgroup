@@ -46,6 +46,7 @@ array (
             'name' => 'resource_directory_c',
             'label' => 'LBL_RESOURCE_DIRECTORY',
           ),
+          1 => '',
         ),
         1 => 
         array (

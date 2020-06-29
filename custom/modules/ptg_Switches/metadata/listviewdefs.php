@@ -25,6 +25,13 @@ array (
     'label' => 'LBL_MODEL',
     'width' => '10%',
   ),
+  'IP_ADDRESS__C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_IP_ADDRESS ',
+    'width' => '10%',
+  ),
   'DATE_ENTERED' => 
   array (
     'type' => 'datetime',

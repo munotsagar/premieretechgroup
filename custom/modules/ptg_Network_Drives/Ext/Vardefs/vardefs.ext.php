@@ -70,14 +70,19 @@ $dictionary["ptg_Network_Drives"]["fields"]["users_ptg_network_drives_1users_ida
 );
 
 
- // created: 2020-06-05 10:12:15
+ // created: 2020-06-20 13:26:26
 $dictionary['ptg_Network_Drives']['fields']['path_c']['inline_edit']='1';
 $dictionary['ptg_Network_Drives']['fields']['path_c']['labelValue']='Path';
 
  
 
- // created: 2020-06-05 10:12:36
-$dictionary['ptg_Network_Drives']['fields']['name']['required']=false;
+ // created: 2020-06-20 13:26:16
+$dictionary['ptg_Network_Drives']['fields']['name']['required']=true;
+$dictionary['ptg_Network_Drives']['fields']['name']['inline_edit']=true;
+$dictionary['ptg_Network_Drives']['fields']['name']['duplicate_merge']='disabled';
+$dictionary['ptg_Network_Drives']['fields']['name']['duplicate_merge_dom_value']='0';
+$dictionary['ptg_Network_Drives']['fields']['name']['merge_filter']='disabled';
+$dictionary['ptg_Network_Drives']['fields']['name']['unified_search']=false;
 
  
 ?>

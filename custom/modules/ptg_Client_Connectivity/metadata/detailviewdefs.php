@@ -189,6 +189,24 @@ array (
         ),
         1 => 
         array (
+          0 => 
+          array (
+            'name' => 'browser_own_url_c',
+            'label' => 'LBL_BROWSER_OWN_URL',
+          ),
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'other_email_client_c',
+            'label' => 'LBL_OTHER_EMAIL_CLIENT',
+          ),
+          1 => '',
+        ),
+        3 => 
+        array (
           0 => 'description',
         ),
       ),

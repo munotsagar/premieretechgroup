@@ -2,6 +2,19 @@
  //WARNING: The contents of this file are auto-generated
 
 
+// created: 2020-06-24 07:35:30
+$dictionary["AOS_Quotes"]["fields"]["aos_quotes_ptg_message_1"] = array (
+  'name' => 'aos_quotes_ptg_message_1',
+  'type' => 'link',
+  'relationship' => 'aos_quotes_ptg_message_1',
+  'source' => 'non-db',
+  'module' => 'ptg_Message',
+  'bean_name' => 'ptg_Message',
+  'side' => 'right',
+  'vname' => 'LBL_AOS_QUOTES_PTG_MESSAGE_1_FROM_PTG_MESSAGE_TITLE',
+);
+
+
  // created: 2020-06-05 05:52:54
 $dictionary['AOS_Quotes']['fields']['voice_services_c']['inline_edit']='1';
 $dictionary['AOS_Quotes']['fields']['voice_services_c']['labelValue']='Voice Services';
@@ -59,6 +72,12 @@ $dictionary['AOS_Quotes']['fields']['quote_number_c']['labelValue']='Quote Numbe
  // created: 2020-06-13 10:13:30
 $dictionary['AOS_Quotes']['fields']['company_name_c']['inline_edit']='1';
 $dictionary['AOS_Quotes']['fields']['company_name_c']['labelValue']='Company name';
+
+ 
+
+ // created: 2020-06-29 18:53:54
+$dictionary['AOS_Quotes']['fields']['quotation_amount_c']['inline_edit']='1';
+$dictionary['AOS_Quotes']['fields']['quotation_amount_c']['labelValue']='Quotation Amount $';
 
  
 

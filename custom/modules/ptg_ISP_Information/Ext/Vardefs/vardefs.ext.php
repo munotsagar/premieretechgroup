@@ -106,13 +106,13 @@ $dictionary['ptg_ISP_Information']['fields']['dns_servers_c']['labelValue']='DNS
 
  
 
- // created: 2020-06-05 11:19:54
+ // created: 2020-06-20 13:37:37
 $dictionary['ptg_ISP_Information']['fields']['provider_c']['inline_edit']='1';
 $dictionary['ptg_ISP_Information']['fields']['provider_c']['labelValue']='Provider';
 
  
 
- // created: 2020-06-05 11:19:15
+ // created: 2020-06-20 13:37:47
 $dictionary['ptg_ISP_Information']['fields']['type_c']['inline_edit']='1';
 $dictionary['ptg_ISP_Information']['fields']['type_c']['labelValue']='Type';
 
@@ -150,7 +150,7 @@ $dictionary['ptg_ISP_Information']['fields']['description']['merge_filter']='dis
 
  
 
- // created: 2020-06-05 11:22:57
+ // created: 2020-06-20 13:37:56
 $dictionary['ptg_ISP_Information']['fields']['customer_name_c']['inline_edit']='1';
 $dictionary['ptg_ISP_Information']['fields']['customer_name_c']['labelValue']='Customer Name';
 

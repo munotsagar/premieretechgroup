@@ -78,13 +78,13 @@ $dictionary['ptg_QuickBooksDesktop']['fields']['document_name']['unified_search'
 
  
 
- // created: 2020-06-08 16:55:05
+ // created: 2020-06-20 15:11:51
 $dictionary['ptg_QuickBooksDesktop']['fields']['username_c']['inline_edit']='1';
 $dictionary['ptg_QuickBooksDesktop']['fields']['username_c']['labelValue']='Username';
 
  
 
- // created: 2020-06-08 16:54:47
+ // created: 2020-06-20 15:11:32
 $dictionary['ptg_QuickBooksDesktop']['fields']['admin_login_c']['inline_edit']='1';
 $dictionary['ptg_QuickBooksDesktop']['fields']['admin_login_c']['labelValue']='Admin Login';
 
@@ -98,7 +98,7 @@ $dictionary['ptg_QuickBooksDesktop']['fields']['active_date']['enable_range_sear
 
  
 
- // created: 2020-06-08 16:55:30
+ // created: 2020-06-20 15:12:06
 $dictionary['ptg_QuickBooksDesktop']['fields']['password_c']['inline_edit']='1';
 $dictionary['ptg_QuickBooksDesktop']['fields']['password_c']['labelValue']='Password';
 
@@ -110,13 +110,13 @@ $dictionary['ptg_QuickBooksDesktop']['fields']['approval_not_needed_c']['labelVa
 
  
 
- // created: 2020-06-08 16:54:21
+ // created: 2020-06-20 15:11:20
 $dictionary['ptg_QuickBooksDesktop']['fields']['license_type_c']['inline_edit']='1';
 $dictionary['ptg_QuickBooksDesktop']['fields']['license_type_c']['labelValue']='License Type';
 
  
 
- // created: 2020-06-08 16:56:02
+ // created: 2020-06-20 15:12:20
 $dictionary['ptg_QuickBooksDesktop']['fields']['confirm_password_c']['inline_edit']='1';
 $dictionary['ptg_QuickBooksDesktop']['fields']['confirm_password_c']['labelValue']='Confirm password';
 

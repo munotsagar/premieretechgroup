@@ -28,6 +28,11 @@ include('custom/metadata/accounts_ptg_resources_1MetaData.php');
 
  
  //WARNING: The contents of this file are auto-generated
+include('custom/metadata/aos_quotes_ptg_message_1MetaData.php');
+
+
+ 
+ //WARNING: The contents of this file are auto-generated
 include('custom/metadata/users_ptg_hostedantisoftwareemail_1MetaData.php');
 
 

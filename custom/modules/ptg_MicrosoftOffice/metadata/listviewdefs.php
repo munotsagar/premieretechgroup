@@ -3,12 +3,26 @@ $module_name = 'ptg_MicrosoftOffice';
 $OBJECT_NAME = 'PTG_MICROSOFTOFFICE';
 $listViewDefs [$module_name] = 
 array (
-  'OFFICE_PRODUCT_TYPE_C' => 
+  'LICENSE_TYPE_C' => 
   array (
     'type' => 'radioenum',
     'default' => true,
     'studio' => 'visible',
-    'label' => 'LBL_OFFICE_PRODUCT_TYPE',
+    'label' => 'LBL_LICENSE_TYPE',
+    'width' => '10%',
+  ),
+  'ADMIN_LOGIN_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_ADMIN_LOGIN',
+    'width' => '10%',
+  ),
+  'ADMIN_USER_NAME_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_ADMIN_USER_NAME',
     'width' => '10%',
   ),
   'CREATED_BY_NAME' => 

@@ -92,7 +92,7 @@ $dictionary['ptg_Camera_System']['fields']['active_date']['enable_range_search']
 
  
 
- // created: 2020-06-15 11:24:23
+ // created: 2020-06-20 15:30:58
 $dictionary['ptg_Camera_System']['fields']['password_c']['inline_edit']='1';
 $dictionary['ptg_Camera_System']['fields']['password_c']['labelValue']='Password';
 
@@ -110,7 +110,7 @@ $dictionary['ptg_Camera_System']['fields']['alias_or_location_name_c']['labelVal
 
  
 
- // created: 2020-06-15 11:18:25
+ // created: 2020-06-20 15:29:55
 $dictionary['ptg_Camera_System']['fields']['system_manufacture_c']['inline_edit']='1';
 $dictionary['ptg_Camera_System']['fields']['system_manufacture_c']['labelValue']='System Manufacture';
 
@@ -122,13 +122,13 @@ $dictionary['ptg_Camera_System']['fields']['register_mode_c']['labelValue']='Reg
 
  
 
- // created: 2020-06-15 11:25:26
+ // created: 2020-06-20 15:30:43
 $dictionary['ptg_Camera_System']['fields']['confirm_password_c']['inline_edit']='1';
 $dictionary['ptg_Camera_System']['fields']['confirm_password_c']['labelValue']='Confirm Password';
 
  
 
- // created: 2020-06-15 11:22:24
+ // created: 2020-06-20 15:30:30
 $dictionary['ptg_Camera_System']['fields']['admin_user_name_c']['inline_edit']='1';
 $dictionary['ptg_Camera_System']['fields']['admin_user_name_c']['labelValue']='Admin User Name';
 

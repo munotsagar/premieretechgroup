@@ -91,19 +91,20 @@
 <link href="custom/include/SugarFields/Fields/Documents/css/js-image-slider.css" rel="stylesheet" type="text/css">
   <script src="custom/include/js/jssor.slider.min.js"></script>
   {foreach from=$images item=item key=k name=foo}
-
+	{assign var=fileName value=$item}
     {if $k<2}
     {if $smarty.foreach.foo.first}
         <a href="javascript:void(0)" onclick="document.getElementById('{{$vardef.name}}_light').style.display='block';document.getElementById('{{$vardef.name}}_fade').style.display='block'">
         {assign var=exten value='.'|explode:$item}
+		
             {if $exten[1] == "gif" || $exten[1] == "jpg" || $exten[1] == "png" || $exten[1] == "jpeg"}
                 <img src="{{$image_path}}{$item}" title="{$item}" alt="{$item}" width="50" height="50"/>
             {else}
                 <img src="{{$image_path}}{$exten[1]}.png" title="{$item}" alt="{$item}" width="50" height="50" />
             {/if}
-</a>
+</a><a href="downloadFile.php?file={$item}">{$item}</a>
     {else}
-<a href="javascript:void(0)" onclick="document.getElementById('{{$vardef.name}}_light').style.display='block';document.getElementById('{{$vardef.name}}_fade').style.display='block'">
+<br><br><a href="javascript:void(0)" onclick="document.getElementById('{{$vardef.name}}_light').style.display='block';document.getElementById('{{$vardef.name}}_fade').style.display='block'">
  Show all </a>
     {/if}
     {/if}
@@ -130,24 +131,31 @@
             {assign var=extension value='.'|explode:$item}
         {if $extension[1] == "gif" || $extension[1] == "jpg" || $extension[1] == "png" || $extension[1] == "jpeg"}  
             <div>
+				<a href="downloadFile.php?file={$item}">
                 <img u="image" src="{{$image_path}}{$item}" title="{$item}" alt="{$item}" />
                 <img u="thumb" src="{{$image_path}}{$item}" title="{$item}" alt="{$item}" />
+				</a>
             </div>
             {elseif $extension[1] == "mp4"}
             <div>
+				<a href="downloadFile.php?file={$item}">
                 <video height="450px" width="99%" controls autoplay>
                    <source src="{{$image_path}}{$item}" type="video/mp4"> 
                   
                 </video>
                 <img u="thumb" src="{{$image_path}}{$extension[1]}.png" title="{$item}" alt="{$item}" />
+				</a>
             </div>
             {else}
 
             <div>
+				<a href="downloadFile.php?file={$item}">
                 <iframe src="//docs.google.com/gview?url={php}global $sugar_config; echo $sugar_config['site_url'];{/php}/{{$image_path}}{$item}&amp;embedded=true" height="450px" width="99%"></iframe>
                 <img u="thumb" src="{{$image_path}}{$extension[1]}.png" title="{$item}" alt="{$item}" />
+				</a>
             </div>
             {/if}
+			
             {/if}
         {/foreach}
         </div>

@@ -3,6 +3,14 @@ $module_name = 'ptg_CitrixServers';
 $OBJECT_NAME = 'PTG_CITRIXSERVERS';
 $listViewDefs [$module_name] = 
 array (
+  'CITRIX_SERVER_TYPE_C' => 
+  array (
+    'type' => 'radioenum',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_CITRIX_SERVER_TYPE',
+    'width' => '10%',
+  ),
   'WEBLINK_C' => 
   array (
     'type' => 'url',
@@ -10,12 +18,11 @@ array (
     'label' => 'LBL_WEBLINK',
     'width' => '10%',
   ),
-  'CITRIX_SERVER_TYPE_C' => 
+  'SERVER_C' => 
   array (
-    'type' => 'radioenum',
+    'type' => 'varchar',
     'default' => true,
-    'studio' => 'visible',
-    'label' => 'LBL_CITRIX_SERVER_TYPE',
+    'label' => 'LBL_SERVER',
     'width' => '10%',
   ),
   'CREATED_BY_NAME' => 

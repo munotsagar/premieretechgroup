@@ -58,13 +58,9 @@ array (
         array (
           0 => 
           array (
-            'name' => 'uploadfile',
-            'displayParams' => 
-            array (
-              'onchangeSetFileNameTo' => 'document_name',
-            ),
+            'name' => 'please_upload_c',
+            'label' => 'LBL_PLEASE_UPLOAD',
           ),
-          1 => '',
         ),
         2 => 
         array (

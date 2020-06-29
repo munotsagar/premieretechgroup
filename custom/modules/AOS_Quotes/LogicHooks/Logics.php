@@ -50,6 +50,10 @@ class Logics
 			$quote_number = sprintf("%06d", $quote_count);
 
 			$bean->quote_number_c = $quote_number;
+
+			$bean->employee_status_c = "Processing";
+			$bean->vendor_status_c = "Processing";
+			$bean->manager_status_c = "Processing";
 		}		
 	}
 }

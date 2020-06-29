@@ -186,12 +186,6 @@ $GLOBALS['app_list_strings']['supported_protocols_list']=array (
   'SMTP' => 'SMTP',
   'ExchangeActiveSync' => 'Exchange Active Sync (EAS)',
 );
-$GLOBALS['app_list_strings']['email_client_list']=array (
-  'Outlook' => 'Outlook',
-  'AppleMail' => 'Apple mail',
-  'BrowserOWN_URL' => 'Browser/OWN URL',
-  'Other' => 'Other',
-);
 $GLOBALS['app_list_strings']['nat_list']=array (
   'On' => 'On',
   'OFF' => 'OFF',
@@ -580,4 +574,15 @@ $GLOBALS['app_list_strings']['reset_password_dropdown_list']=array (
   'Adobe' => 'Adobe',
   'QuickBooks' => 'QuickBooks',
   'Others' => 'Others',
+);
+
+$GLOBALS['app_list_strings']['printer_type_list']=array (
+  'Network' => 'Network',
+  'Local' => 'Local',
+);
+$GLOBALS['app_list_strings']['email_client_list']=array (
+  'Outlook' => 'Outlook',
+  'AppleMail' => 'Apple mail',
+  'BrowserOWN_URL' => 'Browser/OWN URL',
+  'Other' => 'Other',
 );

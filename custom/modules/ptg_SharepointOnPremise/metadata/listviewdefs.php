@@ -3,6 +3,13 @@ $module_name = 'ptg_SharepointOnPremise';
 $OBJECT_NAME = 'PTG_SHAREPOINTONPREMISE';
 $listViewDefs [$module_name] = 
 array (
+  'SERVER_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_SERVER',
+    'width' => '10%',
+  ),
   'MAIN_TEAM_SITE_URL_C' => 
   array (
     'type' => 'varchar',

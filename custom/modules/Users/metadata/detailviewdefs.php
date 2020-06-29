@@ -35,8 +35,38 @@ array (
         ),
         'LBL_EMPLOYEE_INFORMATION' => 
         array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL2' => 
+        array (
+          'newTab' => true,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL3' => 
+        array (
           'newTab' => false,
-          'panelDefault' => 'collapsed',
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL4' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL5' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL6' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
+        'LBL_EDITVIEW_PANEL7' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
         ),
         'LBL_EDITVIEW_PANEL1' => 
         array (
@@ -227,11 +257,289 @@ array (
           0 => 'description',
         ),
       ),
+      'lbl_editview_panel2' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'bank_name_c',
+            'label' => 'LBL_BANK_NAME',
+          ),
+          1 => 
+          array (
+            'name' => 'account_type_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ACCOUNT_TYPE',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'account_number_c',
+            'label' => 'LBL_ACCOUNT_NUMBER',
+          ),
+          1 => 
+          array (
+            'name' => 'tax_id_number_c',
+            'label' => 'LBL_TAX_ID_NUMBER',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'tax_exempted_c',
+            'studio' => 'visible',
+            'label' => 'LBL_ TAX_EXEMPTED',
+          ),
+          1 => 
+          array (
+            'name' => 'comment_c',
+            'label' => 'LBL_COMMENT',
+          ),
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'datecreated_c',
+            'label' => 'LBL_DATECREATED',
+          ),
+          1 => 
+          array (
+            'name' => 'date_modified1_c',
+            'label' => 'LBL_DATE_MODIFIED1',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'reference_one_c',
+            'label' => 'LBL_REFERENCE_ONE',
+          ),
+          1 => '',
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'reference_two_c',
+            'label' => 'LBL_REFERENCE_TWO',
+          ),
+          1 => '',
+        ),
+        6 => 
+        array (
+          0 => 
+          array (
+            'name' => 'reference_three_c',
+            'label' => 'LBL_REFERENCE_THREE',
+          ),
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel3' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'bank_card1name_c',
+            'label' => 'LBL_BANK_CARD1NAME',
+          ),
+          1 => 
+          array (
+            'name' => 'type1_c',
+            'label' => 'LBL_TYPE1',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'cc1_c',
+            'label' => 'LBL_CC1',
+          ),
+          1 => 
+          array (
+            'name' => 'exp1_c',
+            'label' => 'LBL_EXP1',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'ccid1_c',
+            'label' => 'LBL_CCID1',
+          ),
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel4' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'bank_card2name_c',
+            'label' => 'LBL_BANK_CARD2NAME',
+          ),
+          1 => 
+          array (
+            'name' => 'type2_c',
+            'label' => 'LBL_TYPE2',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'cc2_c',
+            'label' => 'LBL_CC2',
+          ),
+          1 => 
+          array (
+            'name' => 'exp2_c',
+            'label' => 'LBL_EXP2',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'ccid2_c',
+            'label' => 'LBL_CCID2',
+          ),
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel5' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'bankcard3name_c',
+            'label' => 'LBL_BANKCARD3NAME',
+          ),
+          1 => 
+          array (
+            'name' => 'type3_c',
+            'label' => 'LBL_TYPE3',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'cc3_c',
+            'label' => 'LBL_CC3',
+          ),
+          1 => 
+          array (
+            'name' => 'exp3_c',
+            'label' => 'LBL_EXP3',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'ccid3_c',
+            'label' => 'LBL_CCID3',
+          ),
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel6' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'bankcard4name_c',
+            'label' => 'LBL_BANKCARD4NAME',
+          ),
+          1 => 
+          array (
+            'name' => 'type4_c',
+            'label' => 'LBL_TYPE4',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'cc4_c',
+            'label' => 'LBL_CC4',
+          ),
+          1 => 
+          array (
+            'name' => 'exp4_c',
+            'label' => 'LBL_EXP4',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'ccid4_c',
+            'label' => 'LBL_CCID4',
+          ),
+          1 => '',
+        ),
+      ),
+      'lbl_editview_panel7' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'bankcard5name_c',
+            'label' => 'LBL_BANKCARD5NAME',
+          ),
+          1 => 
+          array (
+            'name' => 'type5_c',
+            'label' => 'LBL_TYPE5',
+          ),
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'cc5_c',
+            'label' => 'LBL_CC5',
+          ),
+          1 => 
+          array (
+            'name' => 'exp5_c',
+            'label' => 'LBL_EXP5',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'ccid5_c',
+            'label' => 'LBL_CCID5',
+          ),
+          1 => '',
+        ),
+      ),
       'lbl_editview_panel1' => 
       array (
         0 => 
         array (
-          0 => 'full_name',
+          0 => 
+          array (
+            'name' => 'network_profile_label_c',
+            'label' => 'LBL_NETWORK_PROFILE_LABEL',
+          ),
           1 => '',
         ),
       ),

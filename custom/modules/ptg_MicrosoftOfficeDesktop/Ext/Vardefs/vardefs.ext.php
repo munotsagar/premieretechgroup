@@ -78,13 +78,13 @@ $dictionary['ptg_MicrosoftOfficeDesktop']['fields']['document_name']['unified_se
 
  
 
- // created: 2020-06-08 15:24:35
+ // created: 2020-06-20 14:51:40
 $dictionary['ptg_MicrosoftOfficeDesktop']['fields']['username_c']['inline_edit']='1';
 $dictionary['ptg_MicrosoftOfficeDesktop']['fields']['username_c']['labelValue']='Username';
 
  
 
- // created: 2020-06-08 15:24:18
+ // created: 2020-06-20 14:51:51
 $dictionary['ptg_MicrosoftOfficeDesktop']['fields']['admin_login_c']['inline_edit']='1';
 $dictionary['ptg_MicrosoftOfficeDesktop']['fields']['admin_login_c']['labelValue']='Admin Login';
 
@@ -98,7 +98,7 @@ $dictionary['ptg_MicrosoftOfficeDesktop']['fields']['active_date']['enable_range
 
  
 
- // created: 2020-06-08 15:24:50
+ // created: 2020-06-20 14:52:07
 $dictionary['ptg_MicrosoftOfficeDesktop']['fields']['password_c']['inline_edit']='1';
 $dictionary['ptg_MicrosoftOfficeDesktop']['fields']['password_c']['labelValue']='Password';
 
@@ -110,13 +110,13 @@ $dictionary['ptg_MicrosoftOfficeDesktop']['fields']['approval_not_needed_c']['la
 
  
 
- // created: 2020-06-08 15:23:50
+ // created: 2020-06-20 14:55:42
 $dictionary['ptg_MicrosoftOfficeDesktop']['fields']['license_type_c']['inline_edit']='1';
 $dictionary['ptg_MicrosoftOfficeDesktop']['fields']['license_type_c']['labelValue']='License Type';
 
  
 
- // created: 2020-06-08 15:25:15
+ // created: 2020-06-20 14:54:05
 $dictionary['ptg_MicrosoftOfficeDesktop']['fields']['confirm_password_c']['inline_edit']='1';
 $dictionary['ptg_MicrosoftOfficeDesktop']['fields']['confirm_password_c']['labelValue']='Confirm password';
 

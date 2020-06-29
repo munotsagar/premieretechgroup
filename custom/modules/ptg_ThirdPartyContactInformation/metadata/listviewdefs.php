@@ -10,6 +10,20 @@ array (
     'link' => true,
     'default' => true,
   ),
+  'PHONE_C' => 
+  array (
+    'type' => 'phone',
+    'default' => true,
+    'label' => 'LBL_PHONE',
+    'width' => '10%',
+  ),
+  'EMAIL_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_EMAIL',
+    'width' => '10%',
+  ),
   'COMPANY_C' => 
   array (
     'type' => 'varchar',
@@ -22,13 +36,6 @@ array (
     'type' => 'varchar',
     'default' => true,
     'label' => 'LBL_ROLE',
-    'width' => '10%',
-  ),
-  'PHONE_C' => 
-  array (
-    'type' => 'phone',
-    'default' => true,
-    'label' => 'LBL_PHONE',
     'width' => '10%',
   ),
   'DATE_ENTERED' => 

@@ -78,6 +78,12 @@ $dictionary['ptg_ActiveDirectory']['fields']['document_name']['unified_search']=
 
  
 
+ // created: 2020-06-25 09:30:50
+$dictionary['ptg_ActiveDirectory']['fields']['ou_template1_c']['inline_edit']='1';
+$dictionary['ptg_ActiveDirectory']['fields']['ou_template1_c']['labelValue']='ou template1';
+
+ 
+
  // created: 2020-06-05 16:43:39
 $dictionary['ptg_ActiveDirectory']['fields']['ou_template_c']['inline_edit']='1';
 $dictionary['ptg_ActiveDirectory']['fields']['ou_template_c']['labelValue']='OU / Template';
@@ -89,6 +95,12 @@ $dictionary['ptg_ActiveDirectory']['fields']['active_date']['required']=false;
 $dictionary['ptg_ActiveDirectory']['fields']['active_date']['inline_edit']=true;
 $dictionary['ptg_ActiveDirectory']['fields']['active_date']['merge_filter']='disabled';
 $dictionary['ptg_ActiveDirectory']['fields']['active_date']['enable_range_search']=false;
+
+ 
+
+ // created: 2020-06-28 05:23:28
+$dictionary['ptg_ActiveDirectory']['fields']['please_upload_c']['inline_edit']='1';
+$dictionary['ptg_ActiveDirectory']['fields']['please_upload_c']['labelValue']='Please Upload';
 
  
 

@@ -70,19 +70,14 @@ $dictionary["ptg_ThirdPartyContactInformation"]["fields"]["accounts_ptg_thirdpar
 );
 
 
- // created: 2020-06-06 07:33:54
+ // created: 2020-06-20 15:27:00
 $dictionary['ptg_ThirdPartyContactInformation']['fields']['phone_c']['inline_edit']='1';
 $dictionary['ptg_ThirdPartyContactInformation']['fields']['phone_c']['labelValue']='Phone';
 
  
 
- // created: 2020-06-06 07:32:33
-$dictionary['ptg_ThirdPartyContactInformation']['fields']['document_name']['required']=false;
-$dictionary['ptg_ThirdPartyContactInformation']['fields']['document_name']['inline_edit']=true;
-$dictionary['ptg_ThirdPartyContactInformation']['fields']['document_name']['help']='Full Name';
-$dictionary['ptg_ThirdPartyContactInformation']['fields']['document_name']['comments']='Full Name';
-$dictionary['ptg_ThirdPartyContactInformation']['fields']['document_name']['merge_filter']='disabled';
-$dictionary['ptg_ThirdPartyContactInformation']['fields']['document_name']['unified_search']=false;
+ // created: 2020-06-20 15:28:33
+$dictionary['ptg_ThirdPartyContactInformation']['fields']['document_name']['required']=true;
 
  
 
@@ -120,7 +115,7 @@ $dictionary['ptg_ThirdPartyContactInformation']['fields']['description']['merge_
 
  
 
- // created: 2020-06-06 07:34:31
+ // created: 2020-06-20 15:26:28
 $dictionary['ptg_ThirdPartyContactInformation']['fields']['email_c']['inline_edit']='1';
 $dictionary['ptg_ThirdPartyContactInformation']['fields']['email_c']['labelValue']='Email';
 

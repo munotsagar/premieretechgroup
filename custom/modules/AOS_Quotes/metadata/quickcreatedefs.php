@@ -81,38 +81,6 @@ array (
         array (
           0 => 
           array (
-            'name' => 'billing_address_street',
-            'hideLabel' => true,
-            'type' => 'address',
-            'displayParams' => 
-            array (
-              'key' => 'billing',
-              'rows' => 2,
-              'cols' => 30,
-              'maxlength' => 150,
-            ),
-            'label' => 'LBL_BILLING_ADDRESS_STREET',
-          ),
-          1 => 
-          array (
-            'name' => 'shipping_address_street',
-            'hideLabel' => true,
-            'type' => 'address',
-            'displayParams' => 
-            array (
-              'key' => 'shipping',
-              'copy' => 'billing',
-              'rows' => 2,
-              'cols' => 30,
-              'maxlength' => 150,
-            ),
-            'label' => 'LBL_SHIPPING_ADDRESS_STREET',
-          ),
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
             'name' => 'assigned_user_name',
             'label' => 'LBL_ASSIGNED_TO_NAME',
           ),

@@ -91,7 +91,7 @@ $dictionary['ptg_OtherLicensedSoftware']['fields']['location_of_software_install
 
  
 
- // created: 2020-06-06 07:05:11
+ // created: 2020-06-20 15:14:54
 $dictionary['ptg_OtherLicensedSoftware']['fields']['username_c']['inline_edit']='1';
 $dictionary['ptg_OtherLicensedSoftware']['fields']['username_c']['labelValue']='Username';
 
@@ -109,7 +109,7 @@ $dictionary['ptg_OtherLicensedSoftware']['fields']['ok_to_upgrade_c']['labelValu
 
  
 
- // created: 2020-06-06 07:04:47
+ // created: 2020-06-20 15:14:33
 $dictionary['ptg_OtherLicensedSoftware']['fields']['admin_login_c']['inline_edit']='1';
 $dictionary['ptg_OtherLicensedSoftware']['fields']['admin_login_c']['labelValue']='Admin Login';
 
@@ -123,13 +123,13 @@ $dictionary['ptg_OtherLicensedSoftware']['fields']['active_date']['enable_range_
 
  
 
- // created: 2020-06-06 07:05:40
+ // created: 2020-06-20 15:13:56
 $dictionary['ptg_OtherLicensedSoftware']['fields']['password_c']['inline_edit']='1';
 $dictionary['ptg_OtherLicensedSoftware']['fields']['password_c']['labelValue']='Password';
 
  
 
- // created: 2020-06-06 07:05:57
+ // created: 2020-06-20 15:14:11
 $dictionary['ptg_OtherLicensedSoftware']['fields']['confirm_password__c']['inline_edit']='1';
 $dictionary['ptg_OtherLicensedSoftware']['fields']['confirm_password__c']['labelValue']='Confirm password';
 

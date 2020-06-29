@@ -122,7 +122,7 @@ $dictionary['ptg_CitrixServers']['fields']['weblink_c']['labelValue']='Weblink';
 
  
 
- // created: 2020-06-05 18:26:57
+ // created: 2020-06-20 13:49:42
 $dictionary['ptg_CitrixServers']['fields']['confirm_password_c']['inline_edit']='1';
 $dictionary['ptg_CitrixServers']['fields']['confirm_password_c']['labelValue']='Confirm Password';
 
@@ -142,7 +142,7 @@ $dictionary['ptg_CitrixServers']['fields']['description']['merge_filter']='disab
 
  
 
- // created: 2020-06-07 18:53:36
+ // created: 2020-06-20 13:48:27
 $dictionary['ptg_CitrixServers']['fields']['citrix_server_type_c']['inline_edit']='1';
 $dictionary['ptg_CitrixServers']['fields']['citrix_server_type_c']['labelValue']='Type';
 

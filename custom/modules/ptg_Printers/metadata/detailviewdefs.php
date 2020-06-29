@@ -49,8 +49,9 @@ array (
         array (
           0 => 
           array (
-            'name' => 'printer_type_network_local_c',
-            'label' => 'LBL_PRINTER_TYPE_NETWORK_LOCAL',
+            'name' => 'printer_type_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PRINTER_TYPE ',
           ),
           1 => '',
         ),

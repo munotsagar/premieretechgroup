@@ -92,7 +92,7 @@ $dictionary['ptg_SharePoint']['fields']['active_date']['enable_range_search']=fa
 
  
 
- // created: 2020-06-08 17:30:02
+ // created: 2020-06-20 15:21:13
 $dictionary['ptg_SharePoint']['fields']['share_point_url__c']['inline_edit']='1';
 $dictionary['ptg_SharePoint']['fields']['share_point_url__c']['labelValue']='Share Point URL';
 
@@ -106,7 +106,7 @@ $dictionary['ptg_SharePoint']['fields']['description']['merge_filter']='disabled
 
  
 
- // created: 2020-06-06 07:25:34
+ // created: 2020-06-20 15:21:05
 $dictionary['ptg_SharePoint']['fields']['main_team_site_url_c']['inline_edit']='1';
 $dictionary['ptg_SharePoint']['fields']['main_team_site_url_c']['labelValue']='Main team site URL';
 

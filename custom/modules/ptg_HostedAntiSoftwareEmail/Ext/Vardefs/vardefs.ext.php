@@ -70,7 +70,7 @@ $dictionary["ptg_HostedAntiSoftwareEmail"]["fields"]["accounts_ptg_hostedantisof
 );
 
 
- // created: 2020-06-08 15:03:35
+ // created: 2020-06-20 13:32:23
 $dictionary['ptg_HostedAntiSoftwareEmail']['fields']['login_password_c']['inline_edit']='1';
 $dictionary['ptg_HostedAntiSoftwareEmail']['fields']['login_password_c']['labelValue']='Login Password';
 
@@ -84,7 +84,7 @@ $dictionary['ptg_HostedAntiSoftwareEmail']['fields']['document_name']['unified_s
 
  
 
- // created: 2020-06-08 15:03:08
+ // created: 2020-06-20 13:32:33
 $dictionary['ptg_HostedAntiSoftwareEmail']['fields']['user_login_name_c']['inline_edit']='1';
 $dictionary['ptg_HostedAntiSoftwareEmail']['fields']['user_login_name_c']['labelValue']='User Login Name';
 
@@ -104,7 +104,7 @@ $dictionary['ptg_HostedAntiSoftwareEmail']['fields']['active_date']['enable_rang
 
  
 
- // created: 2020-06-08 15:04:05
+ // created: 2020-06-20 13:32:49
 $dictionary['ptg_HostedAntiSoftwareEmail']['fields']['confirm_password_c']['inline_edit']='1';
 $dictionary['ptg_HostedAntiSoftwareEmail']['fields']['confirm_password_c']['labelValue']='Confirm Password';
 

@@ -47,23 +47,27 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_SELECT_USER',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'select_employee_c',
+            'studio' => 'visible',
+            'label' => 'LBL_SELECT_EMPLOYEE',
+          ),
         ),
         1 => 
         array (
           0 => 
           array (
-            'name' => 'date_time_c',
-            'label' => 'LBL_DATE_TIME',
+            'name' => 'description',
+            'label' => 'LBL_DOC_DESCRIPTION',
           ),
-          1 => '',
         ),
         2 => 
         array (
           0 => 
           array (
-            'name' => 'status_id',
-            'label' => 'LBL_DOC_STATUS',
+            'name' => 'attach_documents_c',
+            'label' => 'LBL_ATTACH_DOCUMENTS',
           ),
           1 => '',
         ),
@@ -71,9 +75,11 @@ array (
         array (
           0 => 
           array (
-            'name' => 'description',
-            'label' => 'LBL_DOC_DESCRIPTION',
+            'name' => 'date_entered',
+            'comment' => 'Date record created',
+            'label' => 'LBL_DATE_ENTERED',
           ),
+          1 => '',
         ),
       ),
     ),

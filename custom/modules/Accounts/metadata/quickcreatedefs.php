@@ -471,7 +471,6 @@ array (
             'comment' => 'An arbitrary rating for this company for use in comparisons with others',
             'label' => 'LBL_RATING',
           ),
-          1 => '',
         ),
       ),
     ),

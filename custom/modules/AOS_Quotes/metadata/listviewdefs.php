@@ -19,12 +19,35 @@ array (
     'link' => true,
     'width' => '10%',
   ),
+  'VENDOR_STATUS_C' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_VENDOR_STATUS',
+    'width' => '10%',
+  ),
+  'EMPLOYEE_STATUS_C' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_EMPLOYEE_STATUS',
+    'width' => '10%',
+  ),
   'MANAGER_STATUS_C' => 
   array (
     'type' => 'enum',
     'default' => true,
     'studio' => 'visible',
     'label' => 'LBL_MANAGER_STATUS',
+    'width' => '10%',
+  ),
+  'QUOTATION_AMOUNT_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_QUOTATION_AMOUNT',
     'width' => '10%',
   ),
   'DATE_ENTERED' => 

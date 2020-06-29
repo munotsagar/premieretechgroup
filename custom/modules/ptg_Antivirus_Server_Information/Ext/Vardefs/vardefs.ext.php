@@ -70,7 +70,7 @@ $dictionary["ptg_Antivirus_Server_Information"]["fields"]["accounts_ptg_antiviru
 );
 
 
- // created: 2020-06-05 09:45:29
+ // created: 2020-06-20 12:58:38
 $dictionary['ptg_Antivirus_Server_Information']['fields']['login_password_c']['inline_edit']='1';
 $dictionary['ptg_Antivirus_Server_Information']['fields']['login_password_c']['labelValue']='Login Password';
 
@@ -94,7 +94,7 @@ $dictionary['ptg_Antivirus_Server_Information']['fields']['login_c']['labelValue
 
  
 
- // created: 2020-06-05 09:45:01
+ // created: 2020-06-20 12:58:56
 $dictionary['ptg_Antivirus_Server_Information']['fields']['user_login_name_c']['inline_edit']='1';
 $dictionary['ptg_Antivirus_Server_Information']['fields']['user_login_name_c']['labelValue']='User Login Name';
 
@@ -106,7 +106,7 @@ $dictionary['ptg_Antivirus_Server_Information']['fields']['weblink_c']['labelVal
 
  
 
- // created: 2020-06-05 09:45:53
+ // created: 2020-06-20 12:59:32
 $dictionary['ptg_Antivirus_Server_Information']['fields']['confirm_password_c']['inline_edit']='1';
 $dictionary['ptg_Antivirus_Server_Information']['fields']['confirm_password_c']['labelValue']='Confirm Password';
 

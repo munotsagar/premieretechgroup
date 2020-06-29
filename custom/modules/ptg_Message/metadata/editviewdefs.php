@@ -39,7 +39,7 @@ array (
           'panelDefault' => 'expanded',
         ),
       ),
-      'syncDetailEditViews' => true,
+      'syncDetailEditViews' => false,
     ),
     'panels' => 
     array (
@@ -53,28 +53,28 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_SELECT_USER',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'select_employee_c',
+            'studio' => 'visible',
+            'label' => 'LBL_SELECT_EMPLOYEE',
+          ),
         ),
         1 => 
         array (
           0 => 
           array (
-            'name' => 'date_time_c',
-            'label' => 'LBL_DATE_TIME',
+            'name' => 'description',
           ),
-          1 => '',
         ),
         2 => 
         array (
-          0 => 'status_id',
-          1 => '',
-        ),
-        3 => 
-        array (
           0 => 
           array (
-            'name' => 'description',
+            'name' => 'attach_documents_c',
+            'label' => 'LBL_ATTACH_DOCUMENTS',
           ),
+          1 => '',
         ),
       ),
     ),

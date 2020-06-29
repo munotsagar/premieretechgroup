@@ -17,6 +17,20 @@ array (
     'label' => 'LBL_WEBLINK',
     'width' => '10%',
   ),
+  'ADMIN_LOGIN_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_ADMIN_LOGIN',
+    'width' => '10%',
+  ),
+  'USERNAME_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_USERNAME',
+    'width' => '10%',
+  ),
   'CREATED_BY_NAME' => 
   array (
     'width' => '2%',

@@ -3,20 +3,26 @@ $module_name = 'ptg_QuickBooks';
 $OBJECT_NAME = 'PTG_QUICKBOOKS';
 $listViewDefs [$module_name] = 
 array (
-  'PRODUCT_TYPE_C' => 
-  array (
-    'type' => 'radioenum',
-    'default' => true,
-    'studio' => 'visible',
-    'label' => 'LBL_PRODUCT_TYPE',
-    'width' => '10%',
-  ),
   'LICENSE_TYPE_C' => 
   array (
     'type' => 'radioenum',
     'default' => true,
     'studio' => 'visible',
     'label' => 'LBL_LICENSE_TYPE',
+    'width' => '10%',
+  ),
+  'ADMIN_LOGIN_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_ADMIN_LOGIN',
+    'width' => '10%',
+  ),
+  'USERNAME_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_USERNAME',
     'width' => '10%',
   ),
   'CREATED_BY_NAME' => 

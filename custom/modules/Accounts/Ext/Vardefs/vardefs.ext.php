@@ -462,7 +462,7 @@ $dictionary['Account']['fields']['reference3_c']['labelValue']='Reference3';
 
  
 
- // created: 2020-06-04 11:57:30
+ // created: 2020-06-28 16:27:49
 $dictionary['Account']['fields']['account_number_c']['inline_edit']='1';
 $dictionary['Account']['fields']['account_number_c']['labelValue']='Account Number';
 
@@ -497,9 +497,9 @@ $dictionary['Account']['fields']['net_terms_c']['labelValue']='Net Terms';
 
  
 
- // created: 2020-06-04 12:09:48
+ // created: 2020-06-28 16:27:31
 $dictionary['Account']['fields']['bank_card5name_c']['inline_edit']='1';
-$dictionary['Account']['fields']['bank_card5name_c']['labelValue']='Bank Card 5 Name';
+$dictionary['Account']['fields']['bank_card5name_c']['labelValue']='5. Bank Card Name';
 
  
 
@@ -538,9 +538,9 @@ $dictionary['Account']['fields']['bank_card1cc_c']['labelValue']='bank card1cc';
 
  
 
- // created: 2020-06-04 12:05:00
+ // created: 2020-06-28 16:27:01
 $dictionary['Account']['fields']['bank_card1name_c']['inline_edit']='1';
-$dictionary['Account']['fields']['bank_card1name_c']['labelValue']='Bank Card 1 Name';
+$dictionary['Account']['fields']['bank_card1name_c']['labelValue']='1. Bank Card Name';
 
  
 
@@ -567,15 +567,15 @@ $dictionary['Account']['fields']['jjwg_maps_address_c']['inline_edit']=1;
 
  
 
- // created: 2020-06-04 11:51:05
+ // created: 2020-06-28 16:28:16
 $dictionary['Account']['fields']['bank_name_c']['inline_edit']='1';
 $dictionary['Account']['fields']['bank_name_c']['labelValue']='Bank Name';
 
  
 
- // created: 2020-06-04 12:09:21
+ // created: 2020-06-28 16:26:30
 $dictionary['Account']['fields']['bank_card4name_c']['inline_edit']='1';
-$dictionary['Account']['fields']['bank_card4name_c']['labelValue']='Bank Card 4 Name';
+$dictionary['Account']['fields']['bank_card4name_c']['labelValue']='4. Bank Card Name';
 
  
 
@@ -624,9 +624,9 @@ $dictionary['Account']['fields']['exp1_c']['labelValue']='Exp 1';
 
  
 
- // created: 2020-06-04 12:07:17
+ // created: 2020-06-28 16:26:05
 $dictionary['Account']['fields']['bank_card2name_c']['inline_edit']='1';
-$dictionary['Account']['fields']['bank_card2name_c']['labelValue']='Bank Card 2 Name';
+$dictionary['Account']['fields']['bank_card2name_c']['labelValue']='2. Bank Card Name';
 
  
 
@@ -641,9 +641,9 @@ $dictionary['Account']['fields']['sachin_postalcode_c']['inline_edit']=1;
 
  
 
- // created: 2020-06-04 12:07:51
+ // created: 2020-06-28 16:25:20
 $dictionary['Account']['fields']['bank_card3name_c']['inline_edit']='1';
-$dictionary['Account']['fields']['bank_card3name_c']['labelValue']='Bank Card 3 Name';
+$dictionary['Account']['fields']['bank_card3name_c']['labelValue']='3. Bank Card Name';
 
  
 

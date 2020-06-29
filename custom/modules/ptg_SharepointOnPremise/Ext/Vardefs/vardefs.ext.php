@@ -78,13 +78,13 @@ $dictionary['ptg_SharepointOnPremise']['fields']['document_name']['unified_searc
 
  
 
- // created: 2020-06-13 09:45:46
+ // created: 2020-06-20 15:24:47
 $dictionary['ptg_SharepointOnPremise']['fields']['server_c']['inline_edit']='1';
 $dictionary['ptg_SharepointOnPremise']['fields']['server_c']['labelValue']='Server';
 
  
 
- // created: 2020-06-08 17:23:15
+ // created: 2020-06-20 15:24:58
 $dictionary['ptg_SharepointOnPremise']['fields']['sharepoint_url_c']['inline_edit']='1';
 $dictionary['ptg_SharepointOnPremise']['fields']['sharepoint_url_c']['labelValue']='SharePoint URL';
 
@@ -106,7 +106,7 @@ $dictionary['ptg_SharepointOnPremise']['fields']['description']['merge_filter']=
 
  
 
- // created: 2020-06-08 17:23:46
+ // created: 2020-06-20 15:25:10
 $dictionary['ptg_SharepointOnPremise']['fields']['main_team_site_url_c']['inline_edit']='1';
 $dictionary['ptg_SharepointOnPremise']['fields']['main_team_site_url_c']['labelValue']='Main team site URL';
 

@@ -444,9 +444,39 @@ $dictionary["User"]["fields"]["users_ptg_microsoftofficedesktop_1"] = array (
 );
 
 
- // created: 2020-06-04 08:07:32
+ // created: 2020-06-28 15:59:56
+$dictionary['User']['fields']['ccid2_c']['inline_edit']='1';
+$dictionary['User']['fields']['ccid2_c']['labelValue']='2. CCID';
+
+ 
+
+ // created: 2020-06-22 09:37:10
 $dictionary['User']['fields']['trouble_ticket_commission_c']['inline_edit']='1';
 $dictionary['User']['fields']['trouble_ticket_commission_c']['labelValue']='Trouble Ticket Commission';
+
+ 
+
+ // created: 2020-06-28 15:34:37
+$dictionary['User']['fields']['account_number_c']['inline_edit']='1';
+$dictionary['User']['fields']['account_number_c']['labelValue']='Account Number';
+
+ 
+
+ // created: 2020-06-28 15:52:12
+$dictionary['User']['fields']['cc1_c']['inline_edit']='1';
+$dictionary['User']['fields']['cc1_c']['labelValue']='1. CC#';
+
+ 
+
+ // created: 2020-06-28 16:01:19
+$dictionary['User']['fields']['ccid5_c']['inline_edit']='1';
+$dictionary['User']['fields']['ccid5_c']['labelValue']='5. CCID';
+
+ 
+
+ // created: 2020-06-28 16:21:23
+$dictionary['User']['fields']['date_modified1_c']['inline_edit']='1';
+$dictionary['User']['fields']['date_modified1_c']['labelValue']='date modified1';
 
  
 
@@ -456,15 +486,99 @@ $dictionary['User']['fields']['commission_type_c']['labelValue']='Commission Typ
 
  
 
+ // created: 2020-06-28 15:52:34
+$dictionary['User']['fields']['cc2_c']['inline_edit']='1';
+$dictionary['User']['fields']['cc2_c']['labelValue']='2. CC#';
+
+ 
+
+ // created: 2020-06-28 15:50:50
+$dictionary['User']['fields']['type3_c']['inline_edit']='1';
+$dictionary['User']['fields']['type3_c']['labelValue']='3. Type';
+
+ 
+
+ // created: 2020-06-28 15:58:16
+$dictionary['User']['fields']['exp5_c']['inline_edit']='1';
+$dictionary['User']['fields']['exp5_c']['labelValue']='5. Exp';
+
+ 
+
+ // created: 2020-06-28 15:59:27
+$dictionary['User']['fields']['ccid1_c']['inline_edit']='1';
+$dictionary['User']['fields']['ccid1_c']['labelValue']='1. CCID';
+
+ 
+
+ // created: 2020-06-28 15:33:09
+$dictionary['User']['fields']['account_type_c']['inline_edit']='1';
+$dictionary['User']['fields']['account_type_c']['labelValue']='Account Type';
+
+ 
+
+ // created: 2020-06-28 16:18:33
+$dictionary['User']['fields']['bank_card1name_c']['inline_edit']='1';
+$dictionary['User']['fields']['bank_card1name_c']['labelValue']='1. Bank Card Name';
+
+ 
+
+ // created: 2020-06-28 15:47:33
+$dictionary['User']['fields']['bankcard3name_c']['inline_edit']='1';
+$dictionary['User']['fields']['bankcard3name_c']['labelValue']='3. Bank Card Name';
+
+ 
+
+ // created: 2020-06-28 15:36:20
+$dictionary['User']['fields']['comment_c']['inline_edit']='1';
+$dictionary['User']['fields']['comment_c']['labelValue']='Comment';
+
+ 
+
+ // created: 2020-06-28 15:53:37
+$dictionary['User']['fields']['cc5_c']['inline_edit']='1';
+$dictionary['User']['fields']['cc5_c']['labelValue']='5. CC#';
+
+ 
+
+ // created: 2020-06-28 15:51:15
+$dictionary['User']['fields']['type4_c']['inline_edit']='1';
+$dictionary['User']['fields']['type4_c']['labelValue']='4. Type';
+
+ 
+
  // created: 2020-06-04 07:52:49
 $dictionary['User']['fields']['voice_service_c']['inline_edit']='1';
 $dictionary['User']['fields']['voice_service_c']['labelValue']='Voice Services Commission';
 
  
 
+ // created: 2020-06-28 15:33:41
+$dictionary['User']['fields']['bank_name_c']['inline_edit']='1';
+$dictionary['User']['fields']['bank_name_c']['labelValue']='Bank Name';
+
+ 
+
+ // created: 2020-06-28 15:52:50
+$dictionary['User']['fields']['cc3_c']['inline_edit']='1';
+$dictionary['User']['fields']['cc3_c']['labelValue']='3. CC#';
+
+ 
+
+ // created: 2020-06-28 15:48:53
+$dictionary['User']['fields']['bankcard5name_c']['inline_edit']='1';
+$dictionary['User']['fields']['bankcard5name_c']['labelValue']='5. Bank Card Name';
+
+ 
+
  // created: 2020-06-03 11:09:20
 $dictionary['User']['fields']['commission_c']['inline_edit']='1';
 $dictionary['User']['fields']['commission_c']['labelValue']='Commission';
+
+ 
+
+ // created: 2020-06-28 15:35:42
+$dictionary['User']['fields']['tax_exempted_c']['inline_edit']='1';
+$dictionary['User']['fields']['tax_exempted_c']['labelValue']='Tax Exempted';
 
  
 
@@ -480,9 +594,81 @@ $dictionary['User']['fields']['organization_c']['labelValue']='Organization';
 
  
 
+ // created: 2020-06-28 15:57:54
+$dictionary['User']['fields']['exp4_c']['inline_edit']='1';
+$dictionary['User']['fields']['exp4_c']['labelValue']='4. Exp';
+
+ 
+
+ // created: 2020-06-28 15:43:24
+$dictionary['User']['fields']['reference_two_c']['inline_edit']='1';
+$dictionary['User']['fields']['reference_two_c']['labelValue']='Reference 2';
+
+ 
+
  // created: 2020-06-04 08:02:03
 $dictionary['User']['fields']['cloud_service_c']['inline_edit']='1';
 $dictionary['User']['fields']['cloud_service_c']['labelValue']='Cloud Services Commission';
+
+ 
+
+ // created: 2020-06-28 15:54:18
+$dictionary['User']['fields']['exp1_c']['inline_edit']='1';
+$dictionary['User']['fields']['exp1_c']['labelValue']='1. Exp';
+
+ 
+
+ // created: 2020-06-28 16:19:04
+$dictionary['User']['fields']['bank_card2name_c']['inline_edit']='1';
+$dictionary['User']['fields']['bank_card2name_c']['labelValue']='2. Bank Card Name';
+
+ 
+
+ // created: 2020-06-27 11:03:58
+$dictionary['User']['fields']['network_profile_label_c']['inline_edit']='1';
+$dictionary['User']['fields']['network_profile_label_c']['labelValue']='In order to enter your customer network information. You will first need to save the profile. Next, you will need to open your customer detail view profile. You will then be given the opportunity to enter all the information of your customer network information.';
+
+ 
+
+ // created: 2020-06-28 16:01:00
+$dictionary['User']['fields']['ccid4_c']['inline_edit']='1';
+$dictionary['User']['fields']['ccid4_c']['labelValue']='4. CCID';
+
+ 
+
+ // created: 2020-06-28 16:20:47
+$dictionary['User']['fields']['datecreated_c']['inline_edit']='1';
+$dictionary['User']['fields']['datecreated_c']['labelValue']='Date Created';
+
+ 
+
+ // created: 2020-06-28 16:17:38
+$dictionary['User']['fields']['type1_c']['inline_edit']='1';
+$dictionary['User']['fields']['type1_c']['labelValue']='1. Type';
+
+ 
+
+ // created: 2020-06-28 15:50:28
+$dictionary['User']['fields']['type2_c']['inline_edit']='1';
+$dictionary['User']['fields']['type2_c']['labelValue']='2. Type';
+
+ 
+
+ // created: 2020-06-28 15:35:05
+$dictionary['User']['fields']['tax_id_number_c']['inline_edit']='1';
+$dictionary['User']['fields']['tax_id_number_c']['labelValue']='Tax ID Number';
+
+ 
+
+ // created: 2020-06-28 15:56:36
+$dictionary['User']['fields']['exp2_c']['inline_edit']='1';
+$dictionary['User']['fields']['exp2_c']['labelValue']='2. Exp';
+
+ 
+
+ // created: 2020-06-28 16:00:28
+$dictionary['User']['fields']['ccid3_c']['inline_edit']='1';
+$dictionary['User']['fields']['ccid3_c']['labelValue']='3. CCID';
 
  
 
@@ -497,15 +683,51 @@ $dictionary['User']['fields']['currency_id']['inline_edit']=1;
 
  
 
+ // created: 2020-06-28 15:53:09
+$dictionary['User']['fields']['cc4_c']['inline_edit']='1';
+$dictionary['User']['fields']['cc4_c']['labelValue']='4. CC#';
+
+ 
+
+ // created: 2020-06-28 15:43:47
+$dictionary['User']['fields']['reference_three_c']['inline_edit']='1';
+$dictionary['User']['fields']['reference_three_c']['labelValue']='Reference 3';
+
+ 
+
+ // created: 2020-06-28 15:48:24
+$dictionary['User']['fields']['bankcard4name_c']['inline_edit']='1';
+$dictionary['User']['fields']['bankcard4name_c']['labelValue']='4. Bank Card Name';
+
+ 
+
  // created: 2020-06-04 08:02:23
 $dictionary['User']['fields']['local_service_c']['inline_edit']='1';
 $dictionary['User']['fields']['local_service_c']['labelValue']='Local Services Commission';
 
  
 
+ // created: 2020-06-28 15:57:12
+$dictionary['User']['fields']['exp3_c']['inline_edit']='1';
+$dictionary['User']['fields']['exp3_c']['labelValue']='3. Exp';
+
+ 
+
  // created: 2020-06-03 11:13:00
 $dictionary['User']['fields']['user_category_c']['inline_edit']='1';
 $dictionary['User']['fields']['user_category_c']['labelValue']='User Category';
+
+ 
+
+ // created: 2020-06-28 15:51:45
+$dictionary['User']['fields']['type5_c']['inline_edit']='1';
+$dictionary['User']['fields']['type5_c']['labelValue']='5. Type';
+
+ 
+
+ // created: 2020-06-28 15:43:01
+$dictionary['User']['fields']['reference_one_c']['inline_edit']='1';
+$dictionary['User']['fields']['reference_one_c']['labelValue']='Reference 1';
 
  
 ?>

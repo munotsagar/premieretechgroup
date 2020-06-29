@@ -13,6 +13,8 @@ $(document).ready(function(){
         $("#other_services_c").parent().parent().next().hide();
         $("#other_services_c").parent().parent().hide();
 */
+
+		$("#assigned_user_name").parent().parent().hide();
         var labelID;
 
         $('label').click(function() {

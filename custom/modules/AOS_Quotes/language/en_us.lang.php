@@ -1,5 +1,5 @@
 <?php
-// created: 2020-06-13 10:37:20
+// created: 2020-06-29 18:53:54
 $mod_strings = array (
   'LBL_QUICK_QUOTING' => 'Quick Quoting',
   'LBL_INTERNATIONAL' => 'International',
@@ -33,4 +33,5 @@ $mod_strings = array (
   'LBL_COMPANY_NAME' => 'Company name',
   'LBL_QUOTE_NUMBER' => 'Quote Number',
   'LBL_QUOTE_COUNT' => 'Quote Count',
+  'LBL_QUOTATION_AMOUNT' => 'Quotation Amount $',
 );

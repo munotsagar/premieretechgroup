@@ -64,47 +64,35 @@ class ptg_Backup_SoftwareViewEdit extends ViewEdit
         // exit();
 
 ?>
-<input onfocus="checkPassword(this)" id="confirm_password_c">
 
 <script type="text/javascript">
-    alert("Hello") 
-    // Function to check Whether both passwords 
-    // is same or not. 
-    function checkPassword(form) { 
-        password1 = form.password_c.value;
-        alert(password1); 
-        password2 = form.confirm_password_c.value; 
-        alert(password2); 
+	$(document).ready(function(){
+		// var category = $("#category").val();
+		// $("#detailpanel_1").parent().attr("style","display:none;");
+		// if (category != 'Vendor') {
+		// 	$("#detailpanel_1").parent().attr("style","display:block"); 
 
-        // If password not entered 
-        // if (password1 == '') 
-        //     alert ("Please enter Password"); 
-              
-        // If confirm password not entered 
-        // else if (password2 == '') 
-        //     alert ("Please enter confirm password"); 
-              
-        // If Not same return False.     
-        if (password1 != password2) { 
-            alert ("\nPassword did not match: Please try again...") 
-            // return false; 
-        } 
+		// }
 
-        // If same return True. 
-        else{ 
-            alert("Password Matched") 
-            // return true; 
-        } 
-    } 
+        var onclicksave = $("input[title='Save']").attr("onclick");
+        $("input[title='Save']").removeAttr("onclick");
 
-	// $(document).ready(function(){
-	// 	var category = $("#category").val();
-	// 	$("#tab-content-2").attr("style","display:none;");
-	// 	if (category != 'Vendor') {
-	// 		$("#detailpanel_1").parent().attr("style","display:block"); 
-
-	// 	}
-	// });
+        $("input[title='Save']").click(function(){
+        	if($("#password_c").val() != "" || $("#confirm_password_c").val() != ""){
+        		if($("#password_c").val() != $("#confirm_password_c").val()) { 
+                    alert("Password & Confirm Password doesn't match!");
+                    return false;
+            	}
+        	}
+            
+            
+            var _form = document.getElementById('EditView'); 
+            _form.action.value='Save'; 
+            if(check_form('EditView')){SUGAR.ajaxUI.submitForm(_form);}
+            return false;
+        });
+   });
+	
 </script>
 
 <?php
@@ -112,3 +100,5 @@ class ptg_Backup_SoftwareViewEdit extends ViewEdit
     }
 }
 ?>
+
+
