@@ -51,7 +51,7 @@ $(document).ready(function(){
 		var manager_status_c = $(this).val();
 		//alert(quoteid + " "+manager_status_c);
 		$.ajax({
-                    url: "updateStatus.php",
+                    url: "index.php?entryPoint=updateStatus",
                     type: "POST",
                     async: true,
                     data: {'quoteid':quoteid, 'manager_status_c':manager_status_c},
@@ -66,6 +66,50 @@ $(document).ready(function(){
                 });
 		
 	});
+	
+	
+	$("#custom_assign_to").on('click', function(){
+		var quoteid = $(this).attr('quoteid');
+		var userid = $(this).attr('userid');
+		var flag = "assign";
+		//alert(quoteid + " "+userid+" "+flag);
+		$.ajax({
+                    url: "index.php?entryPoint=quoteAssignTo",
+                    type: "POST",
+                    async: true,
+                    data: {'quoteid':quoteid, 'userid':userid, 'flag':flag},
+                    success: function (response) {
+                       alert("Status changed Successfully...");
+					       location.reload();
 
+                    },
+                    error: function(jqXHR, textStatus, errorThrown) {
+                       console.log("sawood says:"+textStatus, errorThrown);
+                    }
+                });
+		
+	});
+
+	$("#custom_unassign_to").on('click', function(){
+		var quoteid = $(this).attr('quoteid');
+		var userid = $(this).attr('userid');
+		var flag = "unassign";
+		//alert(quoteid + " "+userid+" "+flag);
+		$.ajax({
+                    url: "index.php?entryPoint=quoteAssignTo",
+                    type: "POST",
+                    async: true,
+                    data: {'quoteid':quoteid, 'userid':userid, 'flag':flag},
+                    success: function (response) {
+                       alert("Status changed Successfully...");
+					       location.reload();
+
+                    },
+                    error: function(jqXHR, textStatus, errorThrown) {
+                       console.log("sawood says:"+textStatus, errorThrown);
+                    }
+                });
+		
+	});
 	
 });

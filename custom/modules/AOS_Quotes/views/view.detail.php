@@ -69,6 +69,7 @@ class AOS_QuotesViewDetail extends ViewDetail
          $myUser = new User();
         $myUser->retrieve($this->bean->assigned_user_id);
         $full_name = $myUser->full_name;
+
         $assignEmployee = '';
          if($current_user->user_category_c == "Employee")
          {
@@ -91,7 +92,7 @@ class AOS_QuotesViewDetail extends ViewDetail
 			                                Status
 			                        </div>
 			                </a>
-			        </div>
+			        </div><br>
 			        <div class="panel-body panel-collapse collapse in panelContainer" id="top-panel-5" data-id="LBL_EDITVIEW_PANEL5">
 			                <div class="tab-content"><div id="assignId">
 			                    <table>
@@ -102,7 +103,9 @@ class AOS_QuotesViewDetail extends ViewDetail
 			                    </table>
 			                </div></div>
 			        </div>
-			</div>';
+			</div><br><button userid = "'.$current_user->id.'" quoteid ="'.$this->bean->id.'" name="custom_assign_to" class="button" id = "custom_assign_to"> Quote Assign Me</button>&nbsp;&nbsp;&nbsp;
+			<button userid = "'.$current_user->id.'" quoteid ="'.$this->bean->id.'"  name="custom_unassign_to" id = "custom_unassign_to" class="button"> Quote Unassign Me</button>';
+
          }
          if($current_user->user_category_c == "Vendor")
          {
