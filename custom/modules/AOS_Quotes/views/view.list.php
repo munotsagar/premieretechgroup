@@ -40,21 +40,22 @@
 
 require_once('include/MVC/View/views/view.list.php');
 //require_once('modules/qr_QR_Boxes/qr_QR_BoxesListViewSmarty.php');
-    class UsersViewList extends ViewList{
+    class AOS_QuotesViewList extends ViewList{
+        //public $type ='list';
 
     public function listViewProcess() {
         global $current_user;
         $this->processSearchForm();
         if($current_user->user_category_c == "Vendor") {
-            $this->params['custom_where'] = ' AND users_cstm.user_category_c = "Vendor" ';
+            $this->params['custom_where'] = ' AND aos_quotes.created_by = "'.$current_user->id.'" ';
         }
         if (empty($_REQUEST['search_form_only']) || $_REQUEST['search_form_only'] == false) {
             $this->lv->setup($this->seed, 'include/ListView/ListViewGeneric.tpl', $this->where, $this->params);
             $savedSearchName = empty($_REQUEST['saved_search_select_name']) ? '' : (' - ' . $_REQUEST['saved_search_select_name']);
             echo $this->lv->display();
         }
-    }    
-        //public $type ='list';
+    }
+        
     public function display()
     {
     	//echo "shifa";
@@ -67,8 +68,9 @@ require_once('include/MVC/View/views/view.list.php');
                 //print_r($_POST['orderBy']);
             $_REQUEST['orderBy'] = strtoupper('date_modified');
             $this->params['overrideOrder'] = true;
-            $_REQUEST['sortOrder'] = 'DESC';     
-            }
+            $_REQUEST['sortOrder'] = 'DESC';
+            
+        }
             $this->listViewPrepare();
             $this->listViewProcess();
         }
