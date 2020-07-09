@@ -43,12 +43,17 @@ array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
+        'LBL_EDITVIEW_PANEL4' => 
+        array (
+          'newTab' => false,
+          'panelDefault' => 'expanded',
+        ),
         'LBL_EDITVIEW_PANEL3' => 
         array (
           'newTab' => false,
           'panelDefault' => 'expanded',
         ),
-        'LBL_EDITVIEW_PANEL4' => 
+        'LBL_DETAILVIEW_PANEL5' => 
         array (
           'newTab' => false,
           'panelDefault' => 'expanded',
@@ -127,72 +132,6 @@ array (
         3 => 
         array (
           0 => 'description',
-        ),
-      ),
-      'lbl_editview_panel3' => 
-      array (
-        0 => 
-        array (
-          0 => 
-          array (
-            'name' => 'status_c',
-            'studio' => 'visible',
-            'label' => 'LBL_STATUS',
-          ),
-          1 => '',
-        ),
-        1 => 
-        array (
-          0 => 'assigned_user_name',
-        ),
-        2 => 
-        array (
-          0 => 
-          array (
-            'name' => 'priority_c',
-            'studio' => 'visible',
-            'label' => 'LBL_PRIORITY',
-          ),
-          1 => '',
-        ),
-        3 => 
-        array (
-          0 => 'name',
-        ),
-        4 => 
-        array (
-          0 => 
-          array (
-            'name' => 'department_c',
-            'label' => 'LBL_DEPARTMENT',
-          ),
-          1 => 
-          array (
-            'name' => 'position_c',
-            'label' => 'LBL_POSITION',
-          ),
-        ),
-        5 => 
-        array (
-          0 => 
-          array (
-            'name' => 'telephone_c',
-            'label' => 'LBL_TELEPHONE',
-          ),
-          1 => 
-          array (
-            'name' => 'extension_c',
-            'label' => 'LBL_EXTENSION',
-          ),
-        ),
-        6 => 
-        array (
-          0 => 
-          array (
-            'name' => 'cellular_c',
-            'label' => 'LBL_CELLULAR',
-          ),
-          1 => '',
         ),
       ),
       'lbl_editview_panel4' => 
@@ -387,6 +326,114 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_DESCRIPTION2',
           ),
+        ),
+      ),
+      'lbl_editview_panel3' => 
+      array (
+        0 => 
+        array (
+          0 => 
+          array (
+            'name' => 'status_c',
+            'studio' => 'visible',
+            'label' => 'LBL_STATUS',
+          ),
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'priority_c',
+            'studio' => 'visible',
+            'label' => 'LBL_PRIORITY',
+          ),
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => 'name',
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'department_c',
+            'label' => 'LBL_DEPARTMENT',
+          ),
+          1 => 
+          array (
+            'name' => 'position_c',
+            'label' => 'LBL_POSITION',
+          ),
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'telephone_c',
+            'label' => 'LBL_TELEPHONE',
+          ),
+          1 => 
+          array (
+            'name' => 'extension_c',
+            'label' => 'LBL_EXTENSION',
+          ),
+        ),
+        5 => 
+        array (
+          0 => 
+          array (
+            'name' => 'cellular_c',
+            'label' => 'LBL_CELLULAR',
+          ),
+          1 => '',
+        ),
+      ),
+      'lbl_detailview_panel5' => 
+      array (
+        0 => 
+        array (
+          0 => 'assigned_user_name',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'employee_status_c',
+            'studio' => 'visible',
+            'label' => 'LBL_EMPLOYEE_STATUS',
+          ),
+          1 => '',
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'vendor_status_c',
+            'studio' => 'visible',
+            'label' => 'LBL_VENDOR_STATUS',
+          ),
+          1 => '',
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
+            'name' => 'manager_status_c',
+            'studio' => 'visible',
+            'label' => 'LBL_MANAGER_STATUS',
+          ),
+          1 => '',
+        ),
+        4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'trouble_ticket_amount_c',
+            'label' => 'LBL_ TROUBLE_TICKET_AMOUNT',
+          ),
+          1 => '',
         ),
       ),
     ),

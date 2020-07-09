@@ -44,6 +44,12 @@ $dictionary['ptg_TroubleTicket']['fields']['request_new_c']['labelValue']='Reque
 
  
 
+ // created: 2020-07-03 18:44:12
+$dictionary['ptg_TroubleTicket']['fields']['manager_status_c']['inline_edit']='1';
+$dictionary['ptg_TroubleTicket']['fields']['manager_status_c']['labelValue']='Manager Status';
+
+ 
+
  // created: 2020-06-12 16:38:07
 $dictionary['ptg_TroubleTicket']['fields']['password5_c']['inline_edit']='1';
 $dictionary['ptg_TroubleTicket']['fields']['password5_c']['labelValue']='Password';
@@ -188,6 +194,12 @@ $dictionary['ptg_TroubleTicket']['fields']['solarwinds_id_c']['labelValue']='Sol
 
  
 
+ // created: 2020-07-03 18:43:37
+$dictionary['ptg_TroubleTicket']['fields']['vendor_status_c']['inline_edit']='1';
+$dictionary['ptg_TroubleTicket']['fields']['vendor_status_c']['labelValue']='Vendor Status';
+
+ 
+
  // created: 2020-06-10 15:27:19
 $dictionary['ptg_TroubleTicket']['fields']['ticket_number_c']['inline_edit']='1';
 $dictionary['ptg_TroubleTicket']['fields']['ticket_number_c']['labelValue']='Ticket Number';
@@ -224,6 +236,12 @@ $dictionary['ptg_TroubleTicket']['fields']['priority_c']['labelValue']='Priority
 
  
 
+ // created: 2020-07-03 18:42:58
+$dictionary['ptg_TroubleTicket']['fields']['employee_status_c']['inline_edit']='1';
+$dictionary['ptg_TroubleTicket']['fields']['employee_status_c']['labelValue']='Employee Status';
+
+ 
+
  // created: 2020-06-12 16:37:19
 $dictionary['ptg_TroubleTicket']['fields']['password3_c']['inline_edit']='1';
 $dictionary['ptg_TroubleTicket']['fields']['password3_c']['labelValue']='Password';
@@ -233,6 +251,12 @@ $dictionary['ptg_TroubleTicket']['fields']['password3_c']['labelValue']='Passwor
  // created: 2020-06-07 13:22:27
 $dictionary['ptg_TroubleTicket']['fields']['telephone_c']['inline_edit']='1';
 $dictionary['ptg_TroubleTicket']['fields']['telephone_c']['labelValue']='Telephone #';
+
+ 
+
+ // created: 2020-07-03 18:49:57
+$dictionary['ptg_TroubleTicket']['fields']['trouble_ticket_amount_c']['inline_edit']='1';
+$dictionary['ptg_TroubleTicket']['fields']['trouble_ticket_amount_c']['labelValue']='Trouble Ticket Amount';
 
  
 

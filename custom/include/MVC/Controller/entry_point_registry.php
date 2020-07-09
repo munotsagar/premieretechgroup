@@ -9,4 +9,16 @@
         'auth' => true
     );
 
+    $entry_point_registry['updateStatusTT'] = array(
+        'file' => 'updateStatusTT.php',
+        'auth' => true
+    );
+
+    $entry_point_registry['ttAssignTo'] = array(
+        'file' => 'ttAssignTo.php',
+        'auth' => true
+    );
+
+
+    
 ?>

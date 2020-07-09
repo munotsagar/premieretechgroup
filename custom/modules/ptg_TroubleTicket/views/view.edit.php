@@ -65,12 +65,12 @@ class ptg_TroubleTicketViewEdit extends ViewEdit
 <input type="hidden" id="category" value="<?php echo $category;?>">
 <script type="text/javascript">
 	$(document).ready(function(){
-		var category = $("#category").val();
-		$("#detailpanel_1").parent().attr("style","display:none;");
-		if (category != 'Vendor') {
-			$("#detailpanel_1").parent().attr("style","display:block"); 
+		// var category = $("#category").val();
+		// $("#detailpanel_1").parent().attr("style","display:none;");
+		// if (category != 'Vendor') {
+		// 	$("#detailpanel_1").parent().attr("style","display:block"); 
 
-		}
+		// }
 
         var onclicksave = $("input[title='Save']").attr("onclick");
         $("input[title='Save']").removeAttr("onclick");

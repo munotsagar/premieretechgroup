@@ -549,6 +549,27 @@ class SugarView
                 }
             }
         }
+        //echo "<pre>";
+        //print_r($gcls);
+        //echo $current_user->user_category_c;exit;
+
+        if($current_user->user_category_c == "Vendor") {
+            unset($gcls['admin']);
+            
+            unset($gcls['about']);
+            unset($gcls['admin']);
+
+            $gcls['admin'] = [
+
+                "LABEL" => "Vendor",
+                "URL" => "index.php?module=Users"
+            ];
+        }
+
+        
+
+        unset($gcls['training']);
+
         $ss->assign("GCLS", $gcls);
 
         $ss->assign("SEARCH", isset($_REQUEST['query_string']) ? $_REQUEST['query_string'] : '');

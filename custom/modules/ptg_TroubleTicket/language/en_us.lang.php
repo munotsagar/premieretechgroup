@@ -1,5 +1,5 @@
 <?php
-// created: 2020-06-12 16:39:46
+// created: 2020-07-06 19:00:31
 $mod_strings = array (
   'LBL_SITES' => 'Sites',
   'LBL_TICKET_TYPE' => 'Ticket Type',
@@ -50,4 +50,10 @@ $mod_strings = array (
   'LBL_PASSWORD8' => 'Password',
   'LBL_PASSWORD9' => 'Password',
   'LBL_PASSWORD10' => 'Password',
+  'LBL_EMPLOYEE_STATUS' => 'Employee Status',
+  'LBL_VENDOR_STATUS' => 'Vendor Status',
+  'LBL_MANAGER_STATUS' => 'Manager Status',
+  'LBL_ TROUBLE_TICKET_AMOUNT' => 'Trouble Ticket Amount',
+  'LBL_EDITVIEW_PANEL5' => 'Status',
+  'LBL_DETAILVIEW_PANEL5' => 'Status',
 );

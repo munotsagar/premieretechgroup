@@ -57,25 +57,131 @@ class ptg_TroubleTicketViewDetail extends ViewDetail
 
     public function display()
     {
-        global $current_user; 
-		$category = $current_user->user_category_c;
+        global $current_user, $app_list_strings;
 
-?>
+         // echo "<pre>";
+         // print_r($current_user->user_category_c);
+         // //echo $this->bean->assigned_user_id;
+         // echo "</pre>";
 
-<input type="hidden" id="category" value="<?php echo $category;?>">
-<script type="text/javascript">
-	$(document).ready(function(){
-		var category = $("#category").val();
-		$("#top-panel-1").parent().attr("style","display:none;");
-		if (category != 'Vendor') {
-			$("#top-panel-1").parent().attr("style","display:block"); 
+         $myUser = new User();
+        $myUser->retrieve($this->bean->assigned_user_id);
+        $full_name = $myUser->full_name;
 
-		}
-	});
-</script>
+        $assignEmployee = '';
+         if($current_user->user_category_c == "Employee")
+         {
+                $employeeStatusCnt = count($app_list_strings['employee_status_list']);
+                $employeeStatus = $app_list_strings['employee_status_list'];
+                $employee_status_c = $this->bean->employee_status_c;
+                $selectEmployeeStatus = '<select name="employee_custom_status_c" ticketid ="'.$this->bean->id.'" id="employee_custom_status_c">';
 
-<?php
-        parent::display();
+                foreach ($employeeStatus as $key => $value) {
+                    # code...
+                    $selected = ($employee_status_c == $key)?'selected':'';
+                    $selectEmployeeStatus.='<option '.$selected.' value="'.$key.'">'.$value.'</option>';
+                }
+                $selectEmployeeStatus.='</select>';
+
+               $assignEmployee = '<div class="panel panel-default">
+                    <div class="panel-heading ">
+                            <a class="" role="button" data-toggle="collapse" href="#top-panel-5" aria-expanded="false">
+                                    <div class="col-xs-10 col-sm-11 col-md-11">
+                                            Change Status 
+                                    </div>
+                            </a>
+                    </div><br>
+                    <div class="panel-body panel-collapse collapse in panelContainer" id="top-panel-5" data-id="LBL_EDITVIEW_PANEL5">
+                            <div class="tab-content"><div id="assignId">
+                                <table>
+                                    <tr>
+                                        <td>Employee Status : </td>
+                                        <td>'.$selectEmployeeStatus.'</td>
+                                    </tr>
+                                </table>
+                            </div></div>
+                    </div>
+            </div><br><button userid = "'.$current_user->id.'" ticketid ="'.$this->bean->id.'" name="custom_assign_to" class="button" id = "custom_assign_to"> Trouble Ticket Assign Me</button>&nbsp;&nbsp;&nbsp;
+            <button userid = "'.$current_user->id.'" ticketid ="'.$this->bean->id.'"  name="custom_unassign_to" id = "custom_unassign_to" class="button"> Trouble Ticket Unassign Me</button>';
+
+         }
+         if($current_user->user_category_c == "Vendor")
+         {
+                $vendorStatusCnt = count($app_list_strings['vendor_status_list']);
+                $vendorStatus = $app_list_strings['vendor_status_list'];
+                $vendor_status_c = $this->bean->vendor_status_c;
+                $selectVendorStatus = '<select name="vendor_custom_status_c" ticketid ="'.$this->bean->id.'" id="vendor_custom_status_c">';
+
+                foreach ($vendorStatus as $key => $value) {
+                    # code...
+                    $selected = ($vendor_status_c == $key)?'selected':'';
+                    $selectVendorStatus.='<option '.$selected.' value="'.$key.'">'.$value.'</option>';
+                }
+                $selectVendorStatus.='</select>';
+
+               $assignVendor = '<div class="panel panel-default">
+                    <div class="panel-heading ">
+                            <a class="" role="button" data-toggle="collapse" href="#top-panel-5" aria-expanded="false">
+                                    <div class="col-xs-10 col-sm-11 col-md-11">
+                                            Change Status
+                                    </div>
+                            </a>
+                    </div>
+                    <div class="panel-body panel-collapse collapse in panelContainer" id="top-panel-5" data-id="LBL_EDITVIEW_PANEL5">
+                            <div class="tab-content"><div id="assignId">
+                                <table>
+                                    <tr>
+                                        <td>Vendor Status : </td>
+                                        <td>'.$selectVendorStatus.'</td>
+                                    </tr>
+                                </table>
+                            </div></div>
+                    </div>
+            </div>';
+         }
+         if($current_user->user_category_c == "Manager" || $current_user->user_category_c == "Super_User")
+         {
+                $managerStatusCnt = count($app_list_strings['manager_status_list']);
+                $managerStatus = $app_list_strings['manager_status_list'];
+                $manager_status_c = $this->bean->manager_status_c;
+                $selectManagerStatus = '<select name="manager_custom_status_c" ticketid ="'.$this->bean->id.'" id="manager_custom_status_c">';
+
+                foreach ($managerStatus as $key => $value) {
+                    # code...
+                    $selected = ($manager_status_c == $key)?'selected':'';
+                    $selectManagerStatus.='<option '.$selected.' value="'.$key.'">'.$value.'</option>';
+                }
+                $selectManagerStatus.='</select>';
+
+               $assignManager = '<div class="panel panel-default">
+                    <div class="panel-heading ">
+                            <a class="" role="button" data-toggle="collapse" href="#top-panel-5" aria-expanded="false">
+                                    <div class="col-xs-10 col-sm-11 col-md-11">
+                                            Change Status
+                                    </div>
+                            </a>
+                    </div>
+                    <div class="panel-body panel-collapse collapse in panelContainer" id="top-panel-5" data-id="LBL_EDITVIEW_PANEL5">
+                            <div class="tab-content"><div id="assignId">
+                                <table>
+                                    <tr>
+                                        <td>Manager Status : </td>
+                                        <td>'.$selectManagerStatus.'</td>
+                                    </tr>
+                                </table>
+                            </div></div>
+                    </div>
+            </div>';
+         }
+         ?>
+        <!-- <input type="hidden" name="user_category_c" id="user_category_c" value="<?php echo $current_user->user_category_c;?>"> -->
+        <script type="text/javascript" src="custom/modules/ptg_TroubleTicket/js/detail.js"></script>
+
+        <?php
+         parent::display();
+        echo $assignEmployee;
+        echo $assignVendor;
+        echo $assignManager;
     }
 }
 ?>

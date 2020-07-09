@@ -29,7 +29,7 @@ class Getnotifications
 		$alert->description = $company_name."\n".$date_modified;
 		$alert->url_redirect = $redirect_url;
 		$alert->target_module = 'Trouble Ticket';
-		$alert->assigned_user_id = $assigned_user_id;
+		$alert->assigned_user_id = 1;
 		$alert->type = 'info';
 		$alert->is_read = 0;
 		$alert->save();
