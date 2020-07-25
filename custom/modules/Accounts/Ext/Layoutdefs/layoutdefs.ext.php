@@ -840,7 +840,107 @@ $layout_defs["Accounts"]["subpanel_setup"]['accounts_ptg_microsoftofficedesktop_
 
 
 //auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_localareanetworkinformation_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_localareanetworkinformation_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_hosting_and_registrar_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_hosting_and_registrar_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_sql_server_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_sql_server_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_client_connectivity_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_client_connectivity_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_remoteaccessinformation_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_remoteaccessinformation_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_hosted_email_services_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_hosted_email_services_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_otherunlicensedsoftware_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_otherunlicensedsoftware_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_network_drives_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_network_drives_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_odbc_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_odbc_1';
+
+
+//auto-generated file DO NOT EDIT
 $layout_defs['Accounts']['subpanel_setup']['accounts_ptg_antivirus_server_information_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_antivirus_server_information_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_hostedantisoftwareemail_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_hostedantisoftwareemail_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_routerinformation_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_routerinformation_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_resources_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_resources_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_otherlicensedsoftware_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_otherlicensedsoftware_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_printers_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_printers_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_wirelessinformation_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_wirelessinformation_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_otherlicensedsoftwaredesktop_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_otherlicensedsoftwaredesktop_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_webserverintranet_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_webserverintranet_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_isp_information_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_isp_information_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_local_admin_credentials_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_local_admin_credentials_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_quickbooksdesktop_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_quickbooksdesktop_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_microsoftoffice_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_microsoftoffice_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_switches_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_switches_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_citrixservers_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_citrixservers_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_backup_software_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_backup_software_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_sharepoint_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_sharepoint_1';
 
 
 //auto-generated file DO NOT EDIT
@@ -848,6 +948,30 @@ $layout_defs['Accounts']['subpanel_setup']['accounts_ptg_quickbooks_1']['overrid
 
 
 //auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_sharepointonpremise_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_sharepointonpremise_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_onpremise_email_services_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_onpremise_email_services_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_microsoftofficedesktop_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_microsoftofficedesktop_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_thirdpartycontactinformation_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_thirdpartycontactinformation_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_camera_system_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_camera_system_1';
+
+
+//auto-generated file DO NOT EDIT
 $layout_defs['Accounts']['subpanel_setup']['accounts_ptg_firewall_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_firewall_1';
+
+
+//auto-generated file DO NOT EDIT
+$layout_defs['Accounts']['subpanel_setup']['accounts_ptg_activedirectory_1']['override_subpanel_name'] = 'Account_subpanel_accounts_ptg_activedirectory_1';
 
 ?>

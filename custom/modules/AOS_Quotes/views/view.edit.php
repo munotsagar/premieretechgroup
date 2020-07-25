@@ -100,11 +100,40 @@ class AOS_QuotesViewEdit extends ViewEdit
         // echo "hello";
         echo $VoiceCheckboxes;
 */
-?>
 
+        // $user_catagory = $current_user->user_category_c;
+
+
+
+?>
+<!-- <input type="hidden" id="category" value="<?php echo $user_catagory;?>">
+<script type="text/javascript">
+		var category = $("#category").val();
+		alert(category);
+		$("#quotation_amount_c").parent().attr("style","display:none;");
+		if (category != 'Vendor') {
+			alert("not Vendor");
+			$("#quotation_amount_c").parent().attr("style","display:block"); 
+		}
+
+    
+</script> -->
 <script type="text/javascript" src="custom/modules/AOS_Quotes/js/aos_quotes.js"></script>
 
 <?php
         parent::display();
+
+        if($current_user->user_category_c == "Vendor") {
+            ?>
+            <script type="text/javascript">
+                
+                $("#quotation_amount_c").prop( "disabled", true );
+
+            </script>
+            <?php
+
+        }
     }
 }
+
+?>

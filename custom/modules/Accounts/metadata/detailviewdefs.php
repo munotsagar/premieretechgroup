@@ -112,18 +112,36 @@ array (
         array (
           0 => 
           array (
+            'name' => 'customer_id_c',
+            'label' => 'LBL_CUSTOMER_ID',
+          ),
+          1 => '',
+        ),
+        1 => 
+        array (
+          0 => 
+          array (
             'name' => 'name',
             'comment' => 'Name of the Company',
             'label' => 'LBL_NAME',
           ),
           1 => 
           array (
+            'name' => 'customer_full_name_c',
+            'label' => 'LBL_CUSTOMER_FULL_NAME',
+          ),
+        ),
+        2 => 
+        array (
+          0 => 
+          array (
             'name' => 'phone_office',
             'comment' => 'The office phone number',
             'label' => 'LBL_PHONE_OFFICE',
           ),
+          1 => '',
         ),
-        1 => 
+        3 => 
         array (
           0 => 
           array (
@@ -142,7 +160,7 @@ array (
             'label' => 'LBL_FAX',
           ),
         ),
-        2 => 
+        4 => 
         array (
           0 => 
           array (
@@ -157,7 +175,7 @@ array (
             'label' => 'LBL_NET_TERMS',
           ),
         ),
-        3 => 
+        5 => 
         array (
           0 => 
           array (
@@ -180,7 +198,7 @@ array (
             ),
           ),
         ),
-        4 => 
+        6 => 
         array (
           0 => 
           array (
@@ -189,7 +207,7 @@ array (
             'label' => 'LBL_DESCRIPTION',
           ),
         ),
-        5 => 
+        7 => 
         array (
           0 => 
           array (
@@ -197,21 +215,17 @@ array (
             'label' => 'LBL_ASSIGNED_TO',
           ),
         ),
-        6 => 
+        8 => 
         array (
           0 => 
-          array (
-            'name' => 'customer_id_c',
-            'label' => 'LBL_CUSTOMER_ID',
-          ),
-          1 => 
           array (
             'name' => 'photo_c',
             'studio' => 'visible',
             'label' => 'LBL_PHOTO',
           ),
+          1 => '',
         ),
-        7 => 
+        9 => 
         array (
           0 => 
           array (
@@ -221,7 +235,7 @@ array (
           ),
           1 => '',
         ),
-        8 => 
+        10 => 
         array (
           0 => 
           array (

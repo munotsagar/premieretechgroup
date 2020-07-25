@@ -58,6 +58,16 @@ array (
     'link' => true,
     'default' => true,
   ),
+  'ORGANIZATION_C' => 
+  array (
+    'type' => 'relate',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_ORGANIZATION',
+    'id' => 'PTG_ORGANIZATION_ID_C',
+    'link' => true,
+    'width' => '10%',
+  ),
   'STATUS' => 
   array (
     'width' => '10%',

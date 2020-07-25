@@ -8,9 +8,21 @@ $dictionary['ptg_TroubleTicketVendorCommission']['fields']['commission_type_c'][
 
  
 
+ // created: 2020-07-09 19:37:42
+$dictionary['ptg_TroubleTicketVendorCommission']['fields']['troubleticketcommissionamt_c']['inline_edit']='1';
+$dictionary['ptg_TroubleTicketVendorCommission']['fields']['troubleticketcommissionamt_c']['labelValue']='Trouble Ticket Commission Amount';
+
+ 
+
  // created: 2020-06-04 15:10:43
 $dictionary['ptg_TroubleTicketVendorCommission']['fields']['vendor_name_c']['inline_edit']='1';
 $dictionary['ptg_TroubleTicketVendorCommission']['fields']['vendor_name_c']['labelValue']='Vendor Name';
+
+ 
+
+ // created: 2020-07-09 17:44:56
+$dictionary['ptg_TroubleTicketVendorCommission']['fields']['vendor_commission_c']['inline_edit']='1';
+$dictionary['ptg_TroubleTicketVendorCommission']['fields']['vendor_commission_c']['labelValue']='Vendor Commission';
 
  
 
@@ -36,9 +48,9 @@ $dictionary['ptg_TroubleTicketVendorCommission']['fields']['ptg_troubleticket_id
 
  
 
- // created: 2020-06-04 14:38:58
+ // created: 2020-07-09 17:43:44
 $dictionary['ptg_TroubleTicketVendorCommission']['fields']['amount_c']['inline_edit']='1';
-$dictionary['ptg_TroubleTicketVendorCommission']['fields']['amount_c']['labelValue']='Amount';
+$dictionary['ptg_TroubleTicketVendorCommission']['fields']['amount_c']['labelValue']='Trouble Ticket Amount';
 
  
 

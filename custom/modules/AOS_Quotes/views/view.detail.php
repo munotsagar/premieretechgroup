@@ -61,10 +61,10 @@ class AOS_QuotesViewDetail extends ViewDetail
     {
     	 global $current_user, $app_list_strings;
 
-         echo "<pre>";
-         print_r($current_user->user_category_c);
-         //echo $this->bean->assigned_user_id;
-         echo "</pre>";
+         // echo "<pre>";
+         // print_r($current_user->user_category_c);
+         // //echo $this->bean->assigned_user_id;
+         // echo "</pre>";
 
          $myUser = new User();
         $myUser->retrieve($this->bean->assigned_user_id);

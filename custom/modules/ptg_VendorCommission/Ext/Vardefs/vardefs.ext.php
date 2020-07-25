@@ -20,8 +20,20 @@ $dictionary['ptg_VendorCommission']['fields']['vendor_name_c']['labelValue']='Ve
 
  
 
+ // created: 2020-07-10 20:37:32
+$dictionary['ptg_VendorCommission']['fields']['employee_commission_c']['inline_edit']='1';
+$dictionary['ptg_VendorCommission']['fields']['employee_commission_c']['labelValue']='Employee Commission';
+
+ 
+
  // created: 2020-06-04 08:56:32
 $dictionary['ptg_VendorCommission']['fields']['user_id_c']['inline_edit']=1;
+
+ 
+
+ // created: 2020-07-10 20:36:17
+$dictionary['ptg_VendorCommission']['fields']['totalcommissionamount_c']['inline_edit']='1';
+$dictionary['ptg_VendorCommission']['fields']['totalcommissionamount_c']['labelValue']='Total Commission Amount';
 
  
 
@@ -31,21 +43,21 @@ $dictionary['ptg_VendorCommission']['fields']['commission_c']['labelValue']='Com
 
  
 
- // created: 2020-06-04 09:02:16
+ // created: 2020-07-10 20:38:01
 $dictionary['ptg_VendorCommission']['fields']['local_services_commission_c']['inline_edit']='1';
-$dictionary['ptg_VendorCommission']['fields']['local_services_commission_c']['labelValue']='Local Services Commission';
+$dictionary['ptg_VendorCommission']['fields']['local_services_commission_c']['labelValue']='Local Services Commission Amount';
 
  
 
- // created: 2020-06-04 09:04:16
+ // created: 2020-07-10 20:38:26
 $dictionary['ptg_VendorCommission']['fields']['data_services_commission_c']['inline_edit']='1';
-$dictionary['ptg_VendorCommission']['fields']['data_services_commission_c']['labelValue']='Data Services Commission';
+$dictionary['ptg_VendorCommission']['fields']['data_services_commission_c']['labelValue']='Data Services Commission Amount';
 
  
 
- // created: 2020-06-04 08:58:37
+ // created: 2020-07-10 20:34:51
 $dictionary['ptg_VendorCommission']['fields']['amount_c']['inline_edit']='1';
-$dictionary['ptg_VendorCommission']['fields']['amount_c']['labelValue']='Amount';
+$dictionary['ptg_VendorCommission']['fields']['amount_c']['labelValue']='Quotation Amount';
 
  
 
@@ -54,15 +66,15 @@ $dictionary['ptg_VendorCommission']['fields']['aos_quotes_id_c']['inline_edit']=
 
  
 
- // created: 2020-06-04 09:04:40
+ // created: 2020-07-10 20:38:56
 $dictionary['ptg_VendorCommission']['fields']['cloud_services_commission_c']['inline_edit']='1';
-$dictionary['ptg_VendorCommission']['fields']['cloud_services_commission_c']['labelValue']='Cloud Services Commission';
+$dictionary['ptg_VendorCommission']['fields']['cloud_services_commission_c']['labelValue']='Cloud Services Commission Amount';
 
  
 
- // created: 2020-06-04 09:05:22
+ // created: 2020-07-10 20:39:14
 $dictionary['ptg_VendorCommission']['fields']['other_services_commission_c']['inline_edit']='1';
-$dictionary['ptg_VendorCommission']['fields']['other_services_commission_c']['labelValue']='Other Services Commission';
+$dictionary['ptg_VendorCommission']['fields']['other_services_commission_c']['labelValue']='Other Services Commission Amount';
 
  
 
@@ -81,9 +93,9 @@ $dictionary['ptg_VendorCommission']['fields']['name']['unified_search']=false;
 
  
 
- // created: 2020-06-04 09:05:53
+ // created: 2020-07-10 20:39:30
 $dictionary['ptg_VendorCommission']['fields']['voice_services_commission_c']['inline_edit']='1';
-$dictionary['ptg_VendorCommission']['fields']['voice_services_commission_c']['labelValue']='Voice Services Commission';
+$dictionary['ptg_VendorCommission']['fields']['voice_services_commission_c']['labelValue']='Voice Services Commission Amount';
 
  
 ?>

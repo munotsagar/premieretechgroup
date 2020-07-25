@@ -1,33 +1,46 @@
 <?php
-// created: 2020-06-07 09:35:41
+// created: 2020-07-18 20:34:05
 $subpanel_layout['list_fields'] = array (
-  'object_image' => 
+  'odbc_connection_c' => 
   array (
-    'widget_class' => 'SubPanelIcon',
-    'width' => '2%',
-    'image2' => 'attachment',
-    'image2_url_field' => 
-    array (
-      'id_field' => 'selected_revision_id',
-      'filename_field' => 'selected_revision_filename',
-    ),
-    'attachment_image_only' => true,
+    'type' => 'varchar',
+    'default' => true,
+    'vname' => 'LBL_ODBC_CONNECTION',
+    'width' => '10%',
+  ),
+  'description' => 
+  array (
+    'type' => 'text',
+    'vname' => 'LBL_DESCRIPTION',
+    'sortable' => false,
+    'width' => '10%',
     'default' => true,
   ),
-  'document_name' => 
+  'date_modified' => 
   array (
-    'name' => 'document_name',
-    'vname' => 'LBL_LIST_DOCUMENT_NAME',
+    'type' => 'datetime',
+    'vname' => 'LBL_DATE_MODIFIED',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'date_entered' => 
+  array (
+    'type' => 'datetime',
+    'vname' => 'LBL_DATE_ENTERED',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'created_by_name' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'vname' => 'LBL_CREATED',
+    'id' => 'CREATED_BY',
+    'width' => '10%',
+    'default' => true,
     'widget_class' => 'SubPanelDetailViewLink',
-    'width' => '45%',
-    'default' => true,
-  ),
-  'active_date' => 
-  array (
-    'name' => 'active_date',
-    'vname' => 'LBL_DOC_ACTIVE_DATE',
-    'width' => '45%',
-    'default' => true,
+    'target_module' => 'Users',
+    'target_record_key' => 'created_by',
   ),
   'edit_button' => 
   array (

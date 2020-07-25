@@ -120,6 +120,7 @@ $app_list_strings['field_list'][''] = '';
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
 
+$app_list_strings['moduleList']['ptg_Organization'] = 'Organization';
 $app_list_strings['moduleList']['ptg_Camera_System'] = 'Camera System';
 $app_list_strings['ptg_camera_system_category_dom'][''] = '';
 $app_list_strings['ptg_camera_system_category_dom']['Marketing'] = 'Marketing';

@@ -54,15 +54,6 @@ array (
         array (
           0 => 
           array (
-            'name' => 'sites_c',
-            'label' => 'LBL_SITES',
-          ),
-          1 => '',
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
             'name' => 'customer_name_c',
             'studio' => 'visible',
             'label' => 'LBL_CUSTOMER_NAME',
@@ -329,17 +320,26 @@ array (
         array (
           0 => 
           array (
+            'name' => 'total_amount_time_spent_c',
+            'label' => 'LBL_TOTAL_AMOUNT_TIME_SPENT',
+          ),
+          1 => '',
+        ),
+        3 => 
+        array (
+          0 => 
+          array (
             'name' => 'priority_c',
             'studio' => 'visible',
             'label' => 'LBL_PRIORITY',
           ),
           1 => '',
         ),
-        3 => 
+        4 => 
         array (
           0 => 'name',
         ),
-        4 => 
+        5 => 
         array (
           0 => 
           array (
@@ -352,7 +352,7 @@ array (
             'label' => 'LBL_POSITION',
           ),
         ),
-        5 => 
+        6 => 
         array (
           0 => 
           array (
@@ -365,7 +365,7 @@ array (
             'label' => 'LBL_EXTENSION',
           ),
         ),
-        6 => 
+        7 => 
         array (
           0 => 
           array (

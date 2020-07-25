@@ -61,8 +61,8 @@ class ptg_OtherUnlicensedSoftwareViewEdit extends ViewEdit
         // exit();
         $serviceCnt = count($app_list_strings['requires_approval_list']);
         $servicesDropDown = $app_list_strings['requires_approval_list'];
-        echo $serviceCnt;
-        echo $servicesDropDown;
+        // echo $serviceCnt;
+        // echo $servicesDropDown;
         $this->bean->requires_approval_c = str_replace('^', '', $this->bean->requires_approval_c);
         $requires_approval_c = explode(",", $this->bean->requires_approval_c);
         if($serviceCnt > 0) {

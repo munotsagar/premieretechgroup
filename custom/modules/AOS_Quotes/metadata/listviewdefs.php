@@ -43,12 +43,28 @@ array (
     'label' => 'LBL_MANAGER_STATUS',
     'width' => '10%',
   ),
+  'CUSTOMER_BUDGET_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_CUSTOMER_BUDGET',
+    'width' => '10%',
+  ),
   'QUOTATION_AMOUNT_C' => 
   array (
     'type' => 'varchar',
     'default' => true,
     'label' => 'LBL_QUOTATION_AMOUNT',
     'width' => '10%',
+  ),
+  'CREATED_BY_NAME' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'label' => 'LBL_CREATED',
+    'id' => 'CREATED_BY',
+    'width' => '10%',
+    'default' => true,
   ),
   'DATE_ENTERED' => 
   array (

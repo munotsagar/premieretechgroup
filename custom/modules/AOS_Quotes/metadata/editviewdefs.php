@@ -66,6 +66,13 @@ array (
             'name' => 'customer_name_c',
             'studio' => 'visible',
             'label' => 'LBL_CUSTOMER_NAME',
+            'displayParams' => array (
+              'field_to_name_array' => array(
+                  'id'=>'account_id_c',
+                  'name'=>'customer_name_c',
+                  'customer_full_name_c' => 'name',
+                  ),
+              ),
           ),
           1 => 
           array (
@@ -80,7 +87,15 @@ array (
             'name' => 'assigned_user_name',
             'label' => 'LBL_ASSIGNED_TO_NAME',
           ),
-          1 => '',
+          1 => 
+          array (
+            'name' => 'name',
+            'displayParams' => 
+            array (
+              'required' => true,
+            ),
+            'label' => 'LBL_NAME',
+          ),
         ),
       ),
       'lbl_editview_panel3' => 
@@ -209,6 +224,15 @@ array (
           1 => '',
         ),
         2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'customer_budget_c',
+            'label' => 'LBL_CUSTOMER_BUDGET',
+          ),
+          1 => '',
+        ),
+        3 => 
         array (
           0 => 
           array (

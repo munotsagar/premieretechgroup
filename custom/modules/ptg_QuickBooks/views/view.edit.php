@@ -74,8 +74,8 @@ class ptg_QuickBooksViewEdit extends ViewEdit
 
 		// }
 
-        var onclicksave = $("input[title='Save']").attr("onclick");
-        $("input[title='Save']").removeAttr("onclick");
+        //var onclicksave = $("input[title='Save']").attr("onclick");
+        //$("input[title='Save']").removeAttr("onclick");
 
         $("input[title='Save']").click(function(){
             var confirm_password_c = $("#confirm_password__c").val();
@@ -88,10 +88,10 @@ class ptg_QuickBooksViewEdit extends ViewEdit
         	}
             
             
-            var _form = document.getElementById('EditView'); 
-            _form.action.value='Save'; 
-            if(check_form('EditView')){SUGAR.ajaxUI.submitForm(_form);}
-            return false;
+            //var _form = document.getElementById('EditView'); 
+            //_form.action.value='Save'; 
+            //if(check_form('EditView')){SUGAR.ajaxUI.submitForm(_form);}
+            //return false;
         });
    });
 	

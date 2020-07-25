@@ -63,9 +63,9 @@ $manifest = array (
   'icon' => '',
   'is_uninstallable' => true,
   'name' => 'premieretechgroups',
-  'published_date' => '2020-06-15 10:57:44',
+  'published_date' => '2020-07-11 10:04:18',
   'type' => 'module',
-  'version' => 1592218664,
+  'version' => 1594461858,
   'remove_tables' => 'prompt',
 );
 

@@ -253,7 +253,7 @@ class MySugar
     {
         require_once('include/MySugar/DashletsDialog/DashletsDialog.php');
 
-        global $current_language, $app_strings;
+        global $current_language, $app_strings, $current_user;
 
         $chartsList = array();
         $DashletsDialog = new DashletsDialog();
@@ -272,8 +272,13 @@ class MySugar
         $sugar_smarty->assign('LBL_ADD_DASHLETS', $mod_strings['LBL_ADD_DASHLETS']);
         $sugar_smarty->assign('APP', $app_strings);
         $sugar_smarty->assign('moduleName', $this->type);
-
+        if($current_user->user_category_c == "Vendor") {
+                        unset($dashletsList[50]);
+                        unset($dashletsList[83]);
+                        
+                }
         if ($this->type == 'Home') {
+            
             $sugar_smarty->assign('modules', $dashletsList);
             $sugar_smarty->assign('tools', $toolsList);
         }

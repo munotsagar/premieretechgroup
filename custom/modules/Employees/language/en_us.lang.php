@@ -1,15 +1,15 @@
 <?php
-// created: 2020-06-28 16:21:23
+// created: 2020-07-11 14:29:39
 $mod_strings = array (
   'LBL_COMMISSION_TYPE' => 'Commission Type',
   'LBL_COMMISSION' => 'Commission',
   'LBL_USER_CATEGORY' => 'User Category',
-  'LBL_VOICE_SERVICE' => 'Voice Services Commission',
-  'LBL_LOCAL_SERVICE' => 'Local Services Commission',
-  'LBL_DATA_SERVICE' => 'Data Services Commission',
-  'LBL_CLOUD_SERVICE' => 'Cloud Services Commission',
-  'LBL_OTHER_SERVICE' => 'Other Services Commission',
-  'LBL_TROUBLE_TICKET_COMMISSION' => 'Trouble Ticket Commission',
+  'LBL_VOICE_SERVICE' => 'Voice Services Commission Amount',
+  'LBL_LOCAL_SERVICE' => 'Local Services Commission Amount',
+  'LBL_DATA_SERVICE' => 'Data Services Commission Amount',
+  'LBL_CLOUD_SERVICE' => 'Cloud Services Commission Amount',
+  'LBL_OTHER_SERVICE' => 'Other Services Commission Amount',
+  'LBL_TROUBLE_TICKET_COMMISSION' => 'Trouble Ticket Commission Amount',
   'LBL_ORGANIZATION' => 'Organization',
   'LBL_NETWORK_PROFILE_LABEL' => 'In order to enter your customer network information. You will first need to save the profile. Next, you will need to open your customer detail view profile. You will then be given the opportunity to enter all the information of your customer network information.',
   'LBL_BANK_NAME' => 'Bank Name',
@@ -48,4 +48,5 @@ $mod_strings = array (
   'LBL_CCID5' => '5. CCID',
   'LBL_DATECREATED' => 'Date Created',
   'LBL_DATE_MODIFIED1' => 'date modified1',
+  'LBL_ORGANIZATION_PTG_ORGANIZATION_ID' => 'Organization (related  ID)',
 );

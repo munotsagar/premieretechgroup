@@ -44,10 +44,27 @@ require_once('include/MVC/View/views/view.list.php');
         //public $type ='list';
 
     public function listViewProcess() {
-        global $current_user;
+        global $db, $current_user;
         $this->processSearchForm();
+        $userIds = [];
         if($current_user->user_category_c == "Vendor") {
-            $this->params['custom_where'] = ' AND aos_quotes.created_by = "'.$current_user->id.'" ';
+
+            $sql = "select users.id from users inner join users_cstm on users.id = users_cstm.id_c where users_cstm.ptg_organization_id_c = '".$current_user->ptg_organization_id_c."'";
+            $res = $db->query($sql);
+
+            $num = $res->num_rows;
+
+            if($num > 0) {
+
+                while($row = $db->fetchByAssoc($res)){
+                    $userIds[] = "'".$row['id']."'";
+                }
+
+                $this->params['custom_where'] = ' AND aos_quotes.created_by IN ('.implode(", ", $userIds).') ';
+            } else {
+                $this->params['custom_where'] = ' AND aos_quotes.created_by = "'.$current_user->id.'" ';
+            }
+            
         }
         if (empty($_REQUEST['search_form_only']) || $_REQUEST['search_form_only'] == false) {
             $this->lv->setup($this->seed, 'include/ListView/ListViewGeneric.tpl', $this->where, $this->params);
@@ -58,7 +75,7 @@ require_once('include/MVC/View/views/view.list.php');
         
     public function display()
     {
-    	//echo "shifa";
+        //echo "shifa";
         if (!$this->bean || !$this->bean->ACLAccess('list')) {
             ACLController::displayNoAccess();
         } else {

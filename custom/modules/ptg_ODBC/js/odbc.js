@@ -1,8 +1,8 @@
 $(document).ready(function(){
 	// alert("Hello");
 	
-	var onclicksave = $("input[title='Save']").attr("onclick");
-	$("input[title='Save']").removeAttr("onclick");
+	//var onclicksave = $("input[title='Save']").attr("onclick");
+	//$("input[title='Save']").removeAttr("onclick");
 
 	$("input[title='Save']").click(function(){
 		// alert("After click");
@@ -14,9 +14,9 @@ $(document).ready(function(){
 		}
 			
 		
-		var _form = document.getElementById('EditView'); 
-		_form.action.value='Save'; 
-		if(check_form('EditView')){SUGAR.ajaxUI.submitForm(_form);}
-		return false;
+		//var _form = document.getElementById('EditView'); 
+		//_form.action.value='Save'; 
+		//if(check_form('EditView')){SUGAR.ajaxUI.submitForm(_form);}
+		//return false;
 	});
 });

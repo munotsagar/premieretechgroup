@@ -655,7 +655,16 @@ class SugarView
                         $max_tabs = 8;
                     }
                 }
+                if($current_user->user_category_c == "Vendor") {
+                        unset($fullModuleList['ptg_EmployeeCommission']);
+                        unset($fullModuleList['ptg_TroubleTicketEmployeeCommission']);
 
+                        unset($modules['ptg_EmployeeCommission']);
+                        unset($modules['ptg_TroubleTicketEmployeeCommission']);
+                        
+                }
+                //echo "<pre>";
+                //print_r($fullModuleList);exit;
                 $subMoreModules = false;
                 $groupTabs = $groupedTabsClass->get_tab_structure(get_val_array($modules));
                 // We need to put this here, so the "All" group is valid for the user's preference.

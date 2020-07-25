@@ -1,33 +1,97 @@
 <?php
-// created: 2020-06-20 15:38:10
+// created: 2020-07-18 22:07:43
 $subpanel_layout['list_fields'] = array (
-  'object_image' => 
+  'license_type_c' => 
   array (
-    'widget_class' => 'SubPanelIcon',
-    'width' => '2%',
-    'image2' => 'attachment',
-    'image2_url_field' => 
-    array (
-      'id_field' => 'selected_revision_id',
-      'filename_field' => 'selected_revision_filename',
-    ),
-    'attachment_image_only' => true,
+    'type' => 'radioenum',
+    'default' => true,
+    'studio' => 'visible',
+    'vname' => 'LBL_LICENSE_TYPE',
+    'width' => '10%',
+  ),
+  'product_type_c' => 
+  array (
+    'type' => 'radioenum',
+    'default' => true,
+    'studio' => 'visible',
+    'vname' => 'LBL_PRODUCT_TYPE',
+    'width' => '10%',
+  ),
+  'approval_not_needed_c' => 
+  array (
+    'type' => 'bool',
+    'default' => true,
+    'vname' => 'LBL_APPROVAL_NOT_NEEDED',
+    'width' => '10%',
+  ),
+  'approval_requester_c' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'vname' => 'LBL_APPROVAL_REQUESTER',
+    'width' => '10%',
+  ),
+  'username_c' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'vname' => 'LBL_USERNAME',
+    'width' => '10%',
+  ),
+  'admin_login_c' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'vname' => 'LBL_ADMIN_LOGIN',
+    'width' => '10%',
+  ),
+  'password_c' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'vname' => 'LBL_PASSWORD',
+    'width' => '10%',
+  ),
+  'confirm_password__c' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'vname' => 'LBL_CONFIRM_PASSWORD ',
+    'width' => '10%',
+  ),
+  'description' => 
+  array (
+    'type' => 'text',
+    'vname' => 'LBL_DESCRIPTION',
+    'sortable' => false,
+    'width' => '10%',
     'default' => true,
   ),
-  'document_name' => 
+  'date_entered' => 
   array (
-    'name' => 'document_name',
-    'vname' => 'LBL_LIST_DOCUMENT_NAME',
+    'type' => 'datetime',
+    'vname' => 'LBL_DATE_ENTERED',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'date_modified' => 
+  array (
+    'type' => 'datetime',
+    'vname' => 'LBL_DATE_MODIFIED',
+    'width' => '10%',
+    'default' => true,
+  ),
+  'created_by_name' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'vname' => 'LBL_CREATED',
+    'id' => 'CREATED_BY',
+    'width' => '10%',
+    'default' => true,
     'widget_class' => 'SubPanelDetailViewLink',
-    'width' => '45%',
-    'default' => true,
-  ),
-  'active_date' => 
-  array (
-    'name' => 'active_date',
-    'vname' => 'LBL_DOC_ACTIVE_DATE',
-    'width' => '45%',
-    'default' => true,
+    'target_module' => 'Users',
+    'target_record_key' => 'created_by',
   ),
   'edit_button' => 
   array (

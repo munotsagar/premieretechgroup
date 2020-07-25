@@ -1,5 +1,5 @@
 <?php
-// created: 2020-06-08 06:47:55
+// created: 2020-07-18 19:50:18
 $mod_strings = array (
   'LBL_LOCAL_IP_RANGE' => 'Local IP Range',
   'LBL_EXTERNAL_IP_ADDRESS' => 'External IP Address',
@@ -9,7 +9,7 @@ $mod_strings = array (
   'LBL_DOMAIN_SERVER_NAME' => 'Domain Server Name',
   'LBL_DOMAIN_SERVER_LOGIN' => 'Domain Server Login',
   'LBL_DOMAIN_SERVER_PASSWORD' => 'Domain Server Password',
-  'LBL_CONFIRM_PASSWORD' => 'Confirm Password',
+  'LBL_CONFIRM_PASSWORD' => 'Domain Server Confirm Password',
   'LBL_WINDOWS_DOMAIN' => 'Windows Domain',
   'LBL_CLIENT_HOSTNAME' => 'Client HostName',
   'LBL_PRIMARY_DOMAIN_CONTROLLER' => 'Primary Domain Controller',

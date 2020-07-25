@@ -53,15 +53,6 @@ array (
         array (
           0 => 
           array (
-            'name' => 'sites_c',
-            'label' => 'LBL_SITES',
-          ),
-          1 => '',
-        ),
-        1 => 
-        array (
-          0 => 
-          array (
             'name' => 'customer_name_c',
             'studio' => 'visible',
             'label' => 'LBL_CUSTOMER_NAME',
@@ -176,6 +167,15 @@ array (
           array (
             'name' => 'cellular_c',
             'label' => 'LBL_CELLULAR',
+          ),
+          1 => '',
+        ),
+        7 => 
+        array (
+          0 => 
+          array (
+            'name' => 'total_amount_time_spent_c',
+            'label' => 'LBL_TOTAL_AMOUNT_TIME_SPENT',
           ),
           1 => '',
         ),

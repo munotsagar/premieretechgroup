@@ -30,6 +30,20 @@ array (
     'label' => 'LBL_COMMISSION_TYPE',
     'width' => '10%',
   ),
+  'COMMISSION_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_COMMISSION',
+    'width' => '10%',
+  ),
+  'TROUBLETICKETCOMMISSIONAMT_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_TROUBLETICKETCOMMISSIONAMT',
+    'width' => '10%',
+  ),
   'AMOUNT_C' => 
   array (
     'type' => 'varchar',
@@ -37,11 +51,11 @@ array (
     'label' => 'LBL_AMOUNT',
     'width' => '10%',
   ),
-  'COMMISSION_C' => 
+  'EMPLOYEE_COMMISSION_C' => 
   array (
     'type' => 'varchar',
     'default' => true,
-    'label' => 'LBL_COMMISSION',
+    'label' => 'LBL_EMPLOYEE_COMMISSION',
     'width' => '10%',
   ),
 );

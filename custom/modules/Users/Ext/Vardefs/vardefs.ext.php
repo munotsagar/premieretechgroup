@@ -450,9 +450,9 @@ $dictionary['User']['fields']['ccid2_c']['labelValue']='2. CCID';
 
  
 
- // created: 2020-06-22 09:37:10
+ // created: 2020-07-09 19:24:39
 $dictionary['User']['fields']['trouble_ticket_commission_c']['inline_edit']='1';
-$dictionary['User']['fields']['trouble_ticket_commission_c']['labelValue']='Trouble Ticket Commission';
+$dictionary['User']['fields']['trouble_ticket_commission_c']['labelValue']='Trouble Ticket Commission Amount';
 
  
 
@@ -546,9 +546,9 @@ $dictionary['User']['fields']['type4_c']['labelValue']='4. Type';
 
  
 
- // created: 2020-06-04 07:52:49
+ // created: 2020-07-09 19:25:06
 $dictionary['User']['fields']['voice_service_c']['inline_edit']='1';
-$dictionary['User']['fields']['voice_service_c']['labelValue']='Voice Services Commission';
+$dictionary['User']['fields']['voice_service_c']['labelValue']='Voice Services Commission Amount';
 
  
 
@@ -582,13 +582,13 @@ $dictionary['User']['fields']['tax_exempted_c']['labelValue']='Tax Exempted';
 
  
 
- // created: 2020-06-04 08:01:38
+ // created: 2020-07-09 19:25:40
 $dictionary['User']['fields']['data_service_c']['inline_edit']='1';
-$dictionary['User']['fields']['data_service_c']['labelValue']='Data Services Commission';
+$dictionary['User']['fields']['data_service_c']['labelValue']='Data Services Commission Amount';
 
  
 
- // created: 2020-06-08 18:23:02
+ // created: 2020-07-11 14:29:39
 $dictionary['User']['fields']['organization_c']['inline_edit']='1';
 $dictionary['User']['fields']['organization_c']['labelValue']='Organization';
 
@@ -606,9 +606,9 @@ $dictionary['User']['fields']['reference_two_c']['labelValue']='Reference 2';
 
  
 
- // created: 2020-06-04 08:02:03
+ // created: 2020-07-09 19:26:05
 $dictionary['User']['fields']['cloud_service_c']['inline_edit']='1';
-$dictionary['User']['fields']['cloud_service_c']['labelValue']='Cloud Services Commission';
+$dictionary['User']['fields']['cloud_service_c']['labelValue']='Cloud Services Commission Amount';
 
  
 
@@ -642,6 +642,11 @@ $dictionary['User']['fields']['datecreated_c']['labelValue']='Date Created';
 
  
 
+ // created: 2020-07-11 14:29:39
+$dictionary['User']['fields']['ptg_organization_id_c']['inline_edit']=1;
+
+ 
+
  // created: 2020-06-28 16:17:38
 $dictionary['User']['fields']['type1_c']['inline_edit']='1';
 $dictionary['User']['fields']['type1_c']['labelValue']='1. Type';
@@ -672,9 +677,9 @@ $dictionary['User']['fields']['ccid3_c']['labelValue']='3. CCID';
 
  
 
- // created: 2020-06-04 08:02:41
+ // created: 2020-07-09 19:26:29
 $dictionary['User']['fields']['other_service_c']['inline_edit']='1';
-$dictionary['User']['fields']['other_service_c']['labelValue']='Other Services Commission';
+$dictionary['User']['fields']['other_service_c']['labelValue']='Other Services Commission Amount';
 
  
 
@@ -701,9 +706,9 @@ $dictionary['User']['fields']['bankcard4name_c']['labelValue']='4. Bank Card Nam
 
  
 
- // created: 2020-06-04 08:02:23
+ // created: 2020-07-09 19:26:50
 $dictionary['User']['fields']['local_service_c']['inline_edit']='1';
-$dictionary['User']['fields']['local_service_c']['labelValue']='Local Services Commission';
+$dictionary['User']['fields']['local_service_c']['labelValue']='Local Services Commission Amount';
 
  
 

@@ -72,8 +72,8 @@ class ptg_Antivirus_Server_InformationViewEdit extends ViewEdit
 
 		// }
 
-        var onclicksave = $("input[title='Save']").attr("onclick");
-        $("input[title='Save']").removeAttr("onclick");
+        //var onclicksave = $("input[title='Save']").attr("onclick");
+        //$("input[title='Save']").removeAttr("onclick");
 
         $("input[title='Save']").click(function(){
         	if($("#login_password_c").val() != "" || $("#confirm_password_c").val() != ""){
@@ -84,10 +84,10 @@ class ptg_Antivirus_Server_InformationViewEdit extends ViewEdit
         	}
             
             
-            var _form = document.getElementById('EditView'); 
-            _form.action.value='Save'; 
-            if(check_form('EditView')){SUGAR.ajaxUI.submitForm(_form);}
-            return false;
+            //var _form = document.getElementById('EditView'); 
+            //_form.action.value='Save'; 
+            //if(check_form('EditView')){SUGAR.ajaxUI.submitForm(_form);}
+            //return false;
         });
    });
 	

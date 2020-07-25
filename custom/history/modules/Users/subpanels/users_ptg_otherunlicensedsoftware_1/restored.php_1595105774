@@ -1,0 +1,45 @@
+<?php
+// created: 2020-07-18 20:56:09
+$layout_defs = array (
+  'object_image' => 
+  array (
+    'width' => '2%',
+    'vname' => 'object_image',
+    'default' => true,
+    'widget_class' => 'SubPanelIcon',
+  ),
+  'document_name' => 
+  array (
+    'type' => 'name',
+    'link' => true,
+    'vname' => 'LBL_NAME',
+    'width' => '45%',
+    'default' => true,
+    'widget_class' => 'SubPanelDetailViewLink',
+    'target_module' => NULL,
+    'target_record_key' => NULL,
+  ),
+  'active_date' => 
+  array (
+    'type' => 'date',
+    'vname' => 'LBL_DOC_ACTIVE_DATE',
+    'width' => '45%',
+    'default' => true,
+  ),
+  'edit_button' => 
+  array (
+    'vname' => 'LBL_EDIT_BUTTON',
+    'widget_class' => 'SubPanelEditButton',
+    'module' => 'ptg_OtherUnlicensedSoftware',
+    'width' => '5%',
+    'default' => true,
+  ),
+  'remove_button' => 
+  array (
+    'vname' => 'LBL_REMOVE',
+    'widget_class' => 'SubPanelRemoveButton',
+    'module' => 'ptg_OtherUnlicensedSoftware',
+    'width' => '5%',
+    'default' => true,
+  ),
+);

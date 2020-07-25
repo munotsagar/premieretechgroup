@@ -46,7 +46,7 @@ require_once('include/MVC/View/views/view.list.php');
         global $current_user;
         $this->processSearchForm();
         if($current_user->user_category_c == "Vendor") {
-            $this->params['custom_where'] = ' AND users_cstm.user_category_c = "Vendor" ';
+            $this->params['custom_where'] = ' AND users_cstm.ptg_organization_id_c = "'.$current_user->ptg_organization_id_c.'" ';
         }
         if (empty($_REQUEST['search_form_only']) || $_REQUEST['search_form_only'] == false) {
             $this->lv->setup($this->seed, 'include/ListView/ListViewGeneric.tpl', $this->where, $this->params);

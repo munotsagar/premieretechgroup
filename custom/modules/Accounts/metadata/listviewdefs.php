@@ -16,6 +16,13 @@ array (
     'link' => true,
     'default' => true,
   ),
+  'CUSTOMER_FULL_NAME_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_CUSTOMER_FULL_NAME',
+    'width' => '10%',
+  ),
   'BILLING_ADDRESS_CITY' => 
   array (
     'width' => '10%',

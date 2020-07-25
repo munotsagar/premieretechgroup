@@ -21,6 +21,12 @@ $dictionary['AOS_Quotes']['fields']['voice_services_c']['labelValue']='Voice Ser
 
  
 
+ // created: 2020-07-19 14:01:04
+$dictionary['AOS_Quotes']['fields']['customer_budget_c']['inline_edit']='1';
+$dictionary['AOS_Quotes']['fields']['customer_budget_c']['labelValue']='Customer Budget';
+
+ 
+
  // created: 2020-06-04 07:09:30
 $dictionary['AOS_Quotes']['fields']['suppliers_c']['inline_edit']='1';
 $dictionary['AOS_Quotes']['fields']['suppliers_c']['labelValue']='Choosing the Suppliers';
@@ -39,7 +45,7 @@ $dictionary['AOS_Quotes']['fields']['quote_count_c']['labelValue']='Quote Count'
 
  
 
- // created: 2020-06-06 15:50:40
+ // created: 2020-07-18 16:04:47
 $dictionary['AOS_Quotes']['fields']['manager_status_c']['inline_edit']='1';
 $dictionary['AOS_Quotes']['fields']['manager_status_c']['labelValue']='Manager Status';
 
@@ -51,7 +57,7 @@ $dictionary['AOS_Quotes']['fields']['ticket_count_c']['labelValue']='Ticket Coun
 
  
 
- // created: 2020-05-25 19:32:23
+ // created: 2020-07-19 12:34:14
 $dictionary['AOS_Quotes']['fields']['international_c']['inline_edit']='1';
 $dictionary['AOS_Quotes']['fields']['international_c']['labelValue']='International';
 
@@ -87,7 +93,7 @@ $dictionary['AOS_Quotes']['fields']['services_products_c']['labelValue']='Servic
 
  
 
- // created: 2020-06-06 15:48:06
+ // created: 2020-07-18 16:03:12
 $dictionary['AOS_Quotes']['fields']['vendor_status_c']['inline_edit']='1';
 $dictionary['AOS_Quotes']['fields']['vendor_status_c']['labelValue']='Vendor Status';
 
@@ -107,7 +113,7 @@ $dictionary['AOS_Quotes']['fields']['ticket_number_c']['labelValue']='Ticket Num
 
  
 
- // created: 2020-06-06 13:30:32
+ // created: 2020-07-18 16:03:30
 $dictionary['AOS_Quotes']['fields']['employee_status_c']['inline_edit']='1';
 $dictionary['AOS_Quotes']['fields']['employee_status_c']['labelValue']='Employee Status';
 
@@ -163,7 +169,7 @@ $dictionary['AOS_Quotes']['fields']['customer_name_c']['labelValue']='Customer N
 
  
 
- // created: 2020-05-25 19:44:29
+ // created: 2020-07-19 12:34:32
 $dictionary['AOS_Quotes']['fields']['terms_quote_c']['inline_edit']='1';
 $dictionary['AOS_Quotes']['fields']['terms_quote_c']['labelValue']='Terms to Quote';
 

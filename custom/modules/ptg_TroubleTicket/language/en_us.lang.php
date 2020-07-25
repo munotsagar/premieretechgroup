@@ -1,5 +1,5 @@
 <?php
-// created: 2020-07-06 19:00:31
+// created: 2020-07-19 13:10:41
 $mod_strings = array (
   'LBL_SITES' => 'Sites',
   'LBL_TICKET_TYPE' => 'Ticket Type',
@@ -37,7 +37,7 @@ $mod_strings = array (
   'LBL_RESET_PASSWORD_DROPDOWN' => 'Reset Password',
   'LBL_EDITVIEW_PANEL4' => 'Other Details',
   'LBL_CUSTOMER_NAME_ACCOUNT_ID' => 'Customer Name (related Customer ID)',
-  'LBL_CUSTOMER_NAME' => 'Customer Name',
+  'LBL_CUSTOMER_NAME' => 'Company Legal Name',
   'LBL_TICKET_COUNT' => 'Ticket count',
   'LBL_COMPANY_NAME' => 'Company Name',
   'LBL_TICKET_NUMBER' => 'Ticket Number',
@@ -56,4 +56,5 @@ $mod_strings = array (
   'LBL_ TROUBLE_TICKET_AMOUNT' => 'Trouble Ticket Amount',
   'LBL_EDITVIEW_PANEL5' => 'Status',
   'LBL_DETAILVIEW_PANEL5' => 'Status',
+  'LBL_TOTAL_AMOUNT_TIME_SPENT' => 'Total Amount Time Spent',
 );

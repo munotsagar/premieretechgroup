@@ -20,89 +20,130 @@
         $db->query("update ptg_troubleticket_cstm set manager_status_c = '".$manager_status_c."' where id_c = '".$id."'");
     }
 
-    // echo "<pre>";
-    //     print_r($current_user->id);
-    // echo "<pre>";
-
-    // $id1='b0a580d1-3466-1950-2a11-5f04bd8c068e';
+    /*Below script is for calculating Employee & Vendor Commission by creating or updating the record, when all status are become Accepted */
     //Get the status of each entity
     $TTBean = BeanFactory::getBean('ptg_TroubleTicket', $id);
-    // print_r($TTBean);
-    // echo $TTBean;//Not working
     $employee_status = $TTBean->employee_status_c;
-    echo $employee_status."\n";
-
     $vendor_status = $TTBean->vendor_status_c;
-    echo $vendor_status."\n";
-
     $manager_status = $TTBean->manager_status_c;
-    echo $manager_status."\n";
-
     $assigned_user_id = $TTBean->assigned_user_id;
-    echo $assigned_user_id."\n";
-
     $trouble_ticket_amount = $TTBean->trouble_ticket_amount_c;
-    echo $trouble_ticket_amount."\n";
+    $created_by = $TTBean->created_by;
 
-    //Check the status & do customization
+    //Check the status
     if($employee_status == 'Accepted' && $vendor_status == 'Accepted' && $manager_status == 'Accepted'){
-        echo "Status if";
+
+    /*Trouble Ticket Employee Commission: Check the record exist or not. IF exist then update it & if not then create it in Trouble Ticket Employee Commission module */    
         $query="SELECT * FROM ptg_troubleticketemployeecommission_cstm WHERE ptg_troubleticket_id_c='".$id."'";
         $result=$db->query($query);
         $num=$result->num_rows;
-        echo $num;
 
         $UsersBean = BeanFactory::getBean('Users', $assigned_user_id);
         $commission_type = $UsersBean->commission_type_c;
-        echo $commission_type."\n";
-        // $commission_amount = $UsersBean->commission_c;
-        // echo $commission_amount."\n";
-        $tt_commission = $UsersBean->trouble_ticket_commission_c;
-        echo $tt_commission."\n";
+        $tt_commission = $UsersBean->commission_c;
+        $TroubleTicketCommissionAmount = $UsersBean->trouble_ticket_commission_c;
 
         if($commission_type == "Amount"){
-            $final_commission = $tt_commission;
-            echo $final_commission."\n";
+            $calc_commission = $tt_commission;
         }
         if ($commission_type == "Percentage") {
-            $final_commission = ($tt_commission * $trouble_ticket_amount) /100;
-            echo $final_commission."\n";    
+            $calc_commission = ($tt_commission * $trouble_ticket_amount) /100;
+        }
+        if ($TroubleTicketCommissionAmount > $calc_commission) {
+            $final_commission = $TroubleTicketCommissionAmount;
+        }else{
+            $final_commission = $calc_commission;
         }
 
-    //Now create if doesn't exist or update record if there exist
+        //Now create if doesn't exist or update record if there exist
         if($num >= 1) {
             //Update existing record
             $query1="SELECT * FROM ptg_troubleticketemployeecommission_cstm WHERE ptg_troubleticket_id_c='".$id."'";
             $result1= $db->query($query1);
             $result2=$db->fetchByAssoc($result1);
             $record_id= $result2['id_c'];
-            // echo $record_id;
             $CommissionBean = BeanFactory::getBean ('ptg_TroubleTicketEmployeeCommission',$record_id);
             $CommissionBean->user_id_c = $assigned_user_id;
             $CommissionBean->ptg_troubleticket_id_c = $id;
-            $CommissionBean->amount_c = $trouble_ticket_amount;
             $CommissionBean->commission_type_c = $commission_type;
-            $CommissionBean->commission_c = $final_commission;
+            $CommissionBean->commission_c = $tt_commission;
+            $CommissionBean->troubleticketcommissionamt_c = $TroubleTicketCommissionAmount;
+            $CommissionBean->amount_c = $trouble_ticket_amount;
+            $CommissionBean->employee_commission_c = $final_commission;
 
             $CommissionBean->save();
-            print_r("Record exist. Updated it.");
           } 
         else {
             //create record 
-            echo "else Create record";
             $CommissionBean = BeanFactory::newBean ('ptg_TroubleTicketEmployeeCommission');
             $CommissionBean->user_id_c = $assigned_user_id;
             $CommissionBean->ptg_troubleticket_id_c = $id;
-            $CommissionBean->amount_c = $trouble_ticket_amount;
             $CommissionBean->commission_type_c = $commission_type;
-            $CommissionBean->commission_c = $final_commission;
+            $CommissionBean->commission_c = $tt_commission;
+            $CommissionBean->troubleticketcommissionamt_c = $TroubleTicketCommissionAmount;
+            $CommissionBean->amount_c = $trouble_ticket_amount;
+            $CommissionBean->employee_commission_c = $final_commission;
 
             $CommissionBean->save();
-
         }
+
+
+
+    /*Trouble Ticket Vendor Commission: Check the record exist or not. If exist then update it & if not then create it in Trouble Ticket Vendor Commission module.*/
+        $check_query="SELECT * FROM ptg_troubleticketvendorcommission_cstm WHERE ptg_troubleticket_id_c='".$id."'";
+        $check_result=$db->query($check_query);
+        $check_num_vendor=$check_result->num_rows;
+
+        $UsersBean_vendor = BeanFactory::getBean('Users', $created_by);
+        $commission_type_vendor = $UsersBean_vendor->commission_type_c;
+        $tt_commission_vendor = $UsersBean_vendor->commission_c;
+        $TroubleTicketCommissionAmountVendor = $UsersBean->trouble_ticket_commission_c;
+
+        if($commission_type_vendor == "Amount"){
+            $calc_commission_vendor = $tt_commission_vendor;
+        }
+        if ($commission_type_vendor == "Percentage") {
+            $calc_commission_vendor = ($tt_commission_vendor * $trouble_ticket_amount) /100;
+        }
+        if ($TroubleTicketCommissionAmountVendor > $calc_commission_vendor) {
+            $final_commission_vendor = $TroubleTicketCommissionAmountVendor;
+        }else{
+            $final_commission_vendor = $calc_commission_vendor;
+        }
+
+    //Now create if doesn't exist or update record if there exist
+        if($check_num_vendor >= 1) {
+            //Update existing record
+            $query_id="SELECT * FROM ptg_troubleticketvendorcommission_cstm WHERE ptg_troubleticket_id_c='".$id."'";
+            $result_id= $db->query($query_id);
+            $result_id1=$db->fetchByAssoc($result_id);
+            $record_id_vendor= $result_id1['id_c'];
+            $VendorCommissionBean = BeanFactory::getBean ('ptg_TroubleTicketVendorCommission',$record_id_vendor);
+            $VendorCommissionBean->user_id_c = $created_by;
+            $VendorCommissionBean->ptg_troubleticket_id_c = $id;
+            $VendorCommissionBean->commission_type_c = $commission_type_vendor;
+            $VendorCommissionBean->commission_c = $tt_commission_vendor;
+            $VendorCommissionBean->troubleticketcommissionamt_c = $TroubleTicketCommissionAmountVendor;
+            $VendorCommissionBean->amount_c = $trouble_ticket_amount;
+            $VendorCommissionBean->vendor_commission_c = $final_commission_vendor;
+
+            $VendorCommissionBean->save();
+          } 
+        else {
+            //create record 
+            $VendorCommissionBean = BeanFactory::newBean ('ptg_TroubleTicketVendorCommission');
+            $VendorCommissionBean->user_id_c = $created_by;
+            $VendorCommissionBean->ptg_troubleticket_id_c = $id;
+            $VendorCommissionBean->commission_type_c = $commission_type_vendor;
+            $VendorCommissionBean->commission_c = $tt_commission_vendor;
+            $VendorCommissionBean->troubleticketcommissionamt_c = $TroubleTicketCommissionAmountVendor;
+            $VendorCommissionBean->amount_c = $trouble_ticket_amount;
+            $VendorCommissionBean->vendor_commission_c = $final_commission_vendor;
+
+            $VendorCommissionBean->save();
+
+            }
     }
-
-
 
 
 ?>

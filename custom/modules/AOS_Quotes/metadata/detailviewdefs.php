@@ -152,6 +152,15 @@ array (
             'label' => 'LBL_COMPANY_NAME',
           ),
         ),
+        2 => 
+        array (
+          0 => 
+          array (
+            'name' => 'name',
+            'label' => 'LBL_NAME',
+          ),
+          1 => '',
+        ),
       ),
       'lbl_editview_panel3' => 
       array (
@@ -321,6 +330,15 @@ array (
           1 => '',
         ),
         4 => 
+        array (
+          0 => 
+          array (
+            'name' => 'customer_budget_c',
+            'label' => 'LBL_CUSTOMER_BUDGET',
+          ),
+          1 => '',
+        ),
+        5 => 
         array (
           0 => 
           array (

@@ -259,6 +259,53 @@ EOD
 
         echo $this->ev->display($this->showTitle);
 
+
+/*Code by Sachin for hiding the organization field from vendor while creating new user.*/
+        global $current_user,$bean;
+
+        $current_user_category = $current_user->user_category_c;
+        // $organization_record_id = $current_user->ptg_organization_id_c;
+
+        // $bean->ptg_organization_id_c = $organization_record_id;
+
+        // $verify = $bean->ptg_organization_id_c;
+
+        // echo "<pre>";
+        //  print_r($current_user_category);
+        //  //echo $this->bean->assigned_user_id;
+        // echo "</pre>";
+
+
+        ?>
+        <script type="text/javascript">
+            // alert("hi");
+                // var id =  "<?php echo $organization_record_id ?>";
+                // alert(id);
+                // var verify =  "<?php echo $verify ?>";
+                // alert(verify);
+
+                var category =  "<?php echo $current_user_category ?>";
+
+                // alert(category);
+                if (category == 'Vendor') {
+                    $("#organization_c").parent().prev().hide();
+                    $("#organization_c").parent().hide();
+
+                    $("#user_category_c").parent().prev().hide();
+                    $("#user_category_c").parent().hide();
+                } 
+
+                // if (category == 'Employee' || category == 'Super_User') {
+                //     // alert("Hide")
+                //     $("#tab3").parent().hide();
+                //     $("#tab3").parent().removeClass();
+
+
+                // }               
+            
+        </script>
+        <!-- Till here code by Sachin Mane  -->
+<?php 
     }
 
 

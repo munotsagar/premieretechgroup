@@ -78,7 +78,7 @@ array (
           'panelDefault' => 'expanded',
         ),
       ),
-      'syncDetailEditViews' => true,
+      'syncDetailEditViews' => false,
     ),
     'panels' => 
     array (
@@ -97,11 +97,20 @@ array (
           ),
           1 => 
           array (
-            'name' => 'phone_office',
-            'label' => 'LBL_PHONE_OFFICE',
+            'name' => 'customer_full_name_c',
+            'label' => 'LBL_CUSTOMER_FULL_NAME',
           ),
         ),
         1 => 
+        array (
+          0 => 
+          array (
+            'name' => 'phone_office',
+            'label' => 'LBL_PHONE_OFFICE',
+          ),
+          1 => '',
+        ),
+        2 => 
         array (
           0 => 
           array (
@@ -115,7 +124,7 @@ array (
             'label' => 'LBL_FAX',
           ),
         ),
-        2 => 
+        3 => 
         array (
           0 => 
           array (
@@ -130,7 +139,7 @@ array (
             'label' => 'LBL_NET_TERMS',
           ),
         ),
-        3 => 
+        4 => 
         array (
           0 => 
           array (
@@ -160,7 +169,7 @@ array (
             ),
           ),
         ),
-        4 => 
+        5 => 
         array (
           0 => 
           array (
@@ -168,7 +177,7 @@ array (
             'label' => 'LBL_DESCRIPTION',
           ),
         ),
-        5 => 
+        6 => 
         array (
           0 => 
           array (
@@ -176,21 +185,17 @@ array (
             'label' => 'LBL_ASSIGNED_TO',
           ),
         ),
-        6 => 
+        7 => 
         array (
           0 => 
-          array (
-            'name' => 'customer_id_c',
-            'label' => 'LBL_CUSTOMER_ID',
-          ),
-          1 => 
           array (
             'name' => 'photo_c',
             'studio' => 'visible',
             'label' => 'LBL_PHOTO',
           ),
+          1 => '',
         ),
-        7 => 
+        8 => 
         array (
           0 => 
           array (
@@ -200,7 +205,7 @@ array (
           ),
           1 => '',
         ),
-        8 => 
+        9 => 
         array (
           0 => 
           array (

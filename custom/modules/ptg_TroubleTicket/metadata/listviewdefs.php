@@ -8,14 +8,7 @@ array (
     'default' => true,
     'label' => 'LBL_TICKET_NUMBER',
     'width' => '10%',
-    'link'=>true,
-  ),
-  'SITES_C' => 
-  array (
-    'type' => 'varchar',
-    'default' => true,
-    'label' => 'LBL_SITES',
-    'width' => '10%',
+    'link' => true,
   ),
   'STATUS_C' => 
   array (
@@ -23,6 +16,43 @@ array (
     'default' => true,
     'studio' => 'visible',
     'label' => 'LBL_STATUS',
+    'width' => '10%',
+  ),
+  'NAME' => 
+  array (
+    'width' => '32%',
+    'label' => 'LBL_NAME',
+    'default' => true,
+    'link' => true,
+  ),
+  'TICKET_TYPE_C' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_TICKET_TYPE',
+    'width' => '10%',
+  ),
+  'FAMILY_NAME_C' => 
+  array (
+    'type' => 'enum',
+    'default' => true,
+    'studio' => 'visible',
+    'label' => 'LBL_FAMILY_NAME',
+    'width' => '10%',
+  ),
+  'TROUBLE_TICKET_AMOUNT_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_ TROUBLE_TICKET_AMOUNT',
+    'width' => '10%',
+  ),
+  'TOTAL_AMOUNT_TIME_SPENT_C' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'label' => 'LBL_TOTAL_AMOUNT_TIME_SPENT',
     'width' => '10%',
   ),
   'ASSIGNED_USER_NAME' => 

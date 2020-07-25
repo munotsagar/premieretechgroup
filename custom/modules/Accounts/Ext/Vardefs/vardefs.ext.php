@@ -462,7 +462,7 @@ $dictionary['Account']['fields']['reference3_c']['labelValue']='Reference3';
 
  
 
- // created: 2020-06-28 16:27:49
+ // created: 2020-07-19 14:31:09
 $dictionary['Account']['fields']['account_number_c']['inline_edit']='1';
 $dictionary['Account']['fields']['account_number_c']['labelValue']='Account Number';
 
@@ -562,12 +562,18 @@ $dictionary['Account']['fields']['type4_c']['labelValue']='Type 4';
 
  
 
+ // created: 2020-07-19 12:38:17
+$dictionary['Account']['fields']['customer_full_name_c']['inline_edit']='1';
+$dictionary['Account']['fields']['customer_full_name_c']['labelValue']='Customer Full Name';
+
+ 
+
  // created: 2020-05-19 20:51:30
 $dictionary['Account']['fields']['jjwg_maps_address_c']['inline_edit']=1;
 
  
 
- // created: 2020-06-28 16:28:16
+ // created: 2020-07-19 14:30:45
 $dictionary['Account']['fields']['bank_name_c']['inline_edit']='1';
 $dictionary['Account']['fields']['bank_name_c']['labelValue']='Bank Name';
 

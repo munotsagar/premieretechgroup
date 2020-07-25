@@ -502,6 +502,34 @@ class PopupSmarty extends ListViewSmarty
             $where .= $this->_popupMeta['whereStatement'];
         }
 
+        global $db, $current_user;
+        //$this->processSearchForm();
+        $userIds = [];
+        //echo $current_user->user_category_c;exit;
+        if($current_user->user_category_c == "Vendor") {
+
+            $sql = "select users.id from users inner join users_cstm on users.id = users_cstm.id_c where users_cstm.ptg_organization_id_c = '".$current_user->ptg_organization_id_c."'";
+            $res = $db->query($sql);
+
+            $num = $res->num_rows;
+
+            if($num > 0) {
+
+                while($row = $db->fetchByAssoc($res)){
+                    $userIds[] = "'".$row['id']."'";
+                }
+
+                $custom_where = '  accounts.created_by IN ('.implode(", ", $userIds).') ';
+            } else {
+                $custom_where = '  accounts.created_by = "'.$current_user->id.'" ';
+            }
+            if (!empty($where)) {
+                $where .= ' AND ';
+                
+            }
+            $where .= $custom_where;
+        }
+
         return $where;
     }
 

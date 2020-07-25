@@ -20,7 +20,7 @@ $dictionary['ptg_TroubleTicket']['fields']['logmein_id_c']['labelValue']='LogMeI
 
  
 
- // created: 2020-06-07 13:23:03
+ // created: 2020-07-19 12:56:22
 $dictionary['ptg_TroubleTicket']['fields']['extension_c']['inline_edit']='1';
 $dictionary['ptg_TroubleTicket']['fields']['extension_c']['labelValue']='Extension';
 
@@ -44,7 +44,7 @@ $dictionary['ptg_TroubleTicket']['fields']['request_new_c']['labelValue']='Reque
 
  
 
- // created: 2020-07-03 18:44:12
+ // created: 2020-07-18 16:11:12
 $dictionary['ptg_TroubleTicket']['fields']['manager_status_c']['inline_edit']='1';
 $dictionary['ptg_TroubleTicket']['fields']['manager_status_c']['labelValue']='Manager Status';
 
@@ -80,7 +80,7 @@ $dictionary['ptg_TroubleTicket']['fields']['gotomypc_id_c']['labelValue']='GoToM
 
  
 
- // created: 2020-06-07 13:21:58
+ // created: 2020-07-19 12:55:33
 $dictionary['ptg_TroubleTicket']['fields']['position_c']['inline_edit']='1';
 $dictionary['ptg_TroubleTicket']['fields']['position_c']['labelValue']='Position';
 
@@ -122,7 +122,7 @@ $dictionary['ptg_TroubleTicket']['fields']['reset_password_c']['labelValue']='Re
 
  
 
- // created: 2020-06-07 13:32:50
+ // created: 2020-07-18 15:27:00
 $dictionary['ptg_TroubleTicket']['fields']['description3_c']['inline_edit']='1';
 $dictionary['ptg_TroubleTicket']['fields']['description3_c']['labelValue']='Description ( Please provide as much detail of your request )';
 
@@ -134,7 +134,7 @@ $dictionary['ptg_TroubleTicket']['fields']['password9_c']['labelValue']='Passwor
 
  
 
- // created: 2020-06-02 13:26:01
+ // created: 2020-07-19 15:11:16
 $dictionary['ptg_TroubleTicket']['fields']['sites_c']['inline_edit']='1';
 $dictionary['ptg_TroubleTicket']['fields']['sites_c']['labelValue']='Sites';
 
@@ -152,7 +152,7 @@ $dictionary['ptg_TroubleTicket']['fields']['ninja_id_c']['labelValue']='Ninja ID
 
  
 
- // created: 2020-06-02 13:34:13
+ // created: 2020-07-19 13:00:32
 $dictionary['ptg_TroubleTicket']['fields']['ticket_type_c']['inline_edit']='1';
 $dictionary['ptg_TroubleTicket']['fields']['ticket_type_c']['labelValue']='Ticket Type';
 
@@ -194,7 +194,7 @@ $dictionary['ptg_TroubleTicket']['fields']['solarwinds_id_c']['labelValue']='Sol
 
  
 
- // created: 2020-07-03 18:43:37
+ // created: 2020-07-18 16:11:51
 $dictionary['ptg_TroubleTicket']['fields']['vendor_status_c']['inline_edit']='1';
 $dictionary['ptg_TroubleTicket']['fields']['vendor_status_c']['labelValue']='Vendor Status';
 
@@ -218,7 +218,7 @@ $dictionary['ptg_TroubleTicket']['fields']['request_new_dropdown_c']['labelValue
 
  
 
- // created: 2020-06-07 13:33:18
+ // created: 2020-07-18 15:26:42
 $dictionary['ptg_TroubleTicket']['fields']['description2_c']['inline_edit']='1';
 $dictionary['ptg_TroubleTicket']['fields']['description2_c']['labelValue']='Description ( Please provide as much detail of your request )';
 
@@ -236,7 +236,7 @@ $dictionary['ptg_TroubleTicket']['fields']['priority_c']['labelValue']='Priority
 
  
 
- // created: 2020-07-03 18:42:58
+ // created: 2020-07-18 16:10:57
 $dictionary['ptg_TroubleTicket']['fields']['employee_status_c']['inline_edit']='1';
 $dictionary['ptg_TroubleTicket']['fields']['employee_status_c']['labelValue']='Employee Status';
 
@@ -285,6 +285,12 @@ $dictionary['ptg_TroubleTicket']['fields']['password8_c']['labelValue']='Passwor
 
  
 
+ // created: 2020-07-19 13:10:41
+$dictionary['ptg_TroubleTicket']['fields']['total_amount_time_spent_c']['inline_edit']='1';
+$dictionary['ptg_TroubleTicket']['fields']['total_amount_time_spent_c']['labelValue']='Total Amount Time Spent';
+
+ 
+
  // created: 2020-06-12 16:39:46
 $dictionary['ptg_TroubleTicket']['fields']['password10_c']['inline_edit']='1';
 $dictionary['ptg_TroubleTicket']['fields']['password10_c']['labelValue']='Password';
@@ -302,7 +308,7 @@ $dictionary['ptg_TroubleTicket']['fields']['name']['unified_search']=false;
 
  
 
- // created: 2020-06-02 13:45:17
+ // created: 2020-07-19 13:07:48
 $dictionary['ptg_TroubleTicket']['fields']['family_name_c']['inline_edit']='1';
 $dictionary['ptg_TroubleTicket']['fields']['family_name_c']['labelValue']='Family Name';
 

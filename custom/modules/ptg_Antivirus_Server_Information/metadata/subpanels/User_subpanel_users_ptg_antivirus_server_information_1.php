@@ -1,11 +1,39 @@
 <?php
-// created: 2020-06-07 09:35:18
+// created: 2020-07-18 21:11:11
 $subpanel_layout['list_fields'] = array (
-  'name' => 
+  'weblink_c' => 
   array (
-    'vname' => 'LBL_NAME',
-    'widget_class' => 'SubPanelDetailViewLink',
-    'width' => '45%',
+    'type' => 'url',
+    'default' => true,
+    'vname' => 'LBL_WEBLINK',
+    'width' => '10%',
+  ),
+  'ip_address_c' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'vname' => 'LBL_IP_ADDRESS',
+    'width' => '10%',
+  ),
+  'vpn_ip_address_c' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'vname' => 'LBL_VPN_IP_ADDRESS',
+    'width' => '10%',
+  ),
+  'user_login_name_c' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'vname' => 'LBL_USER_LOGIN_NAME',
+    'width' => '10%',
+  ),
+  'date_entered' => 
+  array (
+    'type' => 'datetime',
+    'vname' => 'LBL_DATE_ENTERED',
+    'width' => '10%',
     'default' => true,
   ),
   'date_modified' => 
@@ -16,18 +44,16 @@ $subpanel_layout['list_fields'] = array (
   ),
   'edit_button' => 
   array (
-    'vname' => 'LBL_EDIT_BUTTON',
-    'widget_class' => 'SubPanelEditButton',
-    'module' => 'ptg_Antivirus_Server_Information',
     'width' => '4%',
+    'vname' => 'LBL_EDIT_BUTTON',
     'default' => true,
+    'widget_class' => 'SubPanelEditButton',
   ),
   'remove_button' => 
   array (
-    'vname' => 'LBL_REMOVE',
-    'widget_class' => 'SubPanelRemoveButton',
-    'module' => 'ptg_Antivirus_Server_Information',
     'width' => '5%',
+    'vname' => 'LBL_REMOVE',
     'default' => true,
+    'widget_class' => 'SubPanelRemoveButton',
   ),
 );

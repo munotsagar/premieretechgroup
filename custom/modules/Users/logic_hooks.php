@@ -7,6 +7,8 @@ $hook_array = Array();
 $hook_array['after_login'] = Array(); 
 $hook_array['after_login'][] = Array(1, 'SugarFeed old feed entry remover', 'modules/SugarFeed/SugarFeedFlush.php','SugarFeedFlush', 'flushStaleEntries'); 
 
+$hook_array['before_save'] = Array(); 
+$hook_array['before_save'][] = Array(1, 'Assign Organization', 'custom/modules/Users/LogicHooks/Organization.php','Organization', 'assignOrganization'); 
 
 
 ?>

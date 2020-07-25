@@ -1,11 +1,67 @@
 <?php
-// created: 2020-06-06 10:27:36
+// created: 2020-07-18 22:21:54
 $subpanel_layout['list_fields'] = array (
-  'name' => 
+  'weblink_c' => 
   array (
-    'vname' => 'LBL_NAME',
-    'widget_class' => 'SubPanelDetailViewLink',
-    'width' => '45%',
+    'type' => 'url',
+    'default' => true,
+    'vname' => 'LBL_WEBLINK',
+    'width' => '10%',
+  ),
+  'server_c' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'vname' => 'LBL_SERVER',
+    'width' => '10%',
+  ),
+  'vpn_ip_address_c' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'vname' => 'LBL_VPN_IP_ADDRESS',
+    'width' => '10%',
+  ),
+  'ip_address_c' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'vname' => 'LBL_IP_ADDRESS',
+    'width' => '10%',
+  ),
+  'user_login_name_c' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'vname' => 'LBL_USER_LOGIN_NAME',
+    'width' => '10%',
+  ),
+  'login_password_c' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'vname' => 'LBL_LOGIN_PASSWORD',
+    'width' => '10%',
+  ),
+  'confirm_password_c' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'vname' => 'LBL_CONFIRM_PASSWORD',
+    'width' => '10%',
+  ),
+  'productofantivirusname_c' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'vname' => 'LBL_PRODUCTOFANTIVIRUSNAME',
+    'width' => '10%',
+  ),
+  'date_entered' => 
+  array (
+    'type' => 'datetime',
+    'vname' => 'LBL_DATE_ENTERED',
+    'width' => '10%',
     'default' => true,
   ),
   'date_modified' => 
@@ -13,6 +69,18 @@ $subpanel_layout['list_fields'] = array (
     'vname' => 'LBL_DATE_MODIFIED',
     'width' => '45%',
     'default' => true,
+  ),
+  'created_by_name' => 
+  array (
+    'type' => 'relate',
+    'link' => true,
+    'vname' => 'LBL_CREATED',
+    'id' => 'CREATED_BY',
+    'width' => '10%',
+    'default' => true,
+    'widget_class' => 'SubPanelDetailViewLink',
+    'target_module' => 'Users',
+    'target_record_key' => 'created_by',
   ),
   'edit_button' => 
   array (

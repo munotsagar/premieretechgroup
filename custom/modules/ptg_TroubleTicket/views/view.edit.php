@@ -57,20 +57,50 @@ class ptg_TroubleTicketViewEdit extends ViewEdit
 
     public function display()
     {
-        global $current_user; 
+        global $bean, $current_user; 
 		$category = $current_user->user_category_c;
+
+		$current_user_full_name = $current_user->first_name." ".$current_user->last_name;
+        $this->bean->name = $current_user_full_name;
+		// $bean_id = $this->bean->id;
+		// print_r($current_user_full_name);
+
+		// print_r($bean_id);
+		// exit();
+
+		// if($category == 'Vendor'){
+		// 	print_r($current_user_name);
+		// 	$current_bean = BeanFactory::getBean('ptg_TroubleTicket',$bean_id);
+
+		// 	$current_bean->name = $current_user_name;
+		// 	$current_bean->save();
+		// 	// exit();
+		// }	
 
 ?>
 
 <input type="hidden" id="category" value="<?php echo $category;?>">
 <script type="text/javascript">
 	$(document).ready(function(){
-		// var category = $("#category").val();
-		// $("#detailpanel_1").parent().attr("style","display:none;");
-		// if (category != 'Vendor') {
-		// 	$("#detailpanel_1").parent().attr("style","display:block"); 
+		$("#name").attr("disabled","disabled");
 
-		// }
+
+		var category = $("#category").val();
+
+		if (category == 'Vendor') {
+			var user_full_name = "<?php echo $current_user_full_name ?>";
+			$("#name").val(user_full_name);
+
+		}
+        // alert(category);
+		$("#trouble_ticket_amount_c").parent().attr("style","display:none;");
+        $("#trouble_ticket_amount_c").parent().prev().attr("style","display:none;");
+
+		if (category != 'Vendor') {
+            // alert("not vendor");
+			$("#trouble_ticket_amount_c").parent().attr("style","display:block"); 
+            $("#trouble_ticket_amount_c").parent().prev().attr("style","display:block;");
+		}
 
         var onclicksave = $("input[title='Save']").attr("onclick");
         $("input[title='Save']").removeAttr("onclick");

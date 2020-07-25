@@ -199,17 +199,21 @@ class UsersViewDetail extends ViewDetail
         //handle request to reset the homepage
         if (isset($_REQUEST['reset_homepage'])) {
             $this->bean->resetPreferences('Home');
-            global $current_user;
+            global $current_user,$bean;
             if ($this->bean->id == $current_user->id) {
                 $_COOKIE[$current_user->id . '_activePage'] = '0';
                 setcookie($current_user->id . '_activePage', '0', 3000, null, null, isSSL(), true);
             }
         }
+        // $current_user_category = $current_user->user_category_c;
+        
 
         if (empty($this->bean->id)) {
             sugar_die($GLOBALS['app_strings']['ERROR_NO_RECORD']);
         }
         $this->dv->process();
+
+
         ?>
 
 <!-- <input type="hidden" id="tab2" > -->
@@ -224,6 +228,15 @@ class UsersViewDetail extends ViewDetail
         // $("#LBL_RATING").hide();
 
         // $("#LBL_RATING").attr("style","display:none;");
+        
+        // var category =  "<?php echo $current_user_category ?>";
+        // alert(category);
+
+        // if (category == 'Employee' || category == 'Super User') {
+        //             $("#tab3").parent().hide();
+        //             $("#tab3").parent().removeClass();
+
+        // }   
     });
 </script>
 

@@ -15,7 +15,10 @@ class Getnotifications
 		// echo "Hello from VoiceServiceRequest localhost";
 
 		$bean_id = $bean->id;
-		// print_r($bean);
+		// $created_by = $bean->created_by;
+		// print_r($bean_id);
+		// print_r($created_by);
+		// exit();
 		$ticket_number = $bean->ticket_number_c;
 		$customer_name = $bean->customer_name_c;
 		$company_name = $bean->company_name_c;
@@ -29,7 +32,7 @@ class Getnotifications
 		$alert->description = $company_name."\n".$date_modified;
 		$alert->url_redirect = $redirect_url;
 		$alert->target_module = 'Trouble Ticket';
-		$alert->assigned_user_id = 1;
+		$alert->assigned_user_id = '1';
 		$alert->type = 'info';
 		$alert->is_read = 0;
 		$alert->save();

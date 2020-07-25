@@ -1,0 +1,41 @@
+<?php
+// created: 2020-07-18 20:14:29
+$layout_defs = array (
+  'ou_template_c' => 
+  array (
+    'type' => 'varchar',
+    'default' => true,
+    'vname' => 'LBL_OU_TEMPLATE',
+    'width' => '10%',
+  ),
+  'please_upload_c' => 
+  array (
+    'type' => 'documents',
+    'default' => true,
+    'vname' => 'LBL_PLEASE_UPLOAD',
+    'width' => '10%',
+  ),
+  'active_date' => 
+  array (
+    'name' => 'active_date',
+    'vname' => 'LBL_DOC_ACTIVE_DATE',
+    'width' => '45%',
+    'default' => true,
+  ),
+  'edit_button' => 
+  array (
+    'vname' => 'LBL_EDIT_BUTTON',
+    'widget_class' => 'SubPanelEditButton',
+    'module' => 'ptg_ActiveDirectory',
+    'width' => '5%',
+    'default' => true,
+  ),
+  'remove_button' => 
+  array (
+    'vname' => 'LBL_REMOVE',
+    'widget_class' => 'SubPanelRemoveButton',
+    'module' => 'ptg_ActiveDirectory',
+    'width' => '5%',
+    'default' => true,
+  ),
+);
