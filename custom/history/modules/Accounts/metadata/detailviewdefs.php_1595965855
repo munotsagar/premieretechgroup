@@ -223,11 +223,7 @@ array (
             'studio' => 'visible',
             'label' => 'LBL_PHOTO',
           ),
-          1 => 
-          array (
-            'name' => 'vendorascustomer_c',
-            'label' => 'LBL_VENDORASCUSTOMER',
-          ),
+          1 => '',
         ),
         9 => 
         array (

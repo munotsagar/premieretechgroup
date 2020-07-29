@@ -54,7 +54,9 @@ class Logics
 			$bean->employee_status_c = "Processing";
 			$bean->vendor_status_c = "Processing";
 			$bean->manager_status_c = "Processing";
-		}		
+			$bean->assigned_user_id = "";
+		}
+		
 	}
 }
 

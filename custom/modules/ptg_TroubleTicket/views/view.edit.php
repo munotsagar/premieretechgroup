@@ -90,6 +90,7 @@ class ptg_TroubleTicketViewEdit extends ViewEdit
 		if (category == 'Vendor') {
 			var user_full_name = "<?php echo $current_user_full_name ?>";
 			$("#name").val(user_full_name);
+            $("#total_amount_time_spent_c").parent().parent().hide();
 
 		}
         // alert(category);

@@ -1,5 +1,5 @@
 <?php
-// created: 2020-07-19 12:48:50
+// created: 2020-07-28 19:49:33
 $mod_strings = array (
   'LBL_NAME' => 'Company Legal Name',
   'LBL_PHONE_OFFICE' => 'Office Phone:',
@@ -106,4 +106,5 @@ $mod_strings = array (
   'LBL_ACCOUNTS_PTG_CAMERA_SYSTEM_1_FROM_PTG_CAMERA_SYSTEM_TITLE' => 'Camera System',
   'LBL_CUSTOMER_FULL_NAME' => 'Customer Full Name',
   'LBL_LIST_ACCOUNT_NAME' => 'Company Legal Name',
+  'LBL_VENDORASCUSTOMER' => 'Vendor As Customer',
 );

@@ -653,6 +653,12 @@ $dictionary['Account']['fields']['bank_card3name_c']['labelValue']='3. Bank Card
 
  
 
+ // created: 2020-07-28 19:49:33
+$dictionary['Account']['fields']['vendorascustomer_c']['inline_edit']='1';
+$dictionary['Account']['fields']['vendorascustomer_c']['labelValue']='Vendor As Customer';
+
+ 
+
  // created: 2020-06-04 10:32:40
 $dictionary['Account']['fields']['sachin_country_c']['inline_edit']=1;
 

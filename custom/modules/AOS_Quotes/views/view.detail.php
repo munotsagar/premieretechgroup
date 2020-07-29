@@ -71,6 +71,8 @@ class AOS_QuotesViewDetail extends ViewDetail
         $full_name = $myUser->full_name;
 
         $assignEmployee = '';
+        $assignVendor = '';
+        $assignManager = '';
          if($current_user->user_category_c == "Employee")
          {
          		$employeeStatusCnt = count($app_list_strings['employee_status_list']);
@@ -85,26 +87,7 @@ class AOS_QuotesViewDetail extends ViewDetail
          		}
          		$selectEmployeeStatus.='</select>';
 
-               $assignEmployee = '<div class="panel panel-default">
-			        <div class="panel-heading ">
-			                <a class="" role="button" data-toggle="collapse" href="#top-panel-5" aria-expanded="false">
-			                        <div class="col-xs-10 col-sm-11 col-md-11">
-			                                Status
-			                        </div>
-			                </a>
-			        </div><br>
-			        <div class="panel-body panel-collapse collapse in panelContainer" id="top-panel-5" data-id="LBL_EDITVIEW_PANEL5">
-			                <div class="tab-content"><div id="assignId">
-			                    <table>
-			                        <tr>
-			                            <td>Employee Status : </td>
-			                            <td>'.$selectEmployeeStatus.'</td>
-			                        </tr>
-			                    </table>
-			                </div></div>
-			        </div>
-			</div><br><button userid = "'.$current_user->id.'" quoteid ="'.$this->bean->id.'" name="custom_assign_to" class="button" id = "custom_assign_to"> Quote Assign Me</button>&nbsp;&nbsp;&nbsp;
-			<button userid = "'.$current_user->id.'" quoteid ="'.$this->bean->id.'"  name="custom_unassign_to" id = "custom_unassign_to" class="button"> Quote Unassign Me</button>';
+               $assignEmployee = '<div class="panel panel-default"><div class="panel-heading "><a class="" role="button" data-toggle="collapse" href="#top-panel-5" aria-expanded="false"><div class="col-xs-10 col-sm-11 col-md-11">Status</div></a></div><br><div class="panel-body panel-collapse collapse in panelContainer" id="top-panel-5" data-id="LBL_EDITVIEW_PANEL5"><div class="tab-content"><div id="assignId"><table><tr><td>Employee Status : </td><td>'.$selectEmployeeStatus.'</td></tr></table></div></div></div></div><br><button userid = "'.$current_user->id.'" quoteid ="'.$this->bean->id.'" name="custom_assign_to" class="button" id = "custom_assign_to"> Quote Assign Me</button>&nbsp;&nbsp;&nbsp;<button userid = "'.$current_user->id.'" quoteid ="'.$this->bean->id.'"  name="custom_unassign_to" id = "custom_unassign_to" class="button"> Quote Unassign Me</button>';
 
          }
          if($current_user->user_category_c == "Vendor")
@@ -121,25 +104,7 @@ class AOS_QuotesViewDetail extends ViewDetail
          		}
          		$selectVendorStatus.='</select>';
 
-               $assignVendor = '<div class="panel panel-default">
-			        <div class="panel-heading ">
-			                <a class="" role="button" data-toggle="collapse" href="#top-panel-5" aria-expanded="false">
-			                        <div class="col-xs-10 col-sm-11 col-md-11">
-			                                Status
-			                        </div>
-			                </a>
-			        </div>
-			        <div class="panel-body panel-collapse collapse in panelContainer" id="top-panel-5" data-id="LBL_EDITVIEW_PANEL5">
-			                <div class="tab-content"><div id="assignId">
-			                    <table>
-			                        <tr>
-			                            <td>Vendor Status : </td>
-			                            <td>'.$selectVendorStatus.'</td>
-			                        </tr>
-			                    </table>
-			                </div></div>
-			        </div>
-			</div>';
+               $assignVendor = '<div class="panel panel-default"><div class="panel-heading "><a class="" role="button" data-toggle="collapse" href="#top-panel-5" aria-expanded="false"><div class="col-xs-10 col-sm-11 col-md-11">Status</div>/a></div><div class="panel-body panel-collapse collapse in panelContainer" id="top-panel-5" data-id="LBL_EDITVIEW_PANEL5"><div class="tab-content"><div id="assignId"><table><tr><td>Vendor Status : </td><td>'.$selectVendorStatus.'</td></tr></table></div></div></div></div>';
          }
          if($current_user->user_category_c == "Manager" || $current_user->user_category_c == "Super_User")
          {
@@ -155,25 +120,8 @@ class AOS_QuotesViewDetail extends ViewDetail
          		}
          		$selectManagerStatus.='</select>';
 
-               $assignManager = '<div class="panel panel-default">
-			        <div class="panel-heading ">
-			                <a class="" role="button" data-toggle="collapse" href="#top-panel-5" aria-expanded="false">
-			                        <div class="col-xs-10 col-sm-11 col-md-11">
-			                                Status
-			                        </div>
-			                </a>
-			        </div>
-			        <div class="panel-body panel-collapse collapse in panelContainer" id="top-panel-5" data-id="LBL_EDITVIEW_PANEL5">
-			                <div class="tab-content"><div id="assignId">
-			                    <table>
-			                        <tr>
-			                            <td>Manager Status : </td>
-			                            <td>'.$selectManagerStatus.'</td>
-			                        </tr>
-			                    </table>
-			                </div></div>
-			        </div>
-			</div>';
+               $assignManager = '<div class="panel panel-default"><div class="panel-heading ">
+			                <a class="" role="button" data-toggle="collapse" href="#top-panel-5" aria-expanded="false"><div class="col-xs-10 col-sm-11 col-md-11">Status</div></a></div><div class="panel-body panel-collapse collapse in panelContainer" id="top-panel-5" data-id="LBL_EDITVIEW_PANEL5"><div class="tab-content"><div id="assignId"><table><tr><td>Manager Status : </td><td>'.$selectManagerStatus.'</td></tr></table></div></div></div></div>';
          }
          ?>
         <input type="hidden" name="user_category_c" id="user_category_c" value="<?php echo $current_user->user_category_c;?>">
@@ -181,8 +129,35 @@ class AOS_QuotesViewDetail extends ViewDetail
 
         <?php
          parent::display();
-        echo $assignEmployee;
+
+         	if($assignEmployee!="")
+         	{
+         		?>
+		         <script type="text/javascript">
+		         	$("#top-panel-0").parent().before('<?php echo $assignEmployee;?>');
+		         </script>
+		         <?php
+         	}
+         	if($assignVendor!="")
+         	{
+         		?>
+		         <script type="text/javascript">
+		         	$("#top-panel-0").parent().before('<?php echo $assignVendor;?>');
+		         </script>
+		         <?php
+         	}
+         	if($assignManager!="")
+         	{
+         		?>
+		         <script type="text/javascript">
+		         	$("#top-panel-0").parent().before('<?php echo $assignManager;?>');
+		         </script>
+		         <?php
+         	}
+
+         
+        /*echo $assignEmployee;
         echo $assignVendor;
-        echo $assignManager;
+        echo $assignManager;*/
     }
 }

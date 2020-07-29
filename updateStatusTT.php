@@ -29,6 +29,12 @@
     $assigned_user_id = $TTBean->assigned_user_id;
     $trouble_ticket_amount = $TTBean->trouble_ticket_amount_c;
     $created_by = $TTBean->created_by;
+    $account_id_c = $TTBean->account_id_c;
+    $total_amount_time_spent_c = $TTBean->total_amount_time_spent_c;
+
+    $accountBean = BeanFactory::getBean('Accounts', $account_id_c);
+    $vendorascustomer_c = $accountBean->vendorascustomer_c;
+
 
     //Check the status
     if($employee_status == 'Accepted' && $vendor_status == 'Accepted' && $manager_status == 'Accepted'){
@@ -55,6 +61,8 @@
             $final_commission = $calc_commission;
         }
 
+        $final_commission = $TroubleTicketCommissionAmount * $total_amount_time_spent_c;
+
         //Now create if doesn't exist or update record if there exist
         if($num >= 1) {
             //Update existing record
@@ -62,6 +70,8 @@
             $result1= $db->query($query1);
             $result2=$db->fetchByAssoc($result1);
             $record_id= $result2['id_c'];
+            
+            
             $CommissionBean = BeanFactory::getBean ('ptg_TroubleTicketEmployeeCommission',$record_id);
             $CommissionBean->user_id_c = $assigned_user_id;
             $CommissionBean->ptg_troubleticket_id_c = $id;
@@ -125,8 +135,11 @@
             $VendorCommissionBean->commission_c = $tt_commission_vendor;
             $VendorCommissionBean->troubleticketcommissionamt_c = $TroubleTicketCommissionAmountVendor;
             $VendorCommissionBean->amount_c = $trouble_ticket_amount;
-            $VendorCommissionBean->vendor_commission_c = $final_commission_vendor;
-
+            if($vendorascustomer_c == 1) {
+                $VendorCommissionBean->vendor_commission_c = 0;
+            } else {
+                $VendorCommissionBean->vendor_commission_c = $final_commission_vendor;
+            }
             $VendorCommissionBean->save();
           } 
         else {
